@@ -1,0 +1,14 @@
+body {
+	background-color: darkgrey;
+}
+
+.nav_header {
+	box-shadow: 8px;
+	width : 50%;
+	height: 10%;
+    display: block;
+	text-align: center;
+    overflow: auto;
+    margin: auto;
+	background-color: grey;
+}

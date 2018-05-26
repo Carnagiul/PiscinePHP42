@@ -1,9 +1,9 @@
 <?php
 
-require_once ('BDD_HOST', 'localhost');
-require_once ('BDD_NOM', 'dbname');
-require_once ('BDD_USER', 'dbuser');
-require_once ('BDD_PASS', 'dbpass');
+define ('BDD_HOST', 'localhost');
+define ('BDD_NOM', 'dbname');
+define ('BDD_USER', 'dbuser');
+define ('BDD_PASS', 'dbpass');
 
 class Sql 
 {
@@ -104,6 +104,12 @@ class Sql
         }
         $this->nombrerequetes++;
         return (bool)$req;
+    }
+
+
+    public function doc()
+    {
+    	return (file_get_contents('docs/Sql.doc.txt'));
     }
 
     public function getRequestCount()

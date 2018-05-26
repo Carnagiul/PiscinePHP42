@@ -1,0 +1,31 @@
+<!-- Class Sql.doc.txt -->
+
+	This function construct have one argument $verbrose
+	If $verbrose is true, at each call in this class, you will show specific data of this class
+	function __construct($verbrose)
+
+	This function destruct destroy the class and all data stored
+	function __destruct()
+
+	This function will connect you to specific Db with credentials
+    function connect()
+
+    This function will return you result of any SQL Request SELECT
+    function select($texte)
+
+    This function will return you result of any SQL Request SELECT Stored in array
+    function select($texte)
+
+    This function will return you result SQL Request SELECT name ... store in value
+    function select1($texte)
+
+    This function will return you result SQL Request Update
+    function Update($texte)
+
+    This function will return you count of sql call
+    function getRequestCount()
+
+	This function display to you the Doc
+    function doc()
+
+<!-- Class Sql.doc.txt -->

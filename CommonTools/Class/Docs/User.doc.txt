@@ -1,0 +1,38 @@
+<!-- Class User.doc.txt -->
+	This function construct have one argument $verbrose
+	If $verbrose is true, at each call in this class, you will show specific data of this class
+	function __construct($verbrose)
+
+	This function destruct destroy the class and all data stored
+	function __destruct()
+
+	This function is_nameExist check if the name $name exist in DB return 1 if true 0 if false
+	function is_nameExist($name)
+
+	This function is_mailExist check if the mail $mail exist in DB return 1 if true 0 if false
+	function is_mailExist($mail)
+
+	This function createUser create new user with $name $mail and $pass, return the message if user is created or not
+	function createUser($name, $mail, $pass)
+
+	This function UserExist check if an user exist with the specific ID $id
+	function UserExist($id)
+
+	This function setUser set data of user with ID $id
+	function setUser($id)
+
+	This function getPass return pass of the actual user
+	function getPass()
+
+	This function getMail return mail of the actual user
+	function getMail()
+
+	This function getName return name of the actual user
+	function getName()
+
+	This function getId return id of the actual user
+	function getId()
+	
+	This function display to you the Doc
+    function doc()
+ <!-- Class User.doc.txt -->

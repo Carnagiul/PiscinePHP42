@@ -28,4 +28,10 @@
 	This function display to you the Doc
     function doc()
 
+    This function return the value of Verbrose
+    function getVerbrose()
+
+    This function change Verbrose value between true of false
+    function toggle_verbrose()
+
 <!-- Class Sql.doc.txt -->

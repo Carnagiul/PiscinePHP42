@@ -1,0 +1,28 @@
+<!-- Class Lang.doc.txt -->
+
+	This function construct have one argument $verbrose
+	If $verbrose is true, at each call in this class, you will show specific data of this class
+	function __construct($verbrose)
+
+	This function destruct destroy the class and all data stored
+	function __destruct()
+
+	This function display to you the Doc
+    function doc()
+
+	This function return the value of Verbrose
+    function getVerbrose()
+
+    This function change Verbrose value between true of false
+    function toggle_verbrose()
+
+    This function return the value of $tag in lang $lang if not exist return ""
+    function getLang($tag, $lang)
+
+    This function check if the value $tag is set
+    function is_LangSet($tag)
+
+    This function load all lang stock in DB without check utility in page
+    function loadAllLang()
+
+<!-- Class Lang.doc.txt -->

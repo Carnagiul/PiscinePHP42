@@ -62,6 +62,16 @@ class Tpl
 		return ($content);
 	}
 
+	public function toggle_verbrose()
+	{
+		$this->verbose = ($this->verbose) ? false : true;
+	}
+
+	public function getVerbrose()
+	{
+		return ($this->verbose);
+	}
+
     public function doc()
     {
     	return (file_get_contents('docs/Tpl.doc.txt'));

@@ -112,6 +112,16 @@ class Sql
     	return (file_get_contents('docs/Sql.doc.txt'));
     }
 
+    public function toggle_verbrose()
+    {
+        $this->verbose = ($this->verbose) ? false : true;
+    }
+
+    public function getVerbrose()
+    {
+        return ($this->verbose);
+    }
+
     public function getRequestCount()
     {
     	retrun ($this->nombrerequetes);

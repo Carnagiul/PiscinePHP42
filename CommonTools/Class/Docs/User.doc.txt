@@ -35,4 +35,47 @@
 	
 	This function display to you the Doc
     function doc()
+
+	This function return the value of Verbrose
+    function getVerbrose()
+
+	This function change Verbrose value between true of false
+    function toggle_verbrose()
+
+	This function ban specific user $id with reason $reason if you're admin
+    function BanUserId($id, $reason)
+
+	This function check if specific user $id is ban
+    function is_banni($id)
+
+	This function connect the specific user with credential ($name == name or mail) ($pass)
+	function connect($name, $pass)
+
+	This function return ip of user
+    function getIp()
+
+	This function return last connection of user
+    function getLastConnection()
+
+	This function return if user is admin
+    function getAdmin()
+
+	This function return the reason of ban
+    function getReasonBan()
+
+	This function return true if user is banned
+    function getBanni()
+
+	This function return the avatar of user
+    function getAvatar()
+
+	This function return the descr of user
+    function getAvatar()
+
+    This function permit an admin to unban an specific user
+    function UnBanUserId($id)
+
+    This function disconnect the current user from the website
+    function disconnect()
+
  <!-- Class User.doc.txt -->

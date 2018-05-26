@@ -8,6 +8,12 @@ class User
 	private $name;
 	private $mail;
 	private $pass;
+	private $ip;
+	private $descr;
+	private $avatar;
+	private $banni;
+	private $reason_ban;
+	private $last_connection;
 
 	public function __construct($verbose = false)
 	{
@@ -18,6 +24,16 @@ class User
 	public function __destruct()
 	{
 		return ;
+	}
+
+	public function is_banni($id)
+	{
+		global $sql;
+
+		$user = $sql->select("SELECT * FROM users WHERE id='" . intval($id) . "' AND banni='1'");
+		if (isset($user))
+			return (0);
+		return (1);
 	}
 
 	public function is_nameExist($name)
@@ -92,6 +108,7 @@ class User
 		$user = $sql->select($request);
 		if ($user['pass'] == md5($pass))
 			$this->setUser($user['id']);
+		$this->setIp();
 	}
 
 	public function setUser($id)
@@ -109,8 +126,101 @@ class User
 				$this->setPass($user["pass"]);
 			if (isset($user["id"]))
 				$this->setId($user["id"]);
+			if (isset($user["avatar"]))
+				$this->setAvatar($user["avatar"]);
+			if (isset($user["descr"]))
+				$this->setDescr($user["descr"]);
+			if (isset($user["banni"]))
+				$this->setBanni($user["banni"]);
+			if (isset($user["reason_ban"]))
+				$this->setReasonBan($user["reason_ban"]);
+			if (isset($user["last_co"]))
+				$this->setLastConnection($user["last_co"]);
 			$_SESSION["user"] = $user;
 		}
+	}
+
+	public function setIp()
+	{
+		global $sql;
+
+	    $this->ip = '';
+	    if (getenv('HTTP_CLIENT_IP'))
+	        $this->ip = getenv('HTTP_CLIENT_IP');
+	    else if(getenv('HTTP_X_FORWARDED_FOR'))
+	        $this->ip = getenv('HTTP_X_FORWARDED_FOR');
+	    else if(getenv('HTTP_X_FORWARDED'))
+	        $this->ip = getenv('HTTP_X_FORWARDED');
+	    else if(getenv('HTTP_FORWARDED_FOR'))
+	        $this->ip = getenv('HTTP_FORWARDED_FOR');
+	    else if(getenv('HTTP_FORWARDED'))
+	        $this->ip = getenv('HTTP_FORWARDED');
+	    else if(getenv('REMOTE_ADDR'))
+	        $this->ip = getenv('REMOTE_ADDR');
+	    else
+	        $this->ip = 'UNKNOWN';
+
+	    if ($this->id > 0)
+	    	$sql->update("UPDATE `users` SET `ip` = '" . $this->ip . "' WHERE `users`.`id` = '" . intval($this->getId()) . "';");
+	}
+
+	public function getIp()
+	{
+	    return ($this->ip);
+	}
+
+	private function setLastConnection($timestamp)
+	{
+		global $sql;
+
+		$this->last_connection = intval($timestamp);
+    	$sql->update("UPDATE `users` SET `last_co` = '" . time() . "' WHERE `users`.`id` = '" . intval($this->getId()) . "';");
+
+	}
+
+	public function getLastConnection()
+	{
+		return ($this->last_connection);
+	}
+
+	private function setReasonBan($reason_ban)
+	{
+		$this->reason_ban = $reason_ban;
+	}
+
+	public function getReasonBan()
+	{
+		return ($this->reason_ban);
+	}
+
+	private function setBanni($banni)
+	{
+		$this->banni = intval($banni);
+	}
+
+	public function getBanni()
+	{
+		return ($this->banni);
+	}
+
+	private function setAvatar($avatar)
+	{
+		$this->avatar = $avatar;
+	}
+
+	public function getAvatar()
+	{
+		return ($this->avatar);
+	}
+
+	private function setDescr($descr)
+	{
+		$this->descr = $descr;
+	}
+
+	public function getDescr()
+	{
+		return ($this->descr);
 	}
 
 	private function setPass($pass)
@@ -145,7 +255,7 @@ class User
 	
 	private function setId($id)
 	{
-		$this->id = $id;
+		$this->id = intval($id);
 	}
 
 	public function getId()

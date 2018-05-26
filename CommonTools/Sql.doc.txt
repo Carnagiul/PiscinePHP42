@@ -1,0 +1,19 @@
+<!-- Class Sql.doc.txt -->
+<!-- This class is a custom class of piqueru -->
+<!-- This class permit connection to a specific DataBase, and execute some SQL request easiest -->
+
+<!-- Class Constructor take boolean which activate or desactivate verbose (default false) -->
+
+<!-- Function connect() This function allow you to connect to an specific Db with specific crediantial in config.sql.php -->
+
+<!-- Function select() This function return the result of any SELECT query in array -->
+
+<!-- Function select_array() This function return the result of any SELECT query in a new array -->
+
+<!-- Function select1() This function return the result of any SELECT 'field' int a single field -->
+
+<!-- Function update() This function return the result of any UPDATE query -->
+
+<!-- Function getRequestCount() This function return the count of request you have process -->
+
+<!-- END Class Sql.doc.txt -->

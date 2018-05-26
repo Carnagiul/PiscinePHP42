@@ -1,9 +1,9 @@
 <?php
 
 define ('BDD_HOST', 'localhost');
-define ('BDD_NOM', 'dbname');
-define ('BDD_USER', 'dbuser');
-define ('BDD_PASS', 'dbpass');
+define ('BDD_NOM', 'test');
+define ('BDD_USER', 'root');
+define ('BDD_PASS', '');
 
 class Sql 
 {
@@ -12,7 +12,7 @@ class Sql
     private $nombrerequetes = 0;
 	public static $verbose = false;
 
-	public function __construct($verbose)
+	public function __construct($verbose = false)
 	{
 		if ($verbose == true)
 			$this->verbose = true;
@@ -23,7 +23,7 @@ class Sql
 		return ;
 	}
 
-    function connect()
+    public function connect()
     {
  		$options = array(
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
@@ -31,7 +31,7 @@ class Sql
         $this->sql = new PDO('mysql:host=' . BDD_HOST . ';dbname=' . BDD_NOM, BDD_USER, BDD_PASS, $options);
     }
 
-    function select($texte)
+    public function select($texte)
     {
 		if (!(isset($this->sql)))
 			return (NULL);
@@ -51,7 +51,7 @@ class Sql
         return ($ret[2]);
     }
 
-    function select_array($texte)
+    public function select_array($texte)
     {
 		if (!(isset($this->sql)))
 			return (NULL);
@@ -71,7 +71,7 @@ class Sql
         }
     }
 	
-    function select1($texte)
+    public function select1($texte)
     {
 		if (!(isset($this->sql)))
 			return (NULL);
@@ -91,7 +91,7 @@ class Sql
         return ($array);
     }
 	
-    function Update($texte)
+    public function Update($texte)
     {
 		if (!(isset($this->sql)))
 			return (NULL);

@@ -9,7 +9,7 @@ class User
 	private $mail;
 	private $pass;
 
-	public function __construct($verbose)
+	public function __construct($verbose = false)
 	{
 		if ($verbose == true)
 			$this->verbose = true;
@@ -42,11 +42,19 @@ class User
 		return (-1);
 	}
 
-	public function createUser($name, $mail, $pass)
+	public function createUser($name = NULL, $mail = NULL, $pass = NULL)
 	{
-		if (is_nameExist($name) == 0)
+		global $sql;
+
+		if (!(isset($name)))
+			return ("Error, name is missing");
+		if (!(isset($mail)))
+			return ("Error, mail is missing");
+		if (!(isset($pass)))
+			return ("Error, pass is missing");
+		if ($this->is_nameExist($name) == 0)
 			return ("Error, username is already set");
-		if (is_mailExist($mail) <= 0)
+		if ($this->is_mailExist($mail) <= 0)
 			return ("Error, mail is already set");
 		if (strcmp($mail, $pass) == 0)
 			return ("Error, password to easy");
@@ -54,10 +62,9 @@ class User
 			return ("Error, password to easy");
 		if (strcmp(strrev($name), $pass) == 0)
 			return ("Error, password to easy");
-		if (strlen($name) < 8)
+		if (strlen($pass) < 8)
 			return ("Error, password to easy");
-		$i = $sql->update("INSERT INTO users name='" . $name . "', pass='" . md5($pass) . "', mail='" . $mail . "'");
-		echo "test : $i <br />";
+		$sql->update("INSERT INTO `users` (`id`, `name`, `mail`, `pass`) VALUES (NULL, '" . $name . "', '" . $mail . "', '" . md5($pass) . "');");
 		return ("Succes, user succesfully created");
 	}
 
@@ -73,11 +80,14 @@ class User
 
 	public function connect($name, $pass)
 	{
-		if (is_nameExist($name) == 1)
+		global $sql;
+
+		$request = NULL;
+		if ($this->is_nameExist($name) == 1)
 			$request = "SELECT * FROM users WHERE name='" . $name . "'";
-		else if (is_nameExist($name) == 0)
+		if ($this->is_mailExist($name) == 0)
 			$request = "SELECT * FROM users WHERE mail='" . $name . "'";
-		else
+		if ($request == NULL)
 			return ;
 		$user = $sql->select($request);
 		if ($user['pass'] == md5($pass))

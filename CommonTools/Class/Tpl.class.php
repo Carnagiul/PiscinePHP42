@@ -2,11 +2,11 @@
 
 class Tpl
 {
-	public static $verbrose = false;
+	public static $verbose = false;
 	private $filename = NULL;
 	private $data;
 
-	public function __construct($verbrose)
+	public function __construct($verbrose = false)
 	{
 		if ($verbrose == true)
 			$this->verbrose = true;
@@ -53,7 +53,7 @@ class Tpl
 
 	public function construire()
 	{
-		if (isset($this->getFile()))
+		if ($this->getFile() != NULL)
 			$content = file_get_contents('templates/default/' . $this->getFile() . '.html');
 		else
 			$content = file_get_contents('templates/default/blank.html');

@@ -1,0 +1,80 @@
+.footer {
+	font-family: monospace;
+    font-style: italic;
+	text-align: right;
+}
+.center {
+	text-align: center;
+	align-content: center;
+}
+.grey {
+	background-color: grey;
+}
+.dark_green {
+	background-color: #006600;	
+}
+.orange {
+	background-color: orange;
+}
+.yellow {
+	background-color: yellow;
+}
+.green {
+	background-color: lime;
+}
+.blue {
+	background-color: blue;
+}
+.light_blue {
+	background-color: #8bb3f4;
+}
+.red {
+	background-color: red;
+}
+.saumon {
+	background-color: #ff9966;
+}
+.purple {
+	background-color: purple;
+}
+.pink {
+	background-color: pink;
+}
+.white {
+	background-color: #FFFFFF;x
+}
+.num_atom{
+	position: absolute;
+	text-align: left;
+	margin: 0;
+	bottom: 0;
+}
+.mass_atom{
+	position: absolute;
+	text-align: right;
+	margin: 0;
+	top: 0;
+	right: 0;
+	margin-right: 3px;
+}
+.symbole{
+		font-size: 20px;
+	margin: 0;
+}
+
+h3 {
+	font-color : red;
+}
+
+table
+{
+	width: 99%;
+}
+td, th
+{
+	text-align: center;
+	position: relative;
+	border: 1px solid black;
+	height: 100px;
+	width: 5%
+}

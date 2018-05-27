@@ -31,6 +31,24 @@ class User
 		return ;
 	}
 
+	public function UnRegisterUser($id)
+	{
+		global $sql;
+
+		if ($this->UserExist($id) == 0)
+			return ("user_not_exist");
+		if ($this->getAdmin() == 0)
+			return ("not_an_admin");
+		if ($this->getId() == intval($id))
+			return ("user_is_you");
+		$user = $sql->select("SELECT * FROM `" . $this->bdd_table_name . "` WHERE id='" . intval($id) . "'");
+		if ($user["admin"] >= 1)
+			return ("user_is_admin");
+		$request = "DELETE FROM `" . $this->bdd_table_name . "` WHERE `users`.`id` = '" . intval($id) . "'";
+		$sql->update($request);
+		return ("user_removed");
+	}
+
 	public function BanUserId($id, $reason)
 	{
 		global $sql;
@@ -142,7 +160,12 @@ class User
 	public function disconnect()
 	{
 		if (isset($_SESSION["user"]))
+		{
 			unset($_SESSION["user"]);
+			return ("user_disconnect");
+		}
+		else
+			return ("user_still_disconnect");
 	}
 
 	public function connect($name = NULL, $pass = NULL)
@@ -165,7 +188,7 @@ class User
 			$user = $sql->select($request);
 			if ($user['pass'] == md5($pass))
 			{
-				$this->setUser($user['id']);
+				$ret = $this->setUser($user['id']);
 				return ("user_connected");
 			}
 			else
@@ -173,7 +196,7 @@ class User
 		}
 		else
 		{
-			$this->setUser($_SESSION["user"]["id"]);
+			$ret = $this->setUser($_SESSION["user"]["id"]);
 			return ("user_still_connected");
 		}
 	}
@@ -183,7 +206,7 @@ class User
 		global $sql;
 
 		if ($this->is_banni($id) == 0)
-			return ;
+			return ("you_are_ban");
 		if ($this->UserExist($id))
 		{
 			$user = $sql->select("SELECT * FROM `" . $this->bdd_table_name . "` WHERE id='" . intval($id) . "'");
@@ -210,7 +233,17 @@ class User
 			if (isset($user["lang"]))
 				$this->setLang($user["lang"]);
 			$this->setIp();
+			if (isset($_SESSION["user"]))
+				$ret = "user_connected";
+			else
+				$ret = "user_still_connected";
 			$_SESSION["user"] = $user;
+			return ($ret);
+		}
+		if ($_SESSION["user"])
+		{
+			unset($_SESSION["user"]);
+			return ("account_not_exist");
 		}
 	}
 

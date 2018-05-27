@@ -1,0 +1,26 @@
+<!-- Class Menu.doc.txt -->
+	This function construct have one argument $verbrose
+	If $verbrose is true, at each call in this class, you will show specific data of this class
+	function __construct($verbrose)
+
+	This function destruct destroy the class and all data stored
+	function __destruct()
+	
+	This function display to you the Doc
+    function doc()
+
+	This function return the value of Verbrose
+    function getVerbrose()
+
+	This function change Verbrose value between true of false
+    function toggle_verbrose()
+
+	This function return to you the menu html
+	function getMenu()
+
+	This function load the menu of you're page
+	function load_menu()
+
+ <!-- Class Menu.doc.txt -->
+
+

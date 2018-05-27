@@ -78,4 +78,7 @@
     This function disconnect the current user from the website
     function disconnect()
 
+    This function delete the account $id if you're admin
+    function UnRegisterUser($id)
+
  <!-- Class User.doc.txt -->

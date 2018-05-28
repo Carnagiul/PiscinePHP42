@@ -1,0 +1,36 @@
+li {
+	position: relative;
+	list-style-type: none;
+	width: 144px;
+	height: 50px;
+	text-align: center;
+	vertical-align: center;
+}
+
+ul.submenu {
+	display: none;
+}
+
+.menu {
+	background-color: #0FF;
+	width: 144px;
+}
+
+.two:hover .submenu {
+	display: block;
+	position: absolute;
+	left: 144px;
+	background-color: #F00;
+}
+
+.submenu:hover .submenu{
+	display: block;
+	position: absolute;
+	left: 144px;
+	margin: auto;
+	background-color: #F00;
+}
+
+.submenu {
+	display: none;
+}

@@ -1,9 +1,9 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 4.7.9
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 26 mai 2018 à 11:21
+-- Généré le :  lun. 28 mai 2018 à 03:57
 -- Version du serveur :  5.7.21
 -- Version de PHP :  5.6.35
 
@@ -64,13 +64,46 @@ INSERT INTO `lang` (`tag`, `FR`, `EN`, `DE`) VALUES
 ('user_unban', 'Cet utilisateur a été débanni!', 'This user was unban!', 'Dieser Benutzer ist débanni gewesen!'),
 ('wrong_credential', 'Votre mot de passe est incorrect!', 'Your password is wrong!', 'Ihr Kennwort ist inkorrekt!'),
 ('user_connected', 'Vous venez de vous connecter!', 'You have just connected!', 'Sie haben sich gerade angeschlossen!'),
-('user_still_connected', 'Vous êtes toujours connecté au site!', 'You are always connected to the site!', 'Sie sind an die Website immer angeschlossen!');
-COMMIT;
+('user_still_connected', 'Vous êtes toujours connecté au site!', 'You are always connected to the site!', 'Sie sind an die Website immer angeschlossen!'),
+('user_removed', 'Cet utilisateur vient d\'être supprimé!', 'This user has just been deleted!', 'Dieser Benutzer ist gerade beseitigt!'),
+('you_are_ban', 'Navré mais vous êtes banni de ce site!', 'Sorry but you are banished from this site!', 'Betrübt aber sind Sie aus dieser Website verbannt!'),
+('account_not_exist', 'Votre compte n\'existe pas!', 'Your account does not exist!', 'Ihr Konto existiert nicht!'),
+('menu_home', 'Accueil', 'Home', 'Home'),
+('menu_contact', 'Contact', 'Contact', 'Contact'),
+('menu_disconnect', 'Déconnexion', 'Disconnect', 'Abschalten'),
+('connection', 'Se connecter', 'Connect', 'einloggen'),
+('menu_vprofil', 'Voir profil', 'See profile', 'Sieh Profil'),
+('user_disconnect', 'Vous venez de vous déconnecter!', 'You have just disconnected!', 'Sie haben gerade abgeschaltet!'),
+('user_still_disconnect', 'Vous n\'êtes pas connecté!', 'You are not connected!', 'Sie sind nicht angeschlossen!'),
+('menu_connection', 'Se Connecter', 'Connect', 'einloggen');
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- --------------------------------------------------------
 
+--
+-- Structure de la table `menu`
+--
+
+DROP TABLE IF EXISTS `menu`;
+CREATE TABLE IF NOT EXISTS `menu` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` longtext NOT NULL,
+  `lang` longtext NOT NULL,
+  `always` int(1) NOT NULL DEFAULT '0',
+  `logged` int(1) NOT NULL DEFAULT '0',
+  `admin` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `menu`
+--
+
+INSERT INTO `menu` (`id`, `name`, `lang`, `always`, `logged`, `admin`) VALUES
+(1, 'index', 'menu_home', 1, 0, 0),
+(2, 'contact', 'menu_contact', 1, 0, 0),
+(3, 'disconnect', 'menu_disconnect', 0, 1, 0),
+(4, 'connection', 'menu_connection', 0, 0, 0),
+(5, 'vprofil', 'menu_vprofil', 0, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -93,7 +126,15 @@ CREATE TABLE IF NOT EXISTS `users` (
   `admin` int(1) NOT NULL DEFAULT '0',
   `lang` varchar(3) NOT NULL DEFAULT 'FR',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `mail`, `pass`, `ip`, `descr`, `avatar`, `banni`, `reason_ban`, `last_co`, `admin`, `lang`) VALUES
+(3, 'Carnage', 'coin@minegamers.fr', '678aac7e986b456e2e2d300db29159e5', '::1', '', '', 0, '', 1527423484, 0, 'FR'),
+(5, '1', '1', '1', '1', '1', '1', 0, '1', 1, 0, 'FR');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,4 +1,5 @@
 <?php
+require_once ("Page.Interface.php");
 
 require_once ("Sql.class.php");
 require_once ("User.class.php");

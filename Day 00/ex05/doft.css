@@ -80,7 +80,7 @@ body {
     z-index: 90;
 }
 
-.menu_left > a {
+.menu_left > img {
     width : 64px;
     height : 64px;
     margin-top: 12px;

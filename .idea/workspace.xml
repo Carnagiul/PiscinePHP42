@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 01/ex03/ft_split.php" afterPath="$PROJECT_DIR$/Day 01/ex03/ft_split.php" />
-    </list>
+    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,16 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="do_op.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 01/ex10/do_op.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="do_op_2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 01/ex11/do_op_2.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,18 +54,38 @@
       <file leaf-file-name="ft_split.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 01/ex03/ft_split.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_ft_split.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_ft_split.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 01/ex03/main_ft_split.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aff_param.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 01/ex04/aff_param.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="epur_str.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 01/ex05/epur_str.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ssap2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 01/ex09/ssap2.php">
+      <file leaf-file-name="main_ft_is_sort.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 01/ex08/main_ft_is_sort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -139,6 +147,7 @@
         <option value="$PROJECT_DIR$/Day 01/ex14/agent_stats.php" />
         <option value="$PROJECT_DIR$/Day 01/ex03/main_ft_split.php" />
         <option value="$PROJECT_DIR$/Day 01/ex03/ft_split.php" />
+        <option value="$PROJECT_DIR$/Day 01/ex08/main_ft_is_sort.php" />
       </list>
     </option>
   </component>
@@ -198,6 +207,24 @@
               <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex04" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex05" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex08" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,12 +260,12 @@
       <workItem from="1527488116679" duration="12004000" />
       <workItem from="1527507472445" duration="57000" />
       <workItem from="1527569257525" duration="3851000" />
-      <workItem from="1527654692700" duration="4646000" />
+      <workItem from="1527654692700" duration="4839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20558000" />
+    <option name="totallyTimeSpent" value="20751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="749" y="356" width="1400" height="1000" extended-state="0" />
@@ -274,29 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 00/ex05/julie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 00/ex05/success2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonTools/Class/Page.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -593,7 +597,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 01/ex08/ft_is_sort.php">
+    <entry file="file://$PROJECT_DIR$/Day 01/ex11/do_op_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 01/ex04/aff_param.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -601,18 +613,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 01/ex14/agent_stats.php">
+    <entry file="file://$PROJECT_DIR$/Day 01/ex05/epur_str.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="61" column="51" lean-forward="false" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 01/ex13/sing_it!.php">
+    <entry file="file://$PROJECT_DIR$/Day 01/ex08/ft_is_sort.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -625,26 +637,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 01/ex11/do_op_2.php">
+    <entry file="file://$PROJECT_DIR$/Day 01/ex13/sing_it!.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 01/ex14/agent_stats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" column="51" lean-forward="false" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 01/ex03/ft_split.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 01/ex03/main_ft_split.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 01/ex08/main_ft_is_sort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding />
         </state>
       </provider>

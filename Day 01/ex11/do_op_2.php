@@ -8,33 +8,33 @@
  */
 if ($argc == 2)
 {
-    $set = $argv[1];
-    $set = str_replace("*", " * ", $set);
-    $set = str_replace("/", " / ", $set);
-    $set = str_replace("-", " - ", $set);
-    $set = str_replace("+", " + ", $set);
-    $set = str_replace("%", " % ", $set);
-    $regex = array_filter(preg_split('/\s+/', $set));
-    $nb1 = $regex[0];
-    $operand = $regex[1];
-    $nb2 = $regex[2];
-    $result = 0;
-    if ((ctype_digit($nb1) == false) || ctype_digit($nb2) == false)
-        $result = "Syntax Error";
-    else if ($operand == '+')
-        $result = $nb1 + $nb2;
-    else if ($operand == '*')
-        $result = $nb1 * $nb2;
-    else if ($operand == '/')
-        $result = $nb1 / $nb2;
-    else if ($operand == '-')
-        $result = $nb1 - $nb2;
-    else if ($operand == '%')
-        $result = $nb1 % $nb2;
-    else
-        $result = "Syntax Error";
-    echo $result;
+	$set = trim($argv[1]);
+	$set = str_replace("*", " * ", $set);
+	$set = str_replace("/", " / ", $set);
+	$set = str_replace("-", " - ", $set);
+	$set = str_replace("+", " + ", $set);
+	$set = str_replace("%", " % ", $set);
+	$regex = preg_split('/\s+/', $set);
+	$nb1 = $regex[0];
+	$operand = $regex[1];
+	$nb2 = $regex[2];
+	$result = 0;
+	if ((ctype_digit($nb1) == false) || ctype_digit($nb2) == false)
+		$result = "Syntax Error";
+	else if ($operand == '+')
+		$result = intval($nb1) + intval($nb2);
+	else if ($operand == '*')
+		$result = intval($nb1) * intval($nb2);
+	else if ($operand == '/' && intval($nb2) != 0)
+		$result = intval($nb) / intval($nb2);
+	else if ($operand == '-')
+		$result = intval($nb1) - intval($nb2);
+	else if ($operand == '%' && intval($nb2) != 0)
+		$result = intval($nb1) % intval($nb2);
+	else
+		$result = "Syntax Error";
+	echo $result;
 }
 else
-    echo "Incorrect Parameters";
+	echo "Incorrect Parameters";
 echo "\n";

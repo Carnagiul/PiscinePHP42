@@ -6,7 +6,7 @@ foreach ($argv as $key => $set)
 {
 	if ($key > 0)
 	{
-		$regex = array_filter(preg_split('/\s+/', $set));
+		$regex = array_filter(preg_split('/\s+/', trim($set)));
 		foreach ($regex as $r)
 			$result[] = $r;
 	}
@@ -17,6 +17,4 @@ if (isset($argv[1]))
 	$result = implode("\n", $result);
 	echo "$result\n";
 }
-else
-	echo "";
 ?>

@@ -48,8 +48,7 @@ if ($argc == 2)
                     $content = str_replace($mt[0], $explode, $content);
                 }
             }
+            echo $content;
         }
-        echo $content;
-        //var_dump($content, $matches, $matches_title);
     }
 }

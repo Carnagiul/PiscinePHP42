@@ -5,7 +5,7 @@ $result = NULL;
 
 if (isset($argv[1]))
 {
-	$regex = array_filter(preg_split('/\s+/', $argv[1]));
+	$regex = array_filter(preg_split('/\s+/', trim($argv[1])));
 	foreach ($regex as $r)
 		$result[] = $r;
 	$result[] = $result[0];

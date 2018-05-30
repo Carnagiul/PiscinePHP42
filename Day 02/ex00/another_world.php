@@ -12,5 +12,3 @@ if ($argc > 1)
     $result = preg_split('/\s+/', $value);
     echo implode(" ", $result) . "\n";
 }
-
-

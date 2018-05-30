@@ -25,6 +25,24 @@ function moyenne($csv)
         echo $c . "\n";
     }
 }
+function moyenne_moulinette($csv)
+{
+    $i = 0;
+    $c = 0;
+    foreach ($csv as $user)
+    {
+        if ($user["Note"] != "" && $user["Noteur"] == "moulinette")
+        {
+            $c += intval($user["Note"]);
+            $i++;
+        }
+    }
+    if ($i > 0) {
+        $c /= $i;
+        return ($c);
+    }
+    return (0);
+}
 
 function moyenne_user($csv)
 {
@@ -47,6 +65,7 @@ function moyenne_user($csv)
 function ecart_moulinette($csv)
 {
     $data = NULL;
+    $moulinette = moyenne_moulinette($csv);
     foreach ($csv as $user)
     {
         if ($user["User"] != "User")
@@ -59,7 +78,7 @@ function ecart_moulinette($csv)
     if (isset($data) && $data != NULL)
         sort($data);
     foreach ($data as $user)
-        echo $user["Name"] . ":" . (NOTE_MOULINETTE - ($user["Note"] / $user["Count"])) . "\n";
+        echo $user["Name"] . ":" . ($moulinette - ($user["Note"] / $user["Count"])) . "\n";
 }
 
 function none()

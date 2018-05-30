@@ -13,18 +13,19 @@ foreach ($argv as $key => $set)
 }
 if (isset($argv[1]))
 {
-	$result_str = NULL;
-	foreach ($result as $r)
-		if (ctype_alpha($r))
-			$result_str[] = $r;
-	$result_int = NULL;
-	foreach ($result as $r)
-		if (ctype_digit($r))
-			$result_int[] = $r;
-	$result_end = NULL;
-	foreach ($result as $r)
-		if (ctype_digit($r) == FALSE && ctype_alpha($r) == FALSE)
-			$result_end[] = $r;
+    $result_str = NULL;
+    $result_int = NULL;
+    $result_end = NULL;
+
+    foreach ($result as $r)
+    {
+        if (ctype_alpha($r))
+            $result_str[] = $r;
+        else if (ctype_digit($r))
+                $result_int[] = $r;
+        else
+            $result_end[] = $r;
+    }
 	sort($result_str, SORT_STRING | SORT_FLAG_CASE);
 	sort($result_int, SORT_NUMERIC);
 	sort($result_end);

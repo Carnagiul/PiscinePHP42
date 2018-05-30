@@ -2,7 +2,7 @@
 <?php
 	function ft_split($array)
 	{
-		$explode = explode(" ", $array);
+		$explode = preg_split('/\s+/', $array);
 		if ($explode)
 			sort($explode);
 		return ($explode);

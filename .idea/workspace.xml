@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 00/Readme.md" afterPath="$PROJECT_DIR$/Day 00/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/Readme.md" afterPath="$PROJECT_DIR$/Day 02/Readme.md" />
-    </list>
+    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="another_world.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="another_world.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 02/ex00/another_world.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one_more_time.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 02/ex01/one_more_time.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,6 +71,7 @@
         <option value="$PROJECT_DIR$/Day 02/Readme.md" />
         <option value="$PROJECT_DIR$/Day 00/Readme.md" />
         <option value="$PROJECT_DIR$/Day 02/ex00/another_world.php" />
+        <option value="$PROJECT_DIR$/Day 02/ex01/one_more_time.php" />
       </list>
     </option>
   </component>
@@ -115,28 +123,6 @@
             <path>
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 00" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex09" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Day 02" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -174,12 +160,12 @@
       <workItem from="1527488116679" duration="12004000" />
       <workItem from="1527507472445" duration="57000" />
       <workItem from="1527569257525" duration="3851000" />
-      <workItem from="1527654692700" duration="8627000" />
+      <workItem from="1527654692700" duration="10252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24539000" />
+    <option name="totallyTimeSpent" value="26164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1329" extended-state="6" />
@@ -215,18 +201,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Menu.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="93" />
-          <folding>
-            <marker date="1527487966000" expanded="true" signature="1050:1144" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="1191:1284" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="1333:1412" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 00/ex02/doft.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -621,8 +595,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 02/ex00/another_world.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 02/ex01/one_more_time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 01/ex14/agent_stats.php" afterPath="$PROJECT_DIR$/Day 01/ex14/agent_stats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/ex00/another_world.php" afterPath="$PROJECT_DIR$/Day 02/ex00/another_world.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/ex02/loupe.php" afterPath="$PROJECT_DIR$/Day 02/ex02/loupe.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loupe.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loupe.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 02/ex02/loupe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agent_stats.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 01/ex14/agent_stats.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            <state relative-caret-position="690">
+              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -75,8 +64,8 @@
         <option value="$PROJECT_DIR$/Day 02/ex01/one_more_time.php" />
         <option value="$PROJECT_DIR$/Day 02/ex03/who.php" />
         <option value="$PROJECT_DIR$/Day 02/ex00/another_world.php" />
-        <option value="$PROJECT_DIR$/Day 02/ex02/loupe.php" />
         <option value="$PROJECT_DIR$/Day 01/ex14/agent_stats.php" />
+        <option value="$PROJECT_DIR$/Day 02/ex02/loupe.php" />
       </list>
     </option>
   </component>
@@ -188,12 +177,12 @@
       <workItem from="1527488116679" duration="12004000" />
       <workItem from="1527507472445" duration="57000" />
       <workItem from="1527569257525" duration="3851000" />
-      <workItem from="1527654692700" duration="12454000" />
+      <workItem from="1527654692700" duration="13701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28366000" />
+    <option name="totallyTimeSpent" value="29613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1329" extended-state="6" />
@@ -622,18 +611,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 02/ex02/loupe.php">
+    <entry file="file://$PROJECT_DIR$/Day 01/ex14/agent_stats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="491">
+          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 01/ex14/agent_stats.php">
+    <entry file="file://$PROJECT_DIR$/Day 02/ex02/loupe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        <state relative-caret-position="690">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>

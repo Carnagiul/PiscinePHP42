@@ -201,30 +201,6 @@
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex04" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex05" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 01" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex08" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -260,18 +236,17 @@
       <workItem from="1527488116679" duration="12004000" />
       <workItem from="1527507472445" duration="57000" />
       <workItem from="1527569257525" duration="3851000" />
-      <workItem from="1527654692700" duration="4839000" />
+      <workItem from="1527654692700" duration="4868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20751000" />
+    <option name="totallyTimeSpent" value="20780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="749" y="356" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13785714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13785714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

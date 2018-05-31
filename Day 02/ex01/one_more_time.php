@@ -44,7 +44,7 @@ if ($argc == 2)
         $month_value = $result[2];
         $year_value = $result[3];
         $hour_value = explode(":", $result[4]);
-        if (count($hour_value) == 3 && is_numeric($hour_value[0]) && is_numeric($hour_value[1]) && is_numeric($hour_value[2]))
+        if (count($hour_value) == 3 && is_numeric($hour_value[0]) && is_numeric($hour_value[1]) && is_numeric($hour_value[2]) && is_numeric($day_value) && is_numeric($year_value))
         {
             $none = 0;
             if ($day_name != "Lundi" && $day_name != "Mardi" && $day_name != "Mercredi" && $day_name != "Jeudi" &&  $day_name != "Vendredi" && $day_name != "Samedi" && $day_name != "Dimanche")

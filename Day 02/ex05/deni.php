@@ -20,6 +20,8 @@ if ($argc == 3)
             $data = explode(";", $line);
             if ($id != 0)
             {
+                if ($data_name == 0)
+                    exit();
                 $nom[$data[$data_name]] = $data[0];
                 $prenom[$data[$data_name]] = $data[1];
                 $mail[$data[$data_name]] = $data[2];

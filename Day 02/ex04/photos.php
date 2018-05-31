@@ -14,8 +14,8 @@ if ($argc == 2)
     {
         $matches = NULL;
         $matches_title = NULL;
-        $content = file_get_contents($file);
-        $content2 = file_get_contents($file);
+        $content = @file_get_contents($file);
+        $content2 = @file_get_contents($file);
         $re = '/<img(.|\n)*?>/mx';
         $re_title = '/src="(.|\n)*?"/mx';
 
@@ -24,8 +24,10 @@ if ($argc == 2)
 
         if ($link1 == $file)
             $http = $link2[1];
-        else
+        else if ($link2 == $file)
             $http = $link1[1];
+        else
+            $http = $file;
 
         preg_match_all($re, $content2, $matches, PREG_SET_ORDER, 0);
         if (isset($matches))
@@ -48,7 +50,8 @@ if ($argc == 2)
                     shell_exec("mkdir -p " . $http);
                     $url = $filename;
                     $img = $http . '/' . $r;
-                    @file_put_contents($img, file_get_contents($url));
+                    $url = str_replace($file, "", $url);
+                    @file_put_contents($img, file_get_contents($file . $url));
                 }
             }
         }

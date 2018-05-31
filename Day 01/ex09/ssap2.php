@@ -34,7 +34,7 @@ if (isset($argv[1]))
 	}
 	if (isset($result_int))
 	{
-		sort($result_int, SORT_NUMERIC | SORT_FLAG_CASE);
+		sort($result_int, SORT_FLAG_CASE | SORT_NATURAL);
 		$result = implode("\n", $result_int);
 		echo "$result\n";
 	}

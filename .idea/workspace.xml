@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/ex01/one_more_time.php" afterPath="$PROJECT_DIR$/Day 02/ex01/one_more_time.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/ex04/photos.php" afterPath="$PROJECT_DIR$/Day 02/ex04/photos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 02/ex05/deni.php" afterPath="$PROJECT_DIR$/Day 02/ex05/deni.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,26 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="raw_text.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 03/ex04/raw_text.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ssap2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 01/ex09/ssap2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="members_only.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 03/ex06/members_only.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photos.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="photos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 02/ex04/photos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="337">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,11 +85,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srt.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="srt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 02/ex06/srt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
+            <state relative-caret-position="686">
               <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sql.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tpl.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonTools/Class/Tpl.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="719">
+              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -171,8 +168,8 @@
         <option value="$PROJECT_DIR$/Day 01/ex09/ssap2.php" />
         <option value="$PROJECT_DIR$/Day 03/ex06/members_only.php" />
         <option value="$PROJECT_DIR$/Day 02/ex01/one_more_time.php" />
-        <option value="$PROJECT_DIR$/Day 02/ex04/photos.php" />
         <option value="$PROJECT_DIR$/Day 02/ex05/deni.php" />
+        <option value="$PROJECT_DIR$/Day 02/ex04/photos.php" />
       </list>
     </option>
   </component>
@@ -318,12 +315,12 @@
       <workItem from="1527687440380" duration="1679000" />
       <workItem from="1527741371186" duration="6137000" />
       <workItem from="1527765315644" duration="3492000" />
-      <workItem from="1527780412036" duration="2800000" />
+      <workItem from="1527780412036" duration="3254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46558000" />
+    <option name="totallyTimeSpent" value="47012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1492" height="1329" extended-state="0" />
@@ -536,22 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Tpl.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonTools/Class/Page.Interface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -703,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 02/ex04/photos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 02/ex05/deni.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -721,8 +694,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 02/ex06/srt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
+        <state relative-caret-position="686">
           <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonTools/Class/Tpl.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 02/ex04/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>

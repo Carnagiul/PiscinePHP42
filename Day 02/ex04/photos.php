@@ -22,12 +22,12 @@ if ($argc == 2)
         $link1 = explode("http://", $file);
         $link2 = explode("https://", $file);
 
-        if ($link1 == $file)
-            $http = $link2[1];
-        else if ($link2 == $file)
-            $http = $link1[1];
-        else
+        if ($link1 == $file && $link2 == $file)
             $http = $file;
+        else if ($link1 == $file)
+            $http = $link2[1];
+        else
+            $http = $link1[1];
 
         preg_match_all($re, $content2, $matches, PREG_SET_ORDER, 0);
         if (isset($matches))

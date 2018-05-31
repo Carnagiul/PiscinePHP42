@@ -26,7 +26,7 @@ if ($argc == 2)
 	else if ($operand == '*')
 		$result = intval($nb1) * intval($nb2);
 	else if ($operand == '/' && intval($nb2) != 0)
-		$result = intval($nb) / intval($nb2);
+		$result = intval($nb1) / intval($nb2);
 	else if ($operand == '-')
 		$result = intval($nb1) - intval($nb2);
 	else if ($operand == '%' && intval($nb2) != 0)

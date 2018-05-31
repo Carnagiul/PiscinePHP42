@@ -9,14 +9,16 @@
 $i = 2;
 if ($argc > 2) {
     $table = NULL;
+    $ret = NULL;
     $c = 0;
     while (isset($argv[$i])) {
         $table = explode(":", $argv[$i]);
         if (isset($table[0]) && isset($table[1]) && $table[0] == $argv[1])
         {
-            echo $table[1] . "\n";
+            $ret =  $table[1] . "\n";
             $c++;
         }
         $i++;
     }
+    echo $ret;
 }

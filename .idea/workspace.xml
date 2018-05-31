@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/Day 03/ex05/read_img.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -269,12 +269,12 @@
       <workItem from="1527654692700" duration="16538000" />
       <workItem from="1527687440380" duration="1679000" />
       <workItem from="1527741371186" duration="6137000" />
-      <workItem from="1527765315644" duration="1350000" />
+      <workItem from="1527765315644" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41616000" />
+    <option name="totallyTimeSpent" value="41935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1492" height="1329" extended-state="0" />
@@ -667,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/Day 03/ex05/read_img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>

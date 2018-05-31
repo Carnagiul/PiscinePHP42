@@ -47,7 +47,9 @@ if ($argc == 2)
         if (count($hour_value) == 3)
         {
             $none = 0;
-            if ($month_value == "Janvier")
+            if ($day_name != "Lundi" && $day_name != "Mardi" && $day_name != "Mercredi" && $day_name != "Jeudi" &&  $day_name != "Vendredi" && $day_name != "Samedi" && $day_name != "Dimanche")
+                $none = 1;
+            if ($day_name == "Janvier")
                 $month_value = 1;
             else if ($month_value == "Février" || $month_value == "Fevrier")
                 $month_value = 2;

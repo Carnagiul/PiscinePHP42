@@ -8,6 +8,7 @@
 
 function endofcreate() {
     echo "ERROR\n";
+    header('Location: modif.html');
     exit();
 }
 
@@ -31,7 +32,7 @@ if ($_POST['submit'] && $_POST['submit'] == "OK")
                 if ($_POST['newpw'] == $_POST['oldpw'])
                 {
                     $login = $_POST['login'];
-                    $pass = $_POST['passwd'];
+                    $pass = $_POST['newpw'];
                 }
             }
         }

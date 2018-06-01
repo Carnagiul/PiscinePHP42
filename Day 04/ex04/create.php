@@ -21,18 +21,17 @@ function doneofcreate() {
 $pass = "";
 $login = "";
 
-if ($_GET['submit'] && $_GET['submit'] == "OK")
+if ($_POST['submit'] && $_POST['submit'] == "OK")
 {
-    if ($_GET['login'] != '')
+    if ($_POST['login'] != '')
     {
-        if ($_GET['passwd'] != '')
+        if ($_POST['passwd'] != '')
         {
-            $login = $_GET['login'];
-            $pass = $_GET['passwd'];
+            $login = $_POST['login'];
+            $pass = $_POST['passwd'];
         }
     }
 }
-var_dump($_GET);
 if ($pass != '' && $login != '')
 {
     if (file_exists('./private/passwd'))
@@ -50,12 +49,11 @@ if ($pass != '' && $login != '')
     }
     else
     {
-        if (file_exists('./private') == false)
+        if (file_exists('./private/chat') == false)
             mkdir('./private');
-        $content = "";
         $pass = hash("sha512", $pass);
-        $content[] = array("login" => $login, "passwd" => $pass);
-        file_put_contents("./private/passwd", serialize($content), LOCK_EX);
+        $content = array(array("login" => $login, "passwd" => $pass));
+        file_put_contents("./private/passwd", serialize($content));
         doneofcreate();
     }
 }

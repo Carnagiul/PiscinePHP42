@@ -9,8 +9,17 @@
 function display_page()
 {
     ?>
-    <iframe height="550px" width="100%" style="overflow-scrolling: auto;" src="chat.php"></iframe>
+    <iframe height="550px" width="100%" style="overflow-scrolling: auto;" src="chat.php" name="chat" id="chat" class="chat"></iframe>
     <iframe height="50px" width="100%" style="overflow-scrolling: auto;" src="speak.php"></iframe>
+    <script>
+        function reloadchat()
+        {
+            var iframe = document.getElementById('chat');
+            iframe.src = iframe.src;
+            setTimeout("reloadchat()", 10000);
+        }
+        setTimeout("reloadchat()", 10000);
+    </script>
     <?php
     exit();
 }

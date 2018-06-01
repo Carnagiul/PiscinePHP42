@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/chat.php" afterPath="$PROJECT_DIR$/Day 04/ex04/chat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/create.html" afterPath="$PROJECT_DIR$/Day 04/ex04/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/create.php" afterPath="$PROJECT_DIR$/Day 04/ex04/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/index.html" afterPath="$PROJECT_DIR$/Day 04/ex04/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/login.php" afterPath="$PROJECT_DIR$/Day 04/ex04/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/modif.html" afterPath="$PROJECT_DIR$/Day 04/ex04/modif.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/modif.php" afterPath="$PROJECT_DIR$/Day 04/ex04/modif.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 04/ex04/speak.php" afterPath="$PROJECT_DIR$/Day 04/ex04/speak.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -225,31 +217,7 @@
             <path>
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 04" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 04" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex01" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 04" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex02" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 04" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day 04" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ex04" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 03" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -300,16 +268,15 @@
       <workItem from="1527780412036" duration="4495000" />
       <workItem from="1527831758382" duration="5384000" />
       <workItem from="1527844296457" duration="3181000" />
-      <workItem from="1527852786342" duration="2843000" />
+      <workItem from="1527852786342" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59661000" />
+    <option name="totallyTimeSpent" value="60182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1492" height="1329" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -318,7 +285,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />

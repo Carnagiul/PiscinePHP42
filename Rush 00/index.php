@@ -47,8 +47,6 @@ else
 
 tpl_add_data('menu', tpl_construire());
 
-
-
 $panier = "<ul>";
 if (isset($_SESSION['merch']))
 {

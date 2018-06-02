@@ -7,6 +7,7 @@
  */
 
 define("MERCH_TABLE", "merchs");
+define("GROUP_TABLE", "group_merchs");
 
     function __merch_existById($id)
     {
@@ -16,12 +17,20 @@ define("MERCH_TABLE", "merchs");
         return (false);
     }
 
+    function __merch_existByName($name)
+    {
+        $merch = sql_select("SELECT * FROM `" . MERCH_TABLE . "` WHERE `name`='" . $name . "'");
+        if (isset($merch))
+            return (true);
+        return (false);
+    }
+
     function __merch_getById($id)
     {
         $merch = sql_select("SELECT * FROM `" . MERCH_TABLE . "` WHERE `id`='" . intval($id) . "'");
         if (isset($merch))
-            return (true);
-        return (false);
+            return ($merch);
+        return (NULL);
     }
 
     function __merch_remove_stock($id, $amount)
@@ -38,29 +47,48 @@ define("MERCH_TABLE", "merchs");
         sql_update("UPDATE `" . MERCH_TABLE . "` SET `amount` = '" . $merch['amount'] . "' WHERE `id` = '" . $id . "';");
     }
 
+    function __merch_groupIdExist($id)
+    {
+        $ret = sql_select("SELECT * FROM `" . GROUP_TABLE . "` WHERE `id`='" . $id . "'");
+        if (isset($ret))
+            return (true);
+        return (false);
+    }
+
+    function __merch_groupNameExist($name)
+    {
+        $ret = sql_select("SELECT * FROM `" . GROUP_TABLE . "` WHERE `name`='" . $name . "'");
+        if (isset($ret))
+            return (true);
+        return (false);
+    }
+
     function __merch_add_merch($id = 0, $amount = 0)
     {
         $ret = NULL;
         $merch = NULL;
-
-        if ($id <= 0 || ctype_digit($id) != 0)
+        if ($id <= 0 || ctype_digit($id) == 0)
             $ret[] = "merch_not_exist";
         if ($ret)
             return ($ret);
-        if (__merch_existById($id))
+        if (__merch_existById($id) == false)
             $ret[] = "merch_not_exist";
         if ($ret)
             return ($ret);
         $merch = __merch_getById($id);
-        if ($amount <= 0 || ctype_digit($amount) != 0)
+        if ($amount <= 0 || ctype_digit($amount) == 0)
             $ret[] = "amount_is_invalid";
         if ($ret)
             return ($ret);
-        if ($amount > $merch['amount'])
+        if (intval($amount) > intval($merch['amount']))
             $ret[] = "unsuficcient_stock";
         if ($ret)
             return ($ret);
-        $_SESSION['merch']['merch_' . $id] += $amount;
+        if ((intval($amount) + $_SESSION['merch']['merch_' . $id]) > intval($merch['amount']))
+            $ret[] = "unsuficcient_stock";
+        if ($ret)
+            return ($ret);
+        $_SESSION['merch']['merch_' . $id] += intval($amount);
         $ret[] = "merch_add";
         return ($ret);
     }
@@ -87,11 +115,54 @@ define("MERCH_TABLE", "merchs");
         if ($ret)
             return ($ret);
         $_SESSION['merch']['merch_' . $id] -= $amount;
+        if ($_SESSION['merch']['merch_' . $id] < 0)
+            unset($_SESSION['merch']['merch_' . $id]);
         $ret[] = "merch_remove";
         return ($ret);
     }
 
-    function __merch_create_new($name, $descr, $price, $amount, $image)
+    function __merch_create_new($name, $descr, $price, $amount, $image, $group)
     {
+        $ret = NULL;
 
+        if (!(isset($name)) || __merch_existByName($name) == false)
+            $ret[] = "name_undefined";
+        if (!(isset($descr)))
+            $ret[] = "descr_undefined";
+        if (!(isset($price)))
+            $ret[] = "price_undefined";
+        if (!(isset($amount)))
+            $ret[] = "amount_undefined";
+        if (!(isset($image)))
+            $ret[] = "image_undefined";
+        if (!(isset($group)) || __merch_groupIdExist(intval($group) == false))
+            $ret[] = "group_undefined";
+        if ($ret)
+            return ($ret);
+        if (isset($_SESSION['user']) && $_SESSION['user']['admin'] == 1)
+        {
+            sql_update("INSERT INTO `" . GROUP_TABLE . "` (`id`, `name`, `description`, `price`, `amount`, `image`, `group_id`) VALUES (NULL, '" . $name . "', '" . $descr . "', '" . $price . "', '" . $amount . "', '" . $image . "', '" . $group . "');");
+            $ret[] = "merch_created";
+            return ($ret);
+        }
+        $ret[] = "not_Admin";
+        return ($ret);
+    }
+
+    function __merch_create_new_group($name)
+    {
+        $ret = NULL;
+
+        if (!(isset($name)) || __merch_groupexistByName($name) == false)
+            $ret[] = "group_name_undefined";
+        if ($ret)
+            return ($ret);
+        if (isset($_SESSION['user']) && $_SESSION['user']['admin'] == 1)
+        {
+            sql_update("INSERT INTO `" . GROUP_TABLE . "` (`id`, `name`) VALUES (NULL, '" . $name . "');");
+            $ret[] = "group_merch_created";
+            return ($ret);
+        }
+        $ret[] = "not_Admin";
+        return ($ret);
     }

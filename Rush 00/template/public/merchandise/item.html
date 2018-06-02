@@ -1,6 +1,6 @@
-<tr>
-    <td width="15%">
-        <img src='template//images/{image}.gif'>
+<tr style="height: 10%">
+    <td width="15%" height="10%">
+        <img src='{{image}}'>
     </td>
     <td width="65%">
         <b>{{nom}}</b> {{prix}}<br>{{dispo}}<br>
@@ -8,7 +8,7 @@
     <td align="center" width="20%">
         <form method="post" action="#" >
             <input type="number" name="amount" />
-            <input type="text" name="id" value="{{id}}" />
+            <input type="text" name="id" value="{{id}}" hidden/>
             <input type="submit" value="Ajouter au panier" />
         </form>
     </td>

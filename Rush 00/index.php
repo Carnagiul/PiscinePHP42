@@ -15,6 +15,7 @@ error_reporting(-1);
 require_once ("NoClass/Template.php");
 require_once ("NoClass/Sql.php");
 require_once ("NoClass/User.php");
+require_once ("NoClass/Merch.php");
 
 sql_connect();
 
@@ -24,14 +25,6 @@ else
     $mod = $_GET['mod'];
 
 $file = "";
-
-
-    tpl_setpage('menu/menu_log');
-    tpl_add_data('menu_log', tpl_construire());
-
-    tpl_setpage('menu/menu_public');
-    tpl_add_data('menu_public', tpl_construire());
-
 
 if (file_exists('modules/' . $mod . '.php'))
     $file = $mod;
@@ -47,6 +40,28 @@ echo tpl_construire();
 include ("modules/" . $file . ".php");
 
 
+if (isset($_SESSION['user']))
+    tpl_setpage('menu/menu_log');
+else
+    tpl_setpage('menu/menu_public');
+
+tpl_add_data('menu', tpl_construire());
+
+
+
+$panier = "<ul>";
+if (isset($_SESSION['merch']))
+{
+    foreach ($_SESSION['merch'] as $key => $value)
+    {
+        $panier .= "\n<li>$key : $value</li>\n";
+    }
+}
+$panier .= "</ul>";
+
+
+
+tpl_add_data('panier', $panier);
 tpl_add_data('Notifs', $page_notif);
 tpl_setpage('footer');
 echo tpl_construire();

@@ -16,6 +16,7 @@ else
 {
     if (isset($_POST['user']) && isset($_POST['pass']))
     {
+       $ret = NULL;
        $ret = __user_loggin($_POST['user'], $_POST['pass']);
        foreach ($ret as $line)
        {

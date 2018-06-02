@@ -15,6 +15,6 @@ if ($_SESSION['user'])
 }
 else
 {
-    tpl_setpage('home');
+    tpl_setpage('public/home');
     echo tpl_construire();
 }

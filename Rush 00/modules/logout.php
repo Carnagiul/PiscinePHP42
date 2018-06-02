@@ -13,5 +13,5 @@ if (isset($_SESSION['user']))
 }
 
 header('Location: index.php');
-tpl_setpage('home');
+tpl_setpage('public/home');
 echo tpl_construire();

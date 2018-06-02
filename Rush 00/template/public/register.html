@@ -1,0 +1,11 @@
+<center><h1>Bienvenue sur notre site</h1></center>
+<br />
+{{menu_public}}
+
+<form method="post" action="index.php?mod=register">
+    Username : <input type="text" name="user" value="{{register_username}}"><br />
+    Password : <input type="password" name="pass"><br />
+    Mail : <input type="text" name="mail" value="{{register_mail}}"><br />
+    <input type="text" name="action" value="register" hidden>
+    <input type="submit" value="S'inscrire" />
+</form>

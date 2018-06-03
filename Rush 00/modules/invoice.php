@@ -64,5 +64,10 @@ if (isset($_SESSION['user']))
 }
 else
 {
-
+    if (isset($_SESSION['user']))
+        tpl_setpage('log/home');
+    else
+        tpl_setpage('public/home');
+    header('Location: index.php');
+    $page = tpl_construire();
 }

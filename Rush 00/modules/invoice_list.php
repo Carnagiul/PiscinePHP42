@@ -6,12 +6,42 @@
  * Time: 5:19 PM
  */
 
+function __invoice_static_display()
+{
+    $content = "";
+    if ($_SESSION['user']['admin'])
+        $query = "SELECT * FROM `" . INVOCE_TABLE . "`";
+    else
+        $query = "SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . $_SESSION['user']['id'] . "'";
+    echo "<pre>$query</pre>";
+    $ret = sql_query($query);
+    if ($ret)
+    {
+        tpl_setpage('invoice_list/list');
+        while ($data = mysqli_fetch_assoc($ret))
+        {
+            tpl_add_data('invoice_list_id', $data['id']);
+            tpl_add_data('invoice_list_price', $data['price']);
+            tpl_add_data('invoice_list_date', date("F j, Y, g:i a", $data['timestamp']));
+            $content .= tpl_construire();
+        }
+        tpl_setpage('invoice/invoice_list');
+        tpl_add_data('invoice_data_list', $content);
+    }
+    else
+        tpl_setpage('merch/none');
+    return tpl_construire();
+}
+
 if (isset($_SESSION['user']))
 {
-    if (isset($_GET['invoice_id']))
+    if (isset($_GET['invoice_id']) && $_GET['invoice_id'] != '')
     {
         if (__invoice_show(intval($_GET['invoice_id'])))
         {
+            tpl_setpage('invoice/data_view');
+            $data = "";
+            $total_amount = 0;
             $invoice = __invoice_getById(intval($_GET['invoice_id']));
             $explode_item = explode(";", $invoice['content']);
             for ($i = 0; isset($explode_item[$i]); $i++)
@@ -20,21 +50,43 @@ if (isset($_SESSION['user']))
                 $id = $explode_container[0];
                 $item = sql_select("SELECT * FROM `" . MERCH_TABLE . "` WHERE `id`='" . $id . "'");
                 $amount = $explode_container[1];
-                tpl_add_data('invoice_name', $ret['name']);
-                tpl_add_data('invoice_amount', $ret['name']);
+                $total_amount += $amount;
+                tpl_add_data('merch_name', $ret['name']);
+                tpl_add_data('merch_amount', $amount);
+                tpl_add_data('merch_price', 'unknow');
+                $data .= tpl_construire();
             }
+            tpl_add_data('invoice_content', $data);
+            tpl_add_data('total_qte', $total_amount);
+            tpl_add_data('total_price', $invoice['price']);
+            tpl_add_data('invoice_list_date', date("F j, Y, g:i a", $data['timestamp']));
+
+            if ($_SESSION['user']['id'] == $_SESSION['user'])
+                tpl_add_data('invoice_user', $_SESSION['user']);
+            else
+            {
+                $meta_user = sql_select("SELECT * FROM `users` WHERE `id`='" . $invoice['user_id'] . "'");
+                tpl_add_data('invoice_user', $meta_user['name']);
+            }
+            tpl_setpage('invoice_list/main_view');
+            $page = tpl_construire();
         }
         else
         {
-
+            $page = __invoice_static_display();
         }
     }
     else
     {
-
+        $page = __invoice_static_display();
     }
 }
 else
 {
-
+    if (isset($_SESSION['user']))
+        tpl_setpage('log/home');
+    else
+        tpl_setpage('public/home');
+    header('Location: index.php');
+    $page = tpl_construire();
 }

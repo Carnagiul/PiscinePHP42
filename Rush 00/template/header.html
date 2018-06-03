@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Boutique du plaisir -- {{PageName}} --</title>
+    <link rel="stylesheet" type="text/css" href="template/css/menu.css">
 </head>
 <body>
     <table border="1">
         <tr>
-            <td width="20%"></td>
-            <td width="60%">
+            <td width="20%">{{menu}}</td>
+            <td width="60%">{{content_page}}</td>
+            <td width="20%">{{panier}}</td>
+        </tr>
+    </table>
+</body>
+<footer>
+    {{Notifs}}
+</footer>
+</html>

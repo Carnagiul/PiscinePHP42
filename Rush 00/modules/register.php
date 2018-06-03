@@ -87,5 +87,5 @@ else
     tpl_add_data("register_pass", $pass);
     tpl_add_data("register_mail", $mail);
     tpl_setpage('public/register');
-    echo tpl_construire();
+    $page = tpl_construire();
 }

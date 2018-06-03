@@ -47,13 +47,13 @@ else
     {
         tpl_setpage('log/home');
         tpl_add_data('username', $_SESSION['user']['name']);
-        echo tpl_construire();
+        $page = tpl_construire();
     }
     else
     {
         tpl_add_data('connection_username', (isset($_POST['user'])) ? $_POST['user'] : "");
         tpl_add_data('connection_password', (isset($_POST['pass'])) ? $_POST['pass'] : "");
         tpl_setpage('public/connection');
-        echo tpl_construire();
+        $page = tpl_construire();
     }
 }

@@ -46,6 +46,7 @@ if ($pass != '' && $login != '')
         $content = unserialize(file_get_contents("./private/passwd"));
         $content2 = NULL;
         $i = 0;
+        echo "<pre>wqeqweqwe $login $new_pass</pre>";
         foreach ($content as $line)
         {
             if ($line["login"] == $login && $line["passwd"] != $new_pass)

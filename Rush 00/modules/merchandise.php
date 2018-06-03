@@ -47,7 +47,7 @@ if ($ret)
         tpl_setpage('public/merchandise/merch_page');
     else
         tpl_setpage('log/merchandise/merch_page');
-    echo tpl_construire();
+    $page = tpl_construire();
 }
 else
 {
@@ -55,5 +55,5 @@ else
         tpl_setpage('public/merchandise/none');
     else
         tpl_setpage('log/merchandise/none');
-    echo tpl_construire();
+    $page = tpl_construire();
 }

@@ -33,11 +33,11 @@ else
 
 $page_notif = "";
 
-tpl_setpage('header');
-tpl_add_data('PageName', $file);
-echo tpl_construire();
+$page = "";
+
 
 include ("modules/" . $file . ".php");
+
 
 
 if (isset($_SESSION['user']))
@@ -58,10 +58,12 @@ if (isset($_SESSION['merch']))
 $panier .= "</ul>";
 
 
-
+tpl_add_data('content_page', $page);
 tpl_add_data('panier', $panier);
 tpl_add_data('Notifs', $page_notif);
-tpl_setpage('footer');
+tpl_add_data('PageName', $file);
+
+tpl_setpage('header');
 echo tpl_construire();
 
 sql_close();

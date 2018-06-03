@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rush 00/template/log/merchandise/item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rush 00/template/log/merchandise/none.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rush 00/template/public/merchandise/merch_page.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Rush 00/template/log/merchandise/merch_page.html" afterPath="$PROJECT_DIR$/Rush 00/template/merch/merch_page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Rush 00/template/public/merchandise/item.html" afterPath="$PROJECT_DIR$/Rush 00/template/merch/item.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Rush 00/template/public/merchandise/none.html" afterPath="$PROJECT_DIR$/Rush 00/template/merch/none.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/NoClass/merch.php" afterPath="$PROJECT_DIR$/Rush 00/NoClass/merch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/index.php" afterPath="$PROJECT_DIR$/Rush 00/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/modules/merchandise.php" afterPath="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,98 +25,31 @@
       <file leaf-file-name="Merch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Merch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="134" column="49" lean-forward="false" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+            <state relative-caret-position="704">
+              <caret line="115" column="61" lean-forward="false" selection-start-line="115" selection-start-column="61" selection-end-line="115" selection-end-column="61" />
               <folding>
-                <marker date="1528026858000" expanded="true" signature="234:282" ph="SELECT * FRO... merch" />
-                <marker date="1528026858000" expanded="true" signature="234:302" ph="SELECT * FRO... merch" />
-                <marker date="1528026858000" expanded="true" signature="466:516" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="466:530" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="673:737" ph="SELECT * FRO... ${GROUP_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="893:961" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="1134:1202" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="1451:1519" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="1761:1809" ph="SELECT * FRO... ${GROUP_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="1761:1829" ph="SELECT * FRO... ${GROUP_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="1998:2062" ph="SELECT * FRO... ${GROUP_TABLE}" />
-                <marker date="1528026858000" expanded="true" signature="4909:4922" ph="INSERT INTO " />
-                <marker date="1528026858000" expanded="true" signature="4909:5028" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5045" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5063" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5081" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5100" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5118" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5134" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="4909:5135" ph="INSERT INTO `merchs`... " />
-                <marker date="1528026858000" expanded="true" signature="5616:5629" ph="INSERT INTO " />
-                <marker date="1528026858000" expanded="true" signature="5616:5695" ph="INSERT INTO `merchs`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_log.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_log.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding>
-                <marker date="1528015975000" expanded="true" signature="744:767" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/css/menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/public/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="9" />
-              <folding>
-                <marker date="1528015567000" expanded="true" signature="374:389" ph="SELECT * FRO... " />
-                <marker date="1528015567000" expanded="true" signature="374:409" ph="SELECT * FRO... " />
-                <marker date="1528015567000" expanded="true" signature="374:428" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528015567000" expanded="true" signature="374:443" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="234:282" ph="SELECT * FRO... merch" />
+                <marker date="1528035322000" expanded="true" signature="234:302" ph="SELECT * FRO... merch" />
+                <marker date="1528035322000" expanded="true" signature="466:516" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="466:530" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="673:737" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="893:961" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="1134:1202" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="1451:1519" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="1761:1809" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="1761:1829" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="1998:2062" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528035322000" expanded="true" signature="4596:4609" ph="INSERT INTO " />
+                <marker date="1528035322000" expanded="true" signature="4596:4715" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4732" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4750" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4768" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4787" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4805" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4821" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="4596:4822" ph="INSERT INTO `merchs`... " />
+                <marker date="1528035322000" expanded="true" signature="5303:5316" ph="INSERT INTO " />
+                <marker date="1528035322000" expanded="true" signature="5303:5382" ph="INSERT INTO `merchs`... " />
               </folding>
             </state>
           </provider>
@@ -116,8 +58,8 @@
       <file leaf-file-name="admin_create_merch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rush 00/modules/admin_create_merch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="93" />
               <folding>
                 <marker date="1528025345000" expanded="true" signature="232:247" ph="SELECT * FRO... " />
                 <marker date="1528025345000" expanded="true" signature="232:267" ph="SELECT * FRO... " />
@@ -126,21 +68,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_merch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/admin/create_merch.html">
+      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <marker date="1528034925000" expanded="true" signature="403:418" ph="SELECT * FRO... " />
+                <marker date="1528034925000" expanded="true" signature="403:438" ph="SELECT * FRO... " />
+                <marker date="1528034925000" expanded="true" signature="403:451" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528034925000" expanded="true" signature="403:479" ph="SELECT * FRO... ${MERCH_TABLE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <marker date="1528035193000" expanded="true" signature="424:439" ph="SELECT * FRO... " />
+                <marker date="1528035193000" expanded="true" signature="424:443" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528035193000" expanded="true" signature="424:493" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035193000" expanded="true" signature="524:559" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528035193000" expanded="true" signature="524:561" ph="SELECT * FRO... ${MERCH_TABLE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/item.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_group.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/admin/create_group.html">
+      <file leaf-file-name="merch_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/merch_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merch_data.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/merch_data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/template/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -167,9 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day 04/ex04/auth.php" />
-        <option value="$PROJECT_DIR$/Day 04/ex04/create.html" />
-        <option value="$PROJECT_DIR$/Day 04/ex04/create.php" />
         <option value="$PROJECT_DIR$/Day 04/ex04/modif.html" />
         <option value="$PROJECT_DIR$/Day 04/ex04/index.html" />
         <option value="$PROJECT_DIR$/Day 04/ex04/login.php" />
@@ -206,18 +219,21 @@
         <option value="$PROJECT_DIR$/Rush 00/modules/admin.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/home.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/logout.php" />
-        <option value="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/register.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_log.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_public.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/connection.php" />
-        <option value="$PROJECT_DIR$/Rush 00/index.php" />
         <option value="$PROJECT_DIR$/Day 04/ex04/modif.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/admin/create_merch.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/admin_create_group.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/admin_create_merch.php" />
-        <option value="$PROJECT_DIR$/Rush 00/NoClass/Merch.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/header.html" />
+        <option value="$PROJECT_DIR$/Rush 00/template/merch/merch_data.html" />
+        <option value="$PROJECT_DIR$/Rush 00/template/merch/merch_page.html" />
+        <option value="$PROJECT_DIR$/Rush 00/index.php" />
+        <option value="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
+        <option value="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
+        <option value="$PROJECT_DIR$/Rush 00/NoClass/Merch.php" />
       </list>
     </option>
   </component>
@@ -306,21 +322,14 @@
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Rush 00" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="log" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Rush 00" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="menu" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Rush 00" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="notifs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="merch" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
@@ -342,6 +351,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Rush 00/template/merch" />
       <recent name="$PROJECT_DIR$/Rush 00/template/css" />
       <recent name="$PROJECT_DIR$/Rush 00/template/public" />
       <recent name="$PROJECT_DIR$/Day 03/ex04" />
@@ -362,6 +372,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -385,12 +398,12 @@
       <workItem from="1527917606417" duration="9057000" />
       <workItem from="1527938407304" duration="8779000" />
       <workItem from="1528005756813" duration="5367000" />
-      <workItem from="1528025044354" duration="1332000" />
+      <workItem from="1528025044354" duration="4994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89000000" />
+    <option name="totallyTimeSpent" value="92662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2279" height="1329" extended-state="0" />
@@ -439,27 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 04/ex04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 04/ex04/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 04/ex04/chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="74" lean-forward="false" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonTools/Class/Menu.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -516,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql/users.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -572,14 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/public/connection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/public/merchandise/none.html">
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/none.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -600,107 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/public/merchandise/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/public/merchandise/merch_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/log/merchandise/merch_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <marker date="1527921255000" expanded="true" signature="830:925" ph="..." />
-            <marker date="1527921255000" expanded="false" signature="883:889" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="889:895" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="895:901" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="901:907" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="907:913" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="950:956" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="956:962" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="962:968" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="968:974" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="974:980" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1035:1041" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1041:1047" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1047:1053" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1053:1059" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1059:1065" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1127:1133" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1133:1139" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1139:1145" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1145:1151" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="1151:1157" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1208:1214" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1214:1220" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1220:1226" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1226:1232" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1232:1238" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1292:1298" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1298:1304" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1304:1310" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1310:1316" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="1316:1322" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2224:2295" ph="..." />
-            <marker date="1527921255000" expanded="false" signature="2250:2256" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="2256:2262" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="2262:2268" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="2268:2274" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="2274:2280" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2335:2341" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2341:2347" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2347:2353" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2353:2359" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2359:2365" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="2991:3062" ph="..." />
-            <marker date="1527921255000" expanded="false" signature="3017:3023" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3023:3029" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3029:3035" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3035:3041" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3041:3047" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3102:3108" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3108:3114" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3114:3120" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3120:3126" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3126:3132" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3765:3834" ph="..." />
-            <marker date="1527921255000" expanded="false" signature="3789:3795" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3795:3801" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3801:3807" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3807:3813" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="3813:3819" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3872:3878" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3878:3884" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3884:3890" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3890:3896" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="3896:3902" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="4489:4495" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="4495:4501" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="4501:4507" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="4507:4513" ph=" " />
-            <marker date="1527921255000" expanded="false" signature="4513:4519" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="4574:4580" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="4580:4586" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="4586:4592" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="4592:4598" ph=" " />
-            <marker date="1527921255000" expanded="true" signature="4598:4604" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -831,19 +709,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/admin/create_merch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="765">
+          <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <marker date="1528031389000" expanded="true" signature="5:11" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,28 +727,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/admin/create_merch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/merch_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/public/connection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <marker date="1528015975000" expanded="true" signature="744:767" ph="..." />
+            <marker date="1527921255000" expanded="true" signature="830:925" ph="..." />
+            <marker date="1527921255000" expanded="false" signature="883:889" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="889:895" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="895:901" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="901:907" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="907:913" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="950:956" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="956:962" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="962:968" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="968:974" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="974:980" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1035:1041" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1041:1047" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1047:1053" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1053:1059" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1059:1065" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1127:1133" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1133:1139" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1139:1145" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1145:1151" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="1151:1157" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1208:1214" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1214:1220" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1220:1226" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1226:1232" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1232:1238" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1292:1298" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1298:1304" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1304:1310" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1310:1316" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="1316:1322" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2224:2295" ph="..." />
+            <marker date="1527921255000" expanded="false" signature="2250:2256" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="2256:2262" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="2262:2268" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="2268:2274" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="2274:2280" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2335:2341" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2341:2347" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2347:2353" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2353:2359" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2359:2365" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="2991:3062" ph="..." />
+            <marker date="1527921255000" expanded="false" signature="3017:3023" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3023:3029" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3029:3035" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3035:3041" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3041:3047" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3102:3108" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3108:3114" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3114:3120" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3120:3126" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3126:3132" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3765:3834" ph="..." />
+            <marker date="1527921255000" expanded="false" signature="3789:3795" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3795:3801" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3801:3807" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3807:3813" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="3813:3819" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3872:3878" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3878:3884" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3884:3890" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3890:3896" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="3896:3902" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="4489:4495" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="4495:4501" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="4501:4507" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="4507:4513" ph=" " />
+            <marker date="1527921255000" expanded="false" signature="4513:4519" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="4574:4580" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="4580:4586" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="4586:4592" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="4592:4598" ph=" " />
+            <marker date="1527921255000" expanded="true" signature="4598:4604" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/merch_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/merch/merch_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <marker date="1528034925000" expanded="true" signature="403:418" ph="SELECT * FRO... " />
+            <marker date="1528034925000" expanded="true" signature="403:438" ph="SELECT * FRO... " />
+            <marker date="1528034925000" expanded="true" signature="403:451" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528034925000" expanded="true" signature="403:479" ph="SELECT * FRO... ${MERCH_TABLE}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/modules/admin_create_merch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="93" />
           <folding>
             <marker date="1528025345000" expanded="true" signature="232:247" ph="SELECT * FRO... " />
             <marker date="1528025345000" expanded="true" signature="232:267" ph="SELECT * FRO... " />
@@ -886,44 +911,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
-            <marker date="1528015567000" expanded="true" signature="374:389" ph="SELECT * FRO... " />
-            <marker date="1528015567000" expanded="true" signature="374:409" ph="SELECT * FRO... " />
-            <marker date="1528015567000" expanded="true" signature="374:428" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528015567000" expanded="true" signature="374:443" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035193000" expanded="true" signature="424:439" ph="SELECT * FRO... " />
+            <marker date="1528035193000" expanded="true" signature="424:443" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528035193000" expanded="true" signature="424:493" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035193000" expanded="true" signature="524:559" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035193000" expanded="true" signature="524:561" ph="SELECT * FRO... ${MERCH_TABLE}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Merch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="134" column="49" lean-forward="false" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+        <state relative-caret-position="704">
+          <caret line="115" column="61" lean-forward="false" selection-start-line="115" selection-start-column="61" selection-end-line="115" selection-end-column="61" />
           <folding>
-            <marker date="1528026858000" expanded="true" signature="234:282" ph="SELECT * FRO... merch" />
-            <marker date="1528026858000" expanded="true" signature="234:302" ph="SELECT * FRO... merch" />
-            <marker date="1528026858000" expanded="true" signature="466:516" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="466:530" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="673:737" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="893:961" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="1134:1202" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="1451:1519" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="1761:1809" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="1761:1829" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="1998:2062" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528026858000" expanded="true" signature="4909:4922" ph="INSERT INTO " />
-            <marker date="1528026858000" expanded="true" signature="4909:5028" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5045" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5063" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5081" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5100" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5118" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5134" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="4909:5135" ph="INSERT INTO `merchs`... " />
-            <marker date="1528026858000" expanded="true" signature="5616:5629" ph="INSERT INTO " />
-            <marker date="1528026858000" expanded="true" signature="5616:5695" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="234:282" ph="SELECT * FRO... merch" />
+            <marker date="1528035322000" expanded="true" signature="234:302" ph="SELECT * FRO... merch" />
+            <marker date="1528035322000" expanded="true" signature="466:516" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="466:530" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="673:737" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="893:961" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="1134:1202" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="1451:1519" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="1761:1809" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="1761:1829" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="1998:2062" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528035322000" expanded="true" signature="4596:4609" ph="INSERT INTO " />
+            <marker date="1528035322000" expanded="true" signature="4596:4715" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4732" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4750" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4768" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4787" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4805" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4821" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="4596:4822" ph="INSERT INTO `merchs`... " />
+            <marker date="1528035322000" expanded="true" signature="5303:5316" ph="INSERT INTO " />
+            <marker date="1528035322000" expanded="true" signature="5303:5382" ph="INSERT INTO `merchs`... " />
           </folding>
         </state>
       </provider>

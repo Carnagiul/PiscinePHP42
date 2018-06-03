@@ -1,7 +1,22 @@
 body {
+    background-image: url("../../ressources/background.jpg");
     font-family: "Source Code Pro", Calibri, serif;
     margin: 0px;
     padding: 0px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: block;
+    text-align: -webkit-center;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 nav ul {
@@ -68,12 +83,11 @@ nav ul li::hover a {
 }
 
 .menu:hover {
-    border-top: 5px solid #e44d26;
-    background-color: RGBa(228, 77, 38, 0.15);
+    background-color: RGBa(177, 181, 200, 0.15);
 }
 
 .menu .submenu {
-    background-color: RGB(230, 100, 40);
+    background-color: #bfd5e2;
 }
 
 .submenu li:hover a {

@@ -6,8 +6,7 @@
  * Time: 4:22 PM
  */
 
-if (isset($_SESSION['user']))
-{
+if (isset($_SESSION['user'])) {
     if (isset($_POST['action']) && $_POST['action'] == "Command") {
         $array = 0;
         $invoice = "";
@@ -24,17 +23,14 @@ if (isset($_SESSION['user']))
             $invoice .= implode("-", array("id" => $explode[1], "amount" => $amount)) . ";";
             unset($_SESSION['merch'][$merch]);
         }
-        if ($array == 1)
-        {
+        if ($array == 1) {
             sql_update("INSERT INTO `" . INVOCE_TABLE . "` (`id`, `user_id`, `content`, `timestamp`, `price`) VALUES (NULL, '" . $_SESSION['user']['id'] . "', '" . $invoice . "', '" . time() . "', '" . $price . "');");
             tpl_setpage('invoice/done');
-        }
-        else
+        } else
             tpl_setpage('invoice/error');
         $page = tpl_construire();
-   }
-   else
-   {
+    }
+}
        $total_price = 0;
        $total_amount = 0;
        tpl_setpage('invoice/data_view');
@@ -57,17 +53,6 @@ if (isset($_SESSION['user']))
        tpl_add_data('invoice_content', $data);
        tpl_add_data('total_qte', $total_amount);
        tpl_add_data('total_price', $total_price);
-       tpl_add_data('invoice_user', $_SESSION['user']);
+       tpl_add_data('invoice_user', (isset($_SESSION['user'])) ? $_SESSION['user']['name'] : "Visiteur");
        tpl_setpage('invoice/main_view');
        $page = tpl_construire();
-   }
-}
-else
-{
-    if (isset($_SESSION['user']))
-        tpl_setpage('log/home');
-    else
-        tpl_setpage('public/home');
-    header('Location: index.php');
-    $page = tpl_construire();
-}

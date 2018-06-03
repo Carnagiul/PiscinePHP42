@@ -39,13 +39,16 @@ $page = "";
 
 include ("modules/" . $file . ".php");
 
+
+__menu_generate();
+
+
 if (isset($_SESSION['user']))
     tpl_setpage('menu/menu_log');
 else
     tpl_setpage('menu/menu_public');
 
 tpl_add_data('menu', tpl_construire());
-
 
 $panier = __show_cart();
 

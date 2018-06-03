@@ -29,9 +29,9 @@ function    __invoice_show($id = 0)
     if (__invoice_ExistById($id) == false)
         return (false);
     $invoice = __invoice_getById($id);
-    if ($invoice['user_id'] != $_SESSION['id'] || $_SESSION['user']['admin'] != 1)
-        return (false);
-    return (true);
+    if ($invoice['user_id'] == $_SESSION['id'] || $_SESSION['user']['admin'] == 1)
+        return (true);
+    return (false);
 }
 
 function    __show_cart()

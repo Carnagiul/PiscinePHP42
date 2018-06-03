@@ -9,6 +9,25 @@
 define("MERCH_TABLE", "merchs");
 define("GROUP_TABLE", "group_merchs");
 
+    function __menu_generate()
+    {
+
+        $list_group = "";
+        $ret = sql_query("SELECT * FROM `" . GROUP_TABLE . "`");
+        tpl_setpage('menu/menu_merchandise');
+        if (isset($ret))
+        {
+          while ($line = mysqli_fetch_array($ret))
+          {
+              tpl_add_data('menu_id', $line['id']);
+              tpl_add_data('menu_name', $line['name']);
+              $list_group .= tpl_construire();
+          }
+        }
+
+        tpl_add_data('menu_merch', $list_group);
+    }
+
     function __merch_existById($id)
     {
         $merch = sql_select("SELECT * FROM `" . MERCH_TABLE . "` WHERE `id`='" . intval($id) . "'");

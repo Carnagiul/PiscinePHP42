@@ -10,8 +10,7 @@ if (isset($_POST))
 {
     if (isset($_POST['id']) && isset($_POST['amount']))
     {
-        $ret_merch = __merch_add_merch($_POST['id'], $_POST['amount']);
-        var_dump($ret_merch);
+        $ret_merch = __merch_add_merch(intval($_POST['id']), $_POST['amount']);
     }
 }
 

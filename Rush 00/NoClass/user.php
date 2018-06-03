@@ -88,7 +88,7 @@
             $user = __user_getUserByName($name);
         if (!(isset($user)))
             return ("user_not_exist");
-        if ($user['pass'] == md5($pass))
+        if ($user['pass'] == hash("sha512", $pass))
         {
             $_SESSION['user'] = $user;
             return ("user_logged");
@@ -112,7 +112,8 @@
                 $ret[] = "usermail_exist";
             if (isset($ret))
                 return ($ret);
-            sql_update("INSERT INTO `" . TABLE_USER . "` (`id`, `name`, `mail`, `pass`, `ip`, `descr`, `avatar`, `banni`, `reason_ban`, `last_co`, `admin`, `lang`) VALUES (NULL, '" . $name . "', '" . $mail . "', '" . md5($pass) . "', '0.0.0.0', 'Aucune Description', '', '0', '', '" . time() . "', '0', 'FR'	);");
+            $pass = hash("sha512", $pass);
+            sql_update("INSERT INTO `" . TABLE_USER . "` (`id`, `name`, `mail`, `pass`, `ip`, `descr`, `avatar`, `banni`, `reason_ban`, `last_co`, `admin`, `lang`) VALUES (NULL, '" . $name . "', '" . $mail . "', '" . $pass . "', '0.0.0.0', 'Aucune Description', '', '0', '', '" . time() . "', '0', 'FR'	);");
             $ret[] = "account_create";
         }
         else

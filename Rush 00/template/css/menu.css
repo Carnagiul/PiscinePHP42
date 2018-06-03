@@ -19,6 +19,18 @@ form {
     -webkit-margin-end: 0px;
 }
 
+#cart {
+    margin-top: 2%;
+}
+
+tr td {
+    border: 1px solid black;
+}
+
+td {
+    width: 50px;
+}
+
 nav ul {
     margin: 0px;
     padding: 0px;

@@ -16,6 +16,6 @@ sql_execbackup("rush00.sql", 1);
 sql_close();
 
 header('Location: index.php');
-
+echo "<h1>Le site est Pret</h1>";
 
 ?>

@@ -16,6 +16,7 @@ require_once ("NoClass/Template.php");
 require_once ("NoClass/Sql.php");
 require_once ("NoClass/User.php");
 require_once ("NoClass/Merch.php");
+require_once ("NoClass/Cart.php");
 
 sql_connect();
 
@@ -38,8 +39,6 @@ $page = "";
 
 include ("modules/" . $file . ".php");
 
-
-
 if (isset($_SESSION['user']))
     tpl_setpage('menu/menu_log');
 else
@@ -47,16 +46,8 @@ else
 
 tpl_add_data('menu', tpl_construire());
 
-$panier = "<ul>";
-if (isset($_SESSION['merch']))
-{
-    foreach ($_SESSION['merch'] as $key => $value)
-    {
-        $panier .= "\n<li>$key : $value</li>\n";
-    }
-}
-$panier .= "</ul>";
 
+$panier = __show_cart();
 
 tpl_add_data('content_page', $page);
 tpl_add_data('panier', $panier);

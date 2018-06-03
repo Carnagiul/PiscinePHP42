@@ -19,9 +19,20 @@ if (isset($_SESSION['user']))
         else
         {
             $id = $_SESSION['user']['id'];
+            $mail = $_SESSON['user']['mail'];
             sql_update("DELETE FROM `users` WHERE `users`.`id` = '" . $id . "'");
             unset($_SESSION['user']);
             tpl_setpage('unregister/deleted');
+
+             $to      = $mail;
+             $subject = 'Rush 00';
+             $message = 'Bonjour, vous venez d\'effectuer la suppression de votre compte.\n';
+             $headers = 'From: rush00@rush00.con' . "\r\n" .
+                 'Reply-To: custommer@rush00.con' . "\r\n" .
+                 'X-Mailer: PHP/' . phpversion();
+
+             mail($to, $subject, $message, $headers);
+
             $page = tpl_construire();
         }
     }

@@ -28,12 +28,12 @@ if ($ret)
 {
    while ($data = mysqli_fetch_assoc($ret))
    {
-            tpl_add_data("nom", $data['name']);
-            tpl_add_data("prix", $data['price']);
-            tpl_add_data("dispo", $data['amount']);
-            tpl_add_data("id", $data['id']);
-            tpl_add_data("image", $data['image']);
-            $line .= tpl_construire();
+        tpl_add_data("nom", $data['name']);
+        tpl_add_data("prix", $data['price']);
+        tpl_add_data("dispo", $data['amount']);
+        tpl_add_data("id", $data['id']);
+        tpl_add_data("image", $data['image']);
+        $line .= tpl_construire();
     }
     tpl_setpage('merch/merch_page');
     tpl_add_data('merchandise_page', $line);

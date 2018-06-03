@@ -76,6 +76,15 @@ else
                     tpl_add_data("notif_content", "Votre compte a bien ete creer");
                     tpl_setpage("notifs/success_notifs");
                     $page_notif .= tpl_construire();
+
+                    $to      = htmlentities($_POST["mail"]);
+                    $subject = 'Rush 00 - Creation';
+                    $message = 'Bonjour, vous venez d\'effectuer la creation de votre compte.\n';
+                    $headers = 'From: rush00@rush00.con' . "\r\n" .
+                        'Reply-To: custommer@rush00.con' . "\r\n" .
+                        'X-Mailer: PHP/' . phpversion();
+
+                    mail($to, $subject, $message, $headers);
                 }
             }
         }

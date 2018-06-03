@@ -34,6 +34,13 @@ else
                tpl_setpage("notifs/error_notifs");
                $page_notif .= tpl_construire();
            }
+           if ($line == "banni")
+           {
+               tpl_add_data("notif_title", "Erreur de connection");
+               tpl_add_data("notif_content", "Vous avez ete banni du site");
+               tpl_setpage("notifs/error_notifs");
+               $page_notif .= tpl_construire();
+           }
            if ($line == "user_logged")
            {
                tpl_add_data("notif_title", "Connection Reussit");

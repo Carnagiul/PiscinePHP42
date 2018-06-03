@@ -26,6 +26,17 @@ if (isset($_SESSION['user'])) {
         if ($array == 1) {
             sql_update("INSERT INTO `" . INVOCE_TABLE . "` (`id`, `user_id`, `content`, `timestamp`, `price`) VALUES (NULL, '" . $_SESSION['user']['id'] . "', '" . $invoice . "', '" . time() . "', '" . $price . "');");
             tpl_setpage('invoice/done');
+
+            $to      = htmlentities($_SESSION['user']["mail"]);
+            $subject = 'Rush 00 - Invoice';
+            $message = 'Bonjour, vous venez d\'effectuer un achat sur notre site.\n';
+            $headers = 'From: rush00@rush00.con' . "\r\n" .
+                'Reply-To: custommer@rush00.con' . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+            mail($to, $subject, $message, $headers);
+
+
         } else
             tpl_setpage('invoice/error');
         $page = tpl_construire();

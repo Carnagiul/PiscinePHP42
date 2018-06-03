@@ -88,6 +88,8 @@
             $user = __user_getUserByName($name);
         if (!(isset($user)))
             return ("user_not_exist");
+        if ($user['banni'] == 1)
+            return ("banni");
         if ($user['pass'] == hash("sha512", $pass))
         {
             $_SESSION['user'] = $user;

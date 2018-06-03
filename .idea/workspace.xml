@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/modules/invoice.php" afterPath="$PROJECT_DIR$/Rush 00/modules/invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/index.php" afterPath="$PROJECT_DIR$/Rush 00/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" afterPath="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+            <state relative-caret-position="631">
+              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_admin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu_admin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="98" />
+            <state relative-caret-position="195">
+              <caret line="13" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invoice.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="invoice.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="631">
@@ -200,7 +200,6 @@
         <option value="$PROJECT_DIR$/Rush 00/modules/invoice_list.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/invoice_list/list.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_merchandise.html" />
-        <option value="$PROJECT_DIR$/Rush 00/index.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/unregister/notadmin.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/del_account.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/unregister/deleted.html" />
@@ -219,10 +218,11 @@
         <option value="$PROJECT_DIR$/Rush 00/template/reset.html" />
         <option value="$PROJECT_DIR$/Rush 00/NoClass/Merch.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
-        <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_public.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_log.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/invoice.php" />
+        <option value="$PROJECT_DIR$/Rush 00/index.php" />
+        <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" />
       </list>
     </option>
   </component>
@@ -384,12 +384,12 @@
       <workItem from="1527917606417" duration="9057000" />
       <workItem from="1527938407304" duration="8779000" />
       <workItem from="1528005756813" duration="5367000" />
-      <workItem from="1528025044354" duration="15162000" />
+      <workItem from="1528025044354" duration="15354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102830000" />
+    <option name="totallyTimeSpent" value="103022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2279" height="1329" extended-state="0" />
@@ -963,14 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_public.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -983,14 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="141" lean-forward="false" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="98" />
           <folding />
         </state>
       </provider>
@@ -1014,6 +998,22 @@
             <marker date="1528047493000" expanded="true" signature="961:1151" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
             <marker date="1528047493000" expanded="true" signature="1644:1720" ph="SELECT * FRO... ${MERCH_TABLE}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

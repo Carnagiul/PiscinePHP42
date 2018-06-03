@@ -44,9 +44,11 @@ __menu_generate();
 
 
 if (isset($_SESSION['user']))
+{
     tpl_setpage('menu/menu_log');
-else if (isset($_SESSION['user']['admin']) && $_SESSION['user']['admin'] == 1)
-    tpl_setpage('menu/menu_admin');
+    if (isset($_SESSION['user']) && $_SESSION['user']['admin'] == 1)
+        tpl_setpage('menu/menu_admin');
+}
 else
     tpl_setpage('menu/menu_public');
 

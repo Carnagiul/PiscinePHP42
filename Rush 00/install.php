@@ -7,4 +7,12 @@
  * Time: 7:03 PM
  */
 
+require_once ("NoClass/Sql.php");
+
+sql_connect();
+
+sql_execbackup("rush00", 1);
+
+sql_close();
+
 ?>

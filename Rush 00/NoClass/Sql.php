@@ -98,4 +98,31 @@ define('BDD_NOM', 'rush00');
         return $query;
     }
 
+    function sql_execbackup($nom_fichier_backup,$del_fichier='0')
+    {
+        $requetes="";
+        if (!(file_get_contents($nom_fichier_backup)))
+            return ;
+        $sql=file($nom_fichier_backup); // on charge le fichier SQL
+        foreach($sql as $l) // on le lit
+        {
+            if (substr(trim($l),0,2)!="--")  // suppression des commentaires
+            {
+                $requetes .= $l;
+            }
+        }
+        $reqs = preg_split("/;/", $requetes);
+        foreach($reqs as $req) // et on les éxécute
+        {
+            if (!sql_update($req) && trim($req) != '')
+            {
+            }
+        }
+        if($del_fichier == '1') // Si l'utilisateur a demandé la suppression du fichier
+        {
+            unlink($nom_fichier_backup);
+        }
+    }
+
+
 ?>

@@ -100,23 +100,17 @@ define('BDD_NOM', 'rush00');
 
     function sql_execbackup($nom_fichier_backup,$del_fichier='0')
     {
+        global $mysqli;
+
         $requetes="";
-        if (!(file_get_contents($nom_fichier_backup)))
+        if (!(file_exists($nom_fichier_backup)))
             return ;
-        $sql=file($nom_fichier_backup); // on charge le fichier SQL
-        foreach($sql as $l) // on le lit
+        $sql = file_get_contents($nom_fichier_backup); // on charge le fichier SQL
+        $explode = explode(";", $sql);
+        foreach ($explode as $line)
         {
-            if (substr(trim($l),0,2)!="--")  // suppression des commentaires
-            {
-                $requetes .= $l;
-            }
-        }
-        $reqs = preg_split("/;/", $requetes);
-        foreach($reqs as $req) // et on les éxécute
-        {
-            if (!sql_update($req) && trim($req) != '')
-            {
-            }
+            if (trim($line) != "")
+                mysqli_query($mysqli, trim($line));
         }
         if($del_fichier == '1') // Si l'utilisateur a demandé la suppression du fichier
         {

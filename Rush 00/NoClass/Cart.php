@@ -10,7 +10,7 @@ define("INVOCE_TABLE", "invoice");
 
 function    __invoice_getById($id = 0)
 {
-    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . INVOCE_TABLE . "'");
+    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . $id . "'");
     if ($ret)
         return ($ret);
     return (NULL);
@@ -18,7 +18,7 @@ function    __invoice_getById($id = 0)
 
 function    __invoice_ExistById($id = 0)
 {
-    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . INVOCE_TABLE . "'");
+    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . $id . "'");
     if ($ret)
         return (true);
     return (false);

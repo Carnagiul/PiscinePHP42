@@ -79,7 +79,7 @@ nav ul li::hover a {
     padding: 15px 30px;
     font-size: 13px;
     color: #222538;
-    width: 270px;
+    width: 54px;
 }
 
 .menu:hover {
@@ -93,4 +93,8 @@ nav ul li::hover a {
 .submenu li:hover a {
     color: #EEE;
     font-weight: bold;
+}
+
+.right {
+    float: right;
 }

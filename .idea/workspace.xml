@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" afterPath="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/modules/invoices.php" afterPath="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/rush00.sql" afterPath="$PROJECT_DIR$/Rush 00/rush00.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,114 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/modules/connection.php">
+      <file leaf-file-name="Merch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Merch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="577">
+              <caret line="122" column="20" lean-forward="false" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
               <folding>
-                <marker date="1528044579000" expanded="true" signature="402:417" ph="SELECT * FRO... " />
-                <marker date="1528044579000" expanded="true" signature="402:421" ph="SELECT * FRO... ${GROUP_TABLE}" />
-                <marker date="1528044579000" expanded="true" signature="402:471" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528044579000" expanded="true" signature="502:537" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528044579000" expanded="true" signature="502:539" ph="SELECT * FRO... ${MERCH_TABLE}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modify.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/modules/modify.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <marker date="1528045218000" expanded="true" signature="320:335" ph="SELECT * FRO... " />
-                <marker date="1528045218000" expanded="true" signature="320:354" ph="SELECT * FRO... " />
-                <marker date="1528045218000" expanded="true" signature="320:369" ph="SELECT * FRO... ${TABLE_USER}" />
-                <marker date="1528045218000" expanded="true" signature="320:410" ph="SELECT * FRO... ${TABLE_USER}" />
-                <marker date="1528045218000" expanded="true" signature="539:568" ph="UPDATE `user... " />
-                <marker date="1528045218000" expanded="true" signature="539:648" ph="UPDATE `user... " />
-                <marker date="1528045218000" expanded="true" signature="539:668" ph="UPDATE `user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/install.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invoices.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoices.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-              <folding>
-                <marker date="1528045830000" expanded="true" signature="220:256" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-                <marker date="1528045830000" expanded="true" signature="286:367" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-                <marker date="1528045830000" expanded="true" signature="1657:1717" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528045830000" expanded="true" signature="2583:2645" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-              <folding>
-                <marker date="1528045867000" expanded="true" signature="190:205" ph="SELECT * FRO... " />
-                <marker date="1528045867000" expanded="true" signature="190:226" ph="SELECT * FRO... " />
-                <marker date="1528045867000" expanded="true" signature="190:239" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-                <marker date="1528045867000" expanded="true" signature="190:251" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-                <marker date="1528045867000" expanded="true" signature="380:441" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-                <marker date="1528045867000" expanded="true" signature="1099:1114" ph="SELECT * FRO... " />
-                <marker date="1528045867000" expanded="true" signature="1099:1134" ph="SELECT * FRO... " />
-                <marker date="1528045867000" expanded="true" signature="1099:1147" ph="SELECT * FRO... ${MERCH_TABLE}" />
-                <marker date="1528045867000" expanded="true" signature="1099:1175" ph="SELECT * FRO... ${MERCH_TABLE}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rush00.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rush 00/rush00.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-              <folding>
-                <marker date="1528046192000" expanded="true" signature="300:364" ph="/*!40101 SET... " />
-                <marker date="1528046192000" expanded="true" signature="366:432" ph="/*!40101 SET... " />
-                <marker date="1528046192000" expanded="true" signature="434:498" ph="/*!40101 SET... " />
-                <marker date="1528046192000" expanded="true" signature="500:529" ph="/*!40101 SET... " />
-                <marker date="1528046192000" expanded="true" signature="778:813" ph="DROP TABLE I... " />
-                <marker date="1528046192000" expanded="true" signature="815:933" ph="CREATE TABLE... group_merchs" />
-                <marker date="1528046192000" expanded="true" signature="984:1105" ph="INSERT INTO `group_merchs`... " />
-                <marker date="1528046192000" expanded="true" signature="1215:1245" ph="DROP TABLE I... " />
-                <marker date="1528046192000" expanded="true" signature="1247:1470" ph="CREATE TABLE... invoice" />
-                <marker date="1528046192000" expanded="true" signature="1516:1646" ph="INSERT INTO `invoice`... " />
-                <marker date="1528046192000" expanded="true" signature="1755:1784" ph="DROP TABLE I... " />
-                <marker date="1528046192000" expanded="true" signature="1786:2063" ph="CREATE TABLE... merchs" />
-                <marker date="1528046192000" expanded="true" signature="2108:4847" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="253:288" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="741:789" ph="SELECT * FRO... merch" />
+                <marker date="1528046961000" expanded="true" signature="741:809" ph="SELECT * FRO... merch" />
+                <marker date="1528046961000" expanded="true" signature="973:1023" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="973:1037" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="1180:1244" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="1400:1468" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="1641:1709" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="1958:2026" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="2268:2316" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="2268:2336" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="2505:2569" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046961000" expanded="true" signature="5074:5087" ph="INSERT INTO " />
+                <marker date="1528046961000" expanded="true" signature="5074:5193" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5210" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5228" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5246" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5265" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5283" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5299" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5074:5300" ph="INSERT INTO `merchs`... " />
+                <marker date="1528046961000" expanded="true" signature="5781:5794" ph="INSERT INTO " />
+                <marker date="1528046961000" expanded="true" signature="5781:5860" ph="INSERT INTO `merchs`... " />
               </folding>
             </state>
           </provider>
@@ -139,21 +59,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/error.html">
+      <file leaf-file-name="invoices.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoices.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <state relative-caret-position="349">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <marker date="1528046544000" expanded="true" signature="220:256" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+                <marker date="1528046544000" expanded="true" signature="286:372" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+                <marker date="1528046544000" expanded="true" signature="1651:1711" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046544000" expanded="true" signature="2577:2639" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1528046984000" expanded="true" signature="402:417" ph="SELECT * FRO... " />
+                <marker date="1528046984000" expanded="true" signature="402:421" ph="SELECT * FRO... ${GROUP_TABLE}" />
+                <marker date="1528046984000" expanded="true" signature="402:471" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046984000" expanded="true" signature="502:537" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528046984000" expanded="true" signature="502:539" ph="SELECT * FRO... ${MERCH_TABLE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+              <folding>
+                <marker date="1528041326000" expanded="true" signature="389:465" ph="SELECT * FRO... ${MERCH_TABLE}" />
+                <marker date="1528041326000" expanded="true" signature="969:1125" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
+                <marker date="1528041326000" expanded="true" signature="969:1143" ph="INSERT INTO `${INVOCE_TABLE}`... " />
+                <marker date="1528041326000" expanded="true" signature="969:1159" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
+                <marker date="1528041326000" expanded="true" signature="1670:1746" ph="SELECT * FRO... ${MERCH_TABLE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/modules/reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/form.html">
+      <file leaf-file-name="reset.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rush 00/template/reset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -181,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rush 00/template/public/merchandise/none.html" />
-        <option value="$PROJECT_DIR$/Rush 00/template/log/home.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/footer.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/log/merchandise/item.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/public/merchandise/item.html" />
@@ -216,12 +181,10 @@
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_public.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_log.html" />
         <option value="$PROJECT_DIR$/Rush 00/index.php" />
-        <option value="$PROJECT_DIR$/Rush 00/NoClass/Merch.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/unregister/notadmin.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/del_account.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/unregister/deleted.html" />
         <option value="$PROJECT_DIR$/really.html" />
-        <option value="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
         <option value="$PROJECT_DIR$/Day 04/ex04/create.php" />
         <option value="$PROJECT_DIR$/Rush 00/NoClass/User.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/modify/success.html" />
@@ -229,9 +192,13 @@
         <option value="$PROJECT_DIR$/Rush 00/template/modify/form.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/modify.php" />
         <option value="$PROJECT_DIR$/Rush 00/install.php" />
-        <option value="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
-        <option value="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
         <option value="$PROJECT_DIR$/Rush 00/rush00.sql" />
+        <option value="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
+        <option value="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
+        <option value="$PROJECT_DIR$/Rush 00/modules/reset.php" />
+        <option value="$PROJECT_DIR$/Rush 00/template/reset.html" />
+        <option value="$PROJECT_DIR$/Rush 00/NoClass/Merch.php" />
+        <option value="$PROJECT_DIR$/Rush 00/modules/merchandise.php" />
       </list>
     </option>
   </component>
@@ -318,6 +285,12 @@
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Rush 00" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="NoClass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Rush 00" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -380,12 +353,12 @@
       <workItem from="1527917606417" duration="9057000" />
       <workItem from="1527938407304" duration="8779000" />
       <workItem from="1528005756813" duration="5367000" />
-      <workItem from="1528025044354" duration="13866000" />
+      <workItem from="1528025044354" duration="14671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101534000" />
+    <option name="totallyTimeSpent" value="102339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2279" height="1329" extended-state="0" />
@@ -434,30 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 04/ex01/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 04/ex04/modif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 04/ex00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/admin/create_group.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,20 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <marker date="1528041326000" expanded="true" signature="389:465" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528041326000" expanded="true" signature="969:1125" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
-            <marker date="1528041326000" expanded="true" signature="969:1143" ph="INSERT INTO `${INVOCE_TABLE}`... " />
-            <marker date="1528041326000" expanded="true" signature="969:1159" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
-            <marker date="1528041326000" expanded="true" signature="1670:1746" ph="SELECT * FRO... ${MERCH_TABLE}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -827,61 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Merch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <marker date="1528043919000" expanded="true" signature="253:288" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="741:789" ph="SELECT * FRO... merch" />
-            <marker date="1528043919000" expanded="true" signature="741:809" ph="SELECT * FRO... merch" />
-            <marker date="1528043919000" expanded="true" signature="973:1023" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="973:1037" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="1180:1244" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="1400:1468" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="1641:1709" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="1958:2026" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="2268:2316" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="2268:2336" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="2505:2569" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528043919000" expanded="true" signature="5140:5153" ph="INSERT INTO " />
-            <marker date="1528043919000" expanded="true" signature="5140:5259" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5276" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5294" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5312" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5331" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5349" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5365" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5140:5366" ph="INSERT INTO `merchs`... " />
-            <marker date="1528043919000" expanded="true" signature="5847:5860" ph="INSERT INTO " />
-            <marker date="1528043919000" expanded="true" signature="5847:5926" ph="INSERT INTO `merchs`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
-          <folding>
-            <marker date="1528044740000" expanded="true" signature="144:157" ph="SELECT * FRO... " />
-            <marker date="1528044740000" expanded="true" signature="144:193" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="144:194" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="144:207" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="445:508" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="740:787" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="740:807" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="1042:1109" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="1349:1398" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="1349:1412" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="1652:1715" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528044740000" expanded="true" signature="3006:3019" ph="INSERT INTO " />
-            <marker date="1528044740000" expanded="true" signature="3006:3195" ph="INSERT INTO `${TABLE_USER}`... " />
-            <marker date="1528044740000" expanded="true" signature="3006:3286" ph="INSERT INTO `${$this-&gt;bdd_table_name}`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -898,28 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <marker date="1528044579000" expanded="true" signature="402:417" ph="SELECT * FRO... " />
-            <marker date="1528044579000" expanded="true" signature="402:421" ph="SELECT * FRO... ${GROUP_TABLE}" />
-            <marker date="1528044579000" expanded="true" signature="402:471" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528044579000" expanded="true" signature="502:537" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528044579000" expanded="true" signature="502:539" ph="SELECT * FRO... ${MERCH_TABLE}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -928,66 +786,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/modify.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1528045218000" expanded="true" signature="320:335" ph="SELECT * FRO... " />
-            <marker date="1528045218000" expanded="true" signature="320:354" ph="SELECT * FRO... " />
-            <marker date="1528045218000" expanded="true" signature="320:369" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528045218000" expanded="true" signature="320:410" ph="SELECT * FRO... ${TABLE_USER}" />
-            <marker date="1528045218000" expanded="true" signature="539:568" ph="UPDATE `user... " />
-            <marker date="1528045218000" expanded="true" signature="539:648" ph="UPDATE `user... " />
-            <marker date="1528045218000" expanded="true" signature="539:668" ph="UPDATE `user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="1708">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        <state relative-caret-position="210">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding>
-            <marker date="1528045830000" expanded="true" signature="220:256" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-            <marker date="1528045830000" expanded="true" signature="286:367" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-            <marker date="1528045830000" expanded="true" signature="1657:1717" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528045830000" expanded="true" signature="2583:2645" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <marker date="1528045867000" expanded="true" signature="190:205" ph="SELECT * FRO... " />
-            <marker date="1528045867000" expanded="true" signature="190:226" ph="SELECT * FRO... " />
-            <marker date="1528045867000" expanded="true" signature="190:239" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-            <marker date="1528045867000" expanded="true" signature="190:251" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-            <marker date="1528045867000" expanded="true" signature="380:441" ph="SELECT * FRO... ${INVOCE_TABLE}" />
-            <marker date="1528045867000" expanded="true" signature="1099:1114" ph="SELECT * FRO... " />
-            <marker date="1528045867000" expanded="true" signature="1099:1134" ph="SELECT * FRO... " />
-            <marker date="1528045867000" expanded="true" signature="1099:1147" ph="SELECT * FRO... ${MERCH_TABLE}" />
-            <marker date="1528045867000" expanded="true" signature="1099:1175" ph="SELECT * FRO... ${MERCH_TABLE}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,6 +820,168 @@
             <marker date="1528046192000" expanded="true" signature="1755:1784" ph="DROP TABLE I... " />
             <marker date="1528046192000" expanded="true" signature="1786:2063" ph="CREATE TABLE... merchs" />
             <marker date="1528046192000" expanded="true" signature="2108:4847" ph="INSERT INTO `merchs`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1528045218000" expanded="true" signature="320:335" ph="SELECT * FRO... " />
+            <marker date="1528045218000" expanded="true" signature="320:354" ph="SELECT * FRO... " />
+            <marker date="1528045218000" expanded="true" signature="320:369" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528045218000" expanded="true" signature="320:410" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528045218000" expanded="true" signature="539:568" ph="UPDATE `user... " />
+            <marker date="1528045218000" expanded="true" signature="539:648" ph="UPDATE `user... " />
+            <marker date="1528045218000" expanded="true" signature="539:668" ph="UPDATE `user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+          <folding>
+            <marker date="1528044740000" expanded="true" signature="144:157" ph="SELECT * FRO... " />
+            <marker date="1528044740000" expanded="true" signature="144:193" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="144:194" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="144:207" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="445:508" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="740:787" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="740:807" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="1042:1109" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="1349:1398" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="1349:1412" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="1652:1715" ph="SELECT * FRO... ${TABLE_USER}" />
+            <marker date="1528044740000" expanded="true" signature="3006:3019" ph="INSERT INTO " />
+            <marker date="1528044740000" expanded="true" signature="3006:3195" ph="INSERT INTO `${TABLE_USER}`... " />
+            <marker date="1528044740000" expanded="true" signature="3006:3286" ph="INSERT INTO `${$this-&gt;bdd_table_name}`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1528046514000" expanded="true" signature="190:205" ph="SELECT * FRO... " />
+            <marker date="1528046514000" expanded="true" signature="190:226" ph="SELECT * FRO... " />
+            <marker date="1528046514000" expanded="true" signature="190:239" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+            <marker date="1528046514000" expanded="true" signature="190:251" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+            <marker date="1528046514000" expanded="true" signature="380:441" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+            <marker date="1528046514000" expanded="true" signature="1128:1143" ph="SELECT * FRO... " />
+            <marker date="1528046514000" expanded="true" signature="1128:1163" ph="SELECT * FRO... " />
+            <marker date="1528046514000" expanded="true" signature="1128:1176" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046514000" expanded="true" signature="1128:1204" ph="SELECT * FRO... ${MERCH_TABLE}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <marker date="1528046544000" expanded="true" signature="220:256" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+            <marker date="1528046544000" expanded="true" signature="286:372" ph="SELECT * FRO... ${INVOCE_TABLE}" />
+            <marker date="1528046544000" expanded="true" signature="1651:1711" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046544000" expanded="true" signature="2577:2639" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <marker date="1528041326000" expanded="true" signature="389:465" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528041326000" expanded="true" signature="969:1125" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
+            <marker date="1528041326000" expanded="true" signature="969:1143" ph="INSERT INTO `${INVOCE_TABLE}`... " />
+            <marker date="1528041326000" expanded="true" signature="969:1159" ph="INSERT INTO `${$INVOCE_TABLE}`... " />
+            <marker date="1528041326000" expanded="true" signature="1670:1746" ph="SELECT * FRO... ${MERCH_TABLE}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/template/reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/NoClass/Merch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="122" column="20" lean-forward="false" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+          <folding>
+            <marker date="1528046961000" expanded="true" signature="253:288" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="741:789" ph="SELECT * FRO... merch" />
+            <marker date="1528046961000" expanded="true" signature="741:809" ph="SELECT * FRO... merch" />
+            <marker date="1528046961000" expanded="true" signature="973:1023" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="973:1037" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="1180:1244" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="1400:1468" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="1641:1709" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="1958:2026" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="2268:2316" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="2268:2336" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="2505:2569" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046961000" expanded="true" signature="5074:5087" ph="INSERT INTO " />
+            <marker date="1528046961000" expanded="true" signature="5074:5193" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5210" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5228" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5246" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5265" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5283" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5299" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5074:5300" ph="INSERT INTO `merchs`... " />
+            <marker date="1528046961000" expanded="true" signature="5781:5794" ph="INSERT INTO " />
+            <marker date="1528046961000" expanded="true" signature="5781:5860" ph="INSERT INTO `merchs`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1528046984000" expanded="true" signature="402:417" ph="SELECT * FRO... " />
+            <marker date="1528046984000" expanded="true" signature="402:421" ph="SELECT * FRO... ${GROUP_TABLE}" />
+            <marker date="1528046984000" expanded="true" signature="402:471" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046984000" expanded="true" signature="502:537" ph="SELECT * FRO... ${MERCH_TABLE}" />
+            <marker date="1528046984000" expanded="true" signature="502:539" ph="SELECT * FRO... ${MERCH_TABLE}" />
           </folding>
         </state>
       </provider>

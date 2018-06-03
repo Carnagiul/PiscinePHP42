@@ -93,25 +93,25 @@ define("GROUP_TABLE", "group_merchs");
     {
         $ret = NULL;
         $merch = NULL;
-        if ($id <= 0 || ctype_digit($id) == 0)
-            $ret[] = "merch_not_exist";
+        if ($id <= 0)
+            $ret = "merch_not_exist";
         if ($ret)
             return ($ret);
         if (__merch_existById($id) == false)
-            $ret[] = "merch_not_exist";
+            $ret = "merch_not_exist";
         if ($ret)
             return ($ret);
         $merch = __merch_getById($id);
         if (intval($amount) >= 0) {
             if (intval($amount) + $_SESSION['merch']['merch_' . $id] > intval($merch['amount']))
-                $ret[] = "unsuficcient_stock";
+                $ret = "unsuficcient_stock";
         }
         else
             return (__merch_remove_merch($id, -1 * intval($amount)));
         if ($ret)
             return ($ret);
         $_SESSION['merch']['merch_' . $id] += intval($amount);
-        $ret[] = "merch_add";
+        $ret = "merch_add";
         return ($ret);
     }
 
@@ -120,22 +120,22 @@ define("GROUP_TABLE", "group_merchs");
         $ret = NULL;
         $merch = NULL;
 
-        if ($id <= 0 || ctype_digit($id) == 0)
-            $ret[] = "merch_not_exist";
+        if ($id <= 0)
+            $ret = "merch_not_exist";
         if ($ret)
             return ($ret);
         if (__merch_existById($id) == false)
-            $ret[] = "merch_not_exist";
+            $ret = "merch_not_exist";
         if ($ret)
             return ($ret);
         if ($amount > $_SESSION['merch']['merch_' . $id])
-            $ret[] = "unsuficcient_panier_stock";
+            $ret = "unsuficcient_panier_stock";
         if ($ret)
             return ($ret);
         $_SESSION['merch']['merch_' . $id] -= intval($amount);
         if ($_SESSION['merch']['merch_' . $id] < 0)
             unset($_SESSION['merch']['merch_' . $id]);
-        $ret[] = "merch_remove";
+        $ret = "merch_remove";
         return ($ret);
     }
 

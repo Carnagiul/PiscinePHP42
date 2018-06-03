@@ -13,7 +13,7 @@ function __invoice_static_display($id)
     if ($_SESSION['user']['admin'])
         $query = "SELECT * FROM `" . INVOCE_TABLE . "`";
     else
-        $query = "SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . $_SESSION['user']['id'] . "'";
+        $query = "SELECT * FROM `" . INVOCE_TABLE . "` WHERE `user_id`='" . $_SESSION['user']['id'] . "'";
     $ret = sql_query($query);
     if ($ret)
     {
@@ -33,7 +33,7 @@ function __invoice_static_display($id)
     {
         tpl_setpage('merch/none');
         $page .= tpl_construire();
-    }echo $page;
+    }
     return ($page);
 }
 

@@ -33,7 +33,7 @@ function __invoice_static_display($id)
     {
         tpl_setpage('merch/none');
         $page .= tpl_construire();
-    }
+    }echo $page;
     return ($page);
 }
 

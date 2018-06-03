@@ -6,6 +6,34 @@
  * Time: 3:18 PM
  */
 
+define("INVOCE_TABLE", "invoice");
+
+function    __invoice_getById($id = 0)
+{
+    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . INVOCE_TABLE . "'");
+    if ($ret)
+        return ($ret);
+    return (NULL);
+}
+
+function    __invoice_ExistById($id = 0)
+{
+    $ret = sql_select("SELECT * FROM `" . INVOCE_TABLE . "` WHERE `id`='" . INVOCE_TABLE . "'");
+    if ($ret)
+        return (true);
+    return (false);
+}
+
+function    __invoice_show($id = 0)
+{
+    if (__invoice_ExistById($id) == false)
+        return (false);
+    $invoice = __invoice_getById($id);
+    if ($invoice['user_id'] != $_SESSION['id'] || $_SESSION['user']['admin'] != 1)
+        return (false);
+    return (true);
+}
+
 function    __show_cart()
 {
     tpl_setpage("merch/merch_data");

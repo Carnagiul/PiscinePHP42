@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" afterPath="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/modules/invoices.php" afterPath="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rush 00/index.php" afterPath="$PROJECT_DIR$/Rush 00/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="556">
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="merchandise.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -353,12 +353,12 @@
       <workItem from="1527917606417" duration="9057000" />
       <workItem from="1527938407304" duration="8779000" />
       <workItem from="1528005756813" duration="5367000" />
-      <workItem from="1528025044354" duration="14671000" />
+      <workItem from="1528025044354" duration="14765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102339000" />
+    <option name="totallyTimeSpent" value="102433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2279" height="1329" extended-state="0" />
@@ -889,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoices.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -983,6 +975,14 @@
             <marker date="1528046984000" expanded="true" signature="502:537" ph="SELECT * FRO... ${MERCH_TABLE}" />
             <marker date="1528046984000" expanded="true" signature="502:539" ph="SELECT * FRO... ${MERCH_TABLE}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rush 00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

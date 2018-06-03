@@ -15,4 +15,7 @@ sql_execbackup("rush00", 1);
 
 sql_close();
 
+header('Location: index.php');
+
+
 ?>

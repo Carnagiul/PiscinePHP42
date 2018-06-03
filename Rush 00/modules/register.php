@@ -18,7 +18,7 @@ else
     {
         if (isset($_POST["action"]) && $_POST["action"] == "register")
         {
-            $ret = __user_register($_POST["user"], $_POST["pass"], $_POST["mail"]);
+            $ret = __user_register(htmlentities($_POST["user"]), htmlentities($_POST["pass"]), htmlentities($_POST["mail"]));
             foreach ($ret as $line)
             {
                 if ($line == "pass_too_easy")

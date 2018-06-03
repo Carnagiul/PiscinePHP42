@@ -84,7 +84,7 @@ define("GROUP_TABLE", "group_merchs");
             return ($ret);
         $merch = __merch_getById($id);
         if (intval($amount) >= 0) {
-            if (intval($amount) > intval($merch['amount']))
+            if (intval($amount) + $_SESSION['merch']['merch_' . $id] > intval($merch['amount']))
                 $ret[] = "unsuficcient_stock";
         }
         else

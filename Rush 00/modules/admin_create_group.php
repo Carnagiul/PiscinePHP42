@@ -10,7 +10,7 @@ if (isset($_SESSION['user']) && $_SESSION['user']['admin'] == 1)
 {
     if (isset($_POST['name']))
     {
-       $ret = __merch_create_new_group($_POST['name']);
+       $ret = __merch_create_new_group(htmlentities($_POST['name']));
        foreach ($ret as $line)
        {
            if ($line == "group_merch_created")

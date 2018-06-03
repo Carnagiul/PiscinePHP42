@@ -13,13 +13,9 @@ if (isset($_SESSION['user']) && $_SESSION['user']['admin'] == 1)
     while ($line = mysqli_fetch_array($ret))
         $list_group .= "<option value='" . $line['id'] . "' >" . $line['name'] . "</option>";
     tpl_add_data('list_group', $list_group);
-    var_dump($ret, $_POST);
-
     if (isset($_POST['name']))
     {
-     //   function __merch_create_new($name, $descr, $price, $amount, $image, $group)
-
-        $ret = __merch_create_new($_POST['name'], $_POST['descr'], $_POST['price'], $_POST['amount'],  $_POST['image'], $_POST['group']);
+        $ret = __merch_create_new(htmlentities($_POST['name']), htmlentities($_POST['descr']), htmlentities($_POST['price']), htmlentities($_POST['amount']),  htmlentities($_POST['image']), htmlentities($_POST['group']));
         foreach ($ret as $line)
         {
             if ($line == "group_merch_created")

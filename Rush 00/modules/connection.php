@@ -17,7 +17,7 @@ else
     if (isset($_POST['user']) && isset($_POST['pass']))
     {
        $ret = NULL;
-       $ret = __user_loggin($_POST['user'], $_POST['pass']);
+       $ret = __user_loggin(htmlentities($_POST['user']), htmlentities($_POST['pass']));
        foreach ($ret as $line)
        {
            if ($line == "user_not_exist")

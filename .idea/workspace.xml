@@ -41,11 +41,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="House.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="House.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 07/ex03/House.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lannister.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 07/ex04/Lannister.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tyrion.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 07/ex04/Tyrion.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jaime.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 07/ex04/Jaime.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -74,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/really.html" />
-        <option value="$PROJECT_DIR$/Day 04/ex04/create.php" />
-        <option value="$PROJECT_DIR$/Rush 00/template/modify/success.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/modify/error.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/modify/form.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/modify.php" />
@@ -125,6 +152,9 @@
         <option value="$PROJECT_DIR$/Day 07/ex01/Greyjoy.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex02/Targaryen.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex03/House.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex04/Lannister.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex04/Tyrion.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex04/Jaime.class.php" />
       </list>
     </option>
   </component>
@@ -183,6 +213,12 @@
               <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Day 07" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 07" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex04" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -250,12 +286,12 @@
       <workItem from="1528282060317" duration="3880000" />
       <workItem from="1528290904094" duration="11876000" />
       <workItem from="1528310163727" duration="133000" />
-      <workItem from="1528310301839" duration="2156000" />
+      <workItem from="1528310301839" duration="2626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129792000" />
+    <option name="totallyTimeSpent" value="130262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="2279" height="1329" extended-state="0" />
@@ -304,27 +340,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_public.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_merchandise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="141" lean-forward="false" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/menu/menu_log.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="98" lean-forward="false" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonTools/Class/Sql.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -665,6 +680,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 07/ex04/Lannister.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 07/ex04/Tyrion.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 07/ex04/Jaime.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
           <folding />
         </state>
       </provider>

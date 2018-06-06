@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 07/ex04/test.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" afterPath="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" afterPath="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NightsWatch.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NightsWatch.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFighter.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IFighter.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 07/ex05/IFighter.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rush 00/template/modify/form.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/modify.php" />
         <option value="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/Day 07/ex04/Tyrion.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex04/Jaime.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" />
       </list>
     </option>
   </component>
@@ -238,12 +239,12 @@
       <workItem from="1528282060317" duration="3880000" />
       <workItem from="1528290904094" duration="11876000" />
       <workItem from="1528310163727" duration="133000" />
-      <workItem from="1528310301839" duration="2729000" />
+      <workItem from="1528310301839" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130365000" />
+    <option name="totallyTimeSpent" value="130596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="2279" height="1329" extended-state="0" />
@@ -651,18 +652,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 07/ex05/IFighter.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 07/ex05/IFighter.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>

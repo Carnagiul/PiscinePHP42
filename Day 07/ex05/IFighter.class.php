@@ -8,5 +8,5 @@
 
 Interface IFighter
 {
-
+    function fight();
 }

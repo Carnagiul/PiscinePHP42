@@ -41,9 +41,11 @@ class Matrix
                 $this->setVtc($data['vtc']);
             else if ($this->getPreset() == self::PROJECTION && isset($data['fov']) && isset($data['far']) && isset($data['near']))
             {
-                $this->setVtc($data['fov']);
+                $this->setFov($data['fov']);
                 $this->setFar($data['far']);
                 $this->setNear($data['near']);
+                if (isset($data['ratio']))
+                    $this->setRatio($data['ratio']);
             }
             else if ($this->getPreset() == self::IDENTITY)
                 ;
@@ -170,7 +172,7 @@ class Matrix
             $array[2][3] = (2 * $this->getNear() * $this->getFar()) / ($this->getNear() - $this->getFar());
         else
             $array[2][3] = 0;
-        $this->getMatrix($array);
+        $this->setMatrix($array);
     }
 
     private function generate_matrix()

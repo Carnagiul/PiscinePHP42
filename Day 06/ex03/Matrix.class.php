@@ -52,13 +52,28 @@ class Matrix
             $this->generate_matrix();
         }
         if (self::$verbose)
-            printf("%s constructed.". PHP_EOL, $this->__toString());
+        {
+            if (self::IDENTITY == $this->getPreset())
+                printf("Matrix IDENTITY instance constructed\n");
+            if (self::TRANSLATION == $this->getPreset())
+                printf("Matrix TRANSLATION preset instance constructed\n");
+            if (self::SCALE == $this->getPreset())
+                printf("Matrix SCALE preset instance constructed\n");
+            if (self::RX == $this->getPreset())
+                printf("Matrix Ox ROTATION preset instance constructed\n");
+            if (self::RY == $this->getPreset())
+                printf("Matrix Oy ROTATION preset instance constructed\n");
+            if (self::RZ == $this->getPreset())
+                printf("Matrix Oz ROTATION preset instance constructed\n");
+            if (self::PROJECTION == $this->getPreset())
+                printf("Matrix PROJECTION preset instance constructed\n");
+        }
     }
 
     function __destruct()
     {
         if (self::$verbose)
-            printf("%s destructed.". PHP_EOL, $this->__toString());
+            printf("Matrix instance destructed\n");
     }
 
     public static function doc()

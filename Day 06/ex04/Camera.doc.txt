@@ -1,0 +1,47 @@
+< -------- Camera Class ----->
+    function __toString() Convert Class to String
+
+    public function watchVertex(Vertex $vertex) Create new vertex camera
+
+    public static function doc() Return the Doc
+
+    public function getWidth() Return Width
+    public function setWidth($width) Set Width
+
+    public function getHeight() Return Height
+    public function setHeight($height) Set Height
+
+
+    public function getNear() Return Near
+    public function setNear($near) Set Near
+
+    public function getFar() Return Far
+    public function setFar($far) Set Far
+
+    public function getFov() Return FOV
+    public function setFov($fov) Set FOV
+
+    public function getRatio() Return Ratio
+    public function setRatio($ratio) Set Ratio
+
+    public function getOrigin() Return Origin
+    public function setOrigin($origin) Set Origin
+
+    public function getOrientation() Return Orientation
+    public function setOrientation($orientation) Set Orientation
+
+    public function initTt() Init Tt Value and Setit
+    public function getTt() return Tt Value
+    public function setTt($Tt) Set Tt Value
+
+    public function initTr() Init Tr Value
+    public function getTr() Return Tr value
+    public function setTr($Tr) Set Tr Value
+
+    public function initRatio() Init Ratio Window
+
+    public function initProject() INit Projection
+    public function getProject() Return Projection
+    public function setProject($Project) Set Projection
+
+<--------       End Class Camera    -------->

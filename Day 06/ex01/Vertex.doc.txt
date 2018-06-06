@@ -1,0 +1,31 @@
+<------ Vertex doc ---->
+
+    function __construct($data) This function construct class Take Array("x", "y", "z", (Optionnal)"w", (Optionnal)"Color")
+
+    function __destruct() This function Desctruct Class
+
+    public static function doc() This function return Doc of Class
+
+    public function __toString() This function return String of Class
+
+    public function getW() This function return W (float)
+
+    public function setW($w) This function set W (float)
+
+    public function getX() This function return X (float)
+
+    public function setX($x) This function set W (float)
+
+    public function getY() This function return Y (float)
+
+    public function setY($y) This function set W (float)
+
+    public function getZ() This function return Z (float)
+
+    public function setZ($z) This function set Z (float)
+
+    public function getColor() This function return Color (Color)
+
+    public function setColor($color) This function set Color (Color)
+
+<------ END ------->

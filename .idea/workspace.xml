@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" afterPath="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" afterPath="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" />
-    </list>
+    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +11,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NightsWatch.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NightsWatch.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnholyFactory.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 07/ex06/UnholyFactory.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="41" column="74" lean-forward="false" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fighter.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 07/ex06/Fighter.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -57,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rush 00/modules/modify.php" />
-        <option value="$PROJECT_DIR$/Rush 00/NoClass/Cart.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/invoices.php" />
         <option value="$PROJECT_DIR$/Rush 00/modules/reset.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/reset.html" />
@@ -108,6 +123,8 @@
         <option value="$PROJECT_DIR$/Day 07/ex04/Jaime.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex05/IFighter.class.php" />
         <option value="$PROJECT_DIR$/Day 07/ex05/NightsWatch.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex06/Fighter.class.php" />
+        <option value="$PROJECT_DIR$/Day 07/ex06/UnholyFactory.class.php" />
       </list>
     </option>
   </component>
@@ -172,6 +189,12 @@
               <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Day 07" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex05" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 07" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex06" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -239,12 +262,12 @@
       <workItem from="1528282060317" duration="3880000" />
       <workItem from="1528290904094" duration="11876000" />
       <workItem from="1528310163727" duration="133000" />
-      <workItem from="1528310301839" duration="2960000" />
+      <workItem from="1528310301839" duration="3875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130596000" />
+    <option name="totallyTimeSpent" value="131511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="2279" height="1329" extended-state="0" />
@@ -293,20 +316,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/unregister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/merchandise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/modules/admin_user_unban.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -664,6 +673,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 07/ex06/Fighter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 07/ex06/UnholyFactory.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="74" lean-forward="false" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
           <folding />
         </state>
       </provider>

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 06/ex03/Matrix.class.php" afterPath="$PROJECT_DIR$/Day 06/ex03/Matrix.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 06/ex04/Camera.class.php" afterPath="$PROJECT_DIR$/Day 06/ex04/Camera.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 06/ex04/Matrix.class.php" afterPath="$PROJECT_DIR$/Day 06/ex04/Matrix.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Matrix.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Matrix.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
@@ -29,7 +26,7 @@
       <file leaf-file-name="Matrix.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 06/ex04/Matrix.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="1654">
               <caret line="165" column="59" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Camera.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 06/ex04/Camera.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="295" column="38" lean-forward="false" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="38" />
+            <state relative-caret-position="618">
+              <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,9 +134,9 @@
         <option value="$PROJECT_DIR$/Day 06/ex02/Vector.doc.txt" />
         <option value="$PROJECT_DIR$/Day 06/ex01/Vertex.doc.txt" />
         <option value="$PROJECT_DIR$/Day 06/ex03/Matrix.doc.txt" />
-        <option value="$PROJECT_DIR$/Day 06/ex04/Camera.class.php" />
         <option value="$PROJECT_DIR$/Day 06/ex04/Matrix.class.php" />
         <option value="$PROJECT_DIR$/Day 06/ex03/Matrix.class.php" />
+        <option value="$PROJECT_DIR$/Day 06/ex04/Camera.class.php" />
       </list>
     </option>
   </component>
@@ -273,12 +270,12 @@
       <workItem from="1528051735413" duration="5031000" />
       <workItem from="1528275621380" duration="3113000" />
       <workItem from="1528282060317" duration="3880000" />
-      <workItem from="1528290904094" duration="11707000" />
+      <workItem from="1528290904094" duration="11833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127334000" />
+    <option name="totallyTimeSpent" value="127460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -796,26 +793,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 06/ex04/Camera.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="295" column="38" lean-forward="false" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="38" />
+        <state relative-caret-position="145">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 06/ex04/Matrix.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
+        <state relative-caret-position="1654">
           <caret line="165" column="59" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 06/ex04/Camera.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state relative-caret-position="618">
+          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -69,7 +69,7 @@ class Camera
         $tmp .= "+ tT:\n" . $this->getTt() . "\n";
         $tmp .= "+ tR:\n" . $this->getTr() . "\n";
         $tmp .= "+ tR->mult( tT ):\n" . $this->getTr()->mult($this->getTt()) . "\n";
-        $tmp .= "+ Proj:\n" . $this->getProject() . "\n)";
+        $tmp .= "+ Proj:\n" . $this->getProject() . ")";
         return ($tmp);
     }
 
@@ -297,7 +297,6 @@ class Camera
             'near' => $this->getNear(),
             'far' => $this->getFar()
         ));
-        var_dump($matrix);
         $this->setProject($matrix);
     }
 

@@ -1,20 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: piquerue
- * Date: 6/6/18
- * Time: 1:04 PM
- */
+<------- Class Vector -->
 
-class Vector
-{
-    static $verbose = false;
-    private $from;
-    private $to;
-    private $x;
-    private $y;
-    private $z;
-    private $w;
+    Require Color.class.php
+    Require Vertex.class.php
 
     function __construct($data) $data is an Array ("dest" => vertex, (Optional)"orig" => Vertex
 
@@ -54,4 +41,4 @@ class Vector
 
     public function getW() Return W
 
-}
+<------ Class Vector End --->

@@ -1,5 +1,7 @@
 <------ Vertex doc ---->
 
+    require Color.class.php
+
     function __construct($data) This function construct class Take Array("x", "y", "z", (Optionnal)"w", (Optionnal)"Color")
 
     function __destruct() This function Desctruct Class

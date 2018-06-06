@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 06/ex01/Vertex.doc.txt" afterPath="$PROJECT_DIR$/Day 06/ex01/Vertex.doc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 06/ex02/Vector.doc.txt" afterPath="$PROJECT_DIR$/Day 06/ex02/Vector.doc.txt" />
-    </list>
+    <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Matrix.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Matrix.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="156" column="29" lean-forward="false" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.doc.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.doc.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="86" lean-forward="false" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -56,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rush 00/template/invoice_list/invoice_list.html" />
         <option value="$PROJECT_DIR$/Rush 00/template/invoice_list/main_view.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/invoice_list.php" />
         <option value="$PROJECT_DIR$/Rush 00/template/invoice_list/list.html" />
@@ -107,6 +113,7 @@
         <option value="$PROJECT_DIR$/Day 06/ex02/Vector.doc.txt" />
         <option value="$PROJECT_DIR$/Day 06/ex01/Vertex.doc.txt" />
         <option value="$PROJECT_DIR$/Day 06/ex03/Matrix.class.php" />
+        <option value="$PROJECT_DIR$/Day 06/ex03/Matrix.doc.txt" />
       </list>
     </option>
   </component>
@@ -240,12 +247,12 @@
       <workItem from="1528051735413" duration="5031000" />
       <workItem from="1528275621380" duration="3113000" />
       <workItem from="1528282060317" duration="3880000" />
-      <workItem from="1528290904094" duration="8039000" />
+      <workItem from="1528290904094" duration="8407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123666000" />
+    <option name="totallyTimeSpent" value="124034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -294,13 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/modify/error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,6 +768,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day 06/ex01/Vertex.Class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -776,10 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 06/ex03/Matrix.doc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="156" column="29" lean-forward="false" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="86" lean-forward="false" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
           <folding />
         </state>
       </provider>

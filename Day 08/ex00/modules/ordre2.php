@@ -29,12 +29,22 @@ else
 {
     if ($ship instanceof Ship)
     {
-        $ship->setManoeuvre($ship->getManoeuvre() + ($motor * rand(1, 6)));
-        $ship->setActualShield($ship->getMaxSheild() + ($shield * rand(1, 6)));
-        $ship->setActualHealth($ship->getActualHealth() + ($repair * rand(1, 6)));
+        $k = 0;
+        $k2 = 0;
+        for ($k = 0; $k < $motor; $k++)
+            $k2 += rand(0, 6);
+        $ship->setManoeuvre($ship->getManoeuvre() + $k2);
+        $k2 = 0;
+        for ($k = 0; $k < $shield; $k++)
+            $k2 += rand(0, 6);
+        $ship->setActualShield($ship->getMaxSheild() + $k2);
+        $k2 = 0;
+        for ($k = 0; $k < $repair; $k++)
+            $k2 += rand(0, 6);
+        $ship->setActualHealth($ship->getActualHealth() + $k2);
         if ($ship->getActualHealth() > $ship->getMaxHealth())
             $ship->setActualHealth($ship->getMaxHealth());
-        $ship->setBonusShoot(0 + ($shoot * rand(1, 6)));
+        $ship->setBonusShoot($shoot);
     }
     $tpl->setFileName('move');
     $tpl->addData("min_x_move", $ship->getPosX() - $ship->getManoeuvre());

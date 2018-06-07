@@ -32,6 +32,11 @@ class Arms
     const   south = 3;
     const   west = 4;
 
+    public function init_from_sql(int $id)
+    {
+        //TODO sql init
+    }
+
     public function getNeedSleep(): bool
     {
         return $this->need_sleep;

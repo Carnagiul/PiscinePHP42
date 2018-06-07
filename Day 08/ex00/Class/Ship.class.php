@@ -89,6 +89,11 @@ class Ship
         }
     }
 
+    public function init_from_sql(int $id)
+    {
+        //TODO sql init
+    }
+
     public function addArms(Arms $arms)
     {
         $this->arms[] = $arms;

@@ -31,28 +31,6 @@ if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
     $_SESSION['Turn'] = 1;
 }
 
-if (isset($_GET['mod']))
-{
-    if ($_GET['mod'] == 'move')
-       include ('modules/move.php');
-    if ($_GET['mod'] == 'rotate')
-        include ('modules/rotate.php');
-    if ($_GET['mod'] == 'shoot')
-        include ('modules/shoot.php');
-    if ($_GET['mod'] == 'repair')
-        include ('modules/repair.php');
-    if ($_GET['mod'] == 'skip')
-        include ('modules/skip.php');
-}
-
-$tpl->setFileName('test');
-$tpl->addData("turn", $_SESSION["Turn"]);
-$tpl->addData("player", $_SESSION["PlayerTurn"]);
-$tpl->addData("vessel", ($_SESSION["PlayerTurn"] == 1) ? $_SESSION["Vessel_P1_get"] : $_SESSION["Vessel_P2_get"]);
-
-
-echo "<h1>" . $tpl->construire() . "</h1>";
-
 if (isset($_SESSION["Vessel_P1"]))
 {
     for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
@@ -63,6 +41,39 @@ if (isset($_SESSION["Vessel_P2"]))
     for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
         $map->place_objet($_SESSION["Vessel_P2"][$i]);
 }
+
+$tpl->setFileName('test');
+$tpl->addData("turn", $_SESSION["Turn"]);
+$tpl->addData("player", $_SESSION["PlayerTurn"]);
+$tpl->addData("vessel", ($_SESSION["PlayerTurn"] == 1) ? $_SESSION["Vessel_P1_get"] : $_SESSION["Vessel_P2_get"]);
+
+
+echo "<h1>" . $tpl->construire() . "</h1>";
+
+$ship = NULL;
+
+if ($_SESSION["PlayerTurn"] == 1)
+    $ship = $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]];
+if ($_SESSION["PlayerTurn"] == 2)
+    $ship = $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]];
+
+print_r("test" . PHP_EOL);
+
+if (isset($_GET['mod']))
+    $mod = $_GET['mod'];
+else
+    $mod = $_GET['mod'];
+
+$file = "";
+
+if (file_exists('modules/' . $mod . '.php'))
+    $file = $mod;
+else
+    $file = "home";
+
+include ("modules/" . $file . ".php");
+
+print_r("test2" . PHP_EOL);
 
 $data = $map->getMap();
 

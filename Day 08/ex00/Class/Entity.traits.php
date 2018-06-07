@@ -20,6 +20,10 @@ trait Entity
     private $actual_shield;
     private $orientation;
     private $img;
+    private $min_manoeuvre;
+    private $manoeuvre;
+    private $has_move = 0;
+    private $puissance_dispo;
 
     public function getWidth(): int
     {
@@ -151,5 +155,60 @@ trait Entity
     public function setImg(string $img)
     {
         $this->img = $img;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMinManoeuvre(): int
+    {
+        return $this->min_manoeuvre;
+    }
+
+    public function setMinManoeuvre(int $min_manoeuvre)
+    {
+        $this->min_manoeuvre = $min_manoeuvre;
+    }
+
+    public function getManoeuvre(): int
+    {
+        return $this->manoeuvre;
+    }
+
+    public function setManoeuvre(int $manoeuvre)
+    {
+        $this->manoeuvre = $manoeuvre;
+    }
+
+    /**
+     * @return int
+     */
+    public function getHasMove(): int
+    {
+        return $this->has_move;
+    }
+
+    /**
+     * @param int $has_move
+     */
+    public function setHasMove(int $has_move)
+    {
+        $this->has_move = $has_move;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPuissanceDispo(): int
+    {
+        return $this->puissance_dispo;
+    }
+
+    /**
+     * @param mixed $puissance_dispo
+     */
+    public function setPuissanceDispo(int $puissance_dispo)
+    {
+        $this->puissance_dispo = $puissance_dispo;
     }
 }

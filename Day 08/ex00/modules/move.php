@@ -5,7 +5,6 @@
  * Date: 6/7/18
  * Time: 3:03 PM
  */
-
 function	collide($ship, $x, $y)
 {
 	global $map;

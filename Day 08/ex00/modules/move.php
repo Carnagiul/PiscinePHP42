@@ -59,6 +59,7 @@ if ($diff_x + $diff_y <= $speed)
 			$y = $a * $x + $b;
 			if (collide($ship, $x, $y) == false)
 			{
+			    $ship->setManoeuvre($ship->getManoeuvre() - 1);
 				$ship->setPosX($x);
 				$ship->setPosY($y);
 			}
@@ -76,7 +77,8 @@ if ($diff_x + $diff_y <= $speed)
 			$x = $a * $y + $b;
 			if (collide($ship, $x, $y) == false)
 			{
-				$ship->setPosX($x);
+                $ship->setManoeuvre($ship->getManoeuvre() - 1);
+                $ship->setPosX($x);
 				$ship->setPosY($y);
 			}
 			else

@@ -9,6 +9,7 @@
 class Ship
 {
     use Entity;
+    private $arms;
 
     public function __construct(int $id)
     {
@@ -86,5 +87,26 @@ class Ship
             $this->setManoeuvre(6);
             $this->setPower(8);
         }
+    }
+
+    public function addArms(Arms $arms)
+    {
+        $this->arms[] = $arms;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getArms()
+    {
+        return $this->arms;
+    }
+
+    /**
+     * @param mixed $arms
+     */
+    public function setArms($arms)
+    {
+        $this->arms = $arms;
     }
 }

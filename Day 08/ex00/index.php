@@ -7,13 +7,73 @@
  */
 
 require_once ('Class/Orientation.class.php');
+require_once ('Class/Arms.class.php');
 require_once ('Class/Entity.traits.php');
 require_once ('Class/Ship.class.php');
 require_once ('Class/Map.class.php');
 require_once ('Class/Tpl.class.php');
 
+function create_arm0()
+{
+    $arm = new Arms();
+    $arm->setName("Laser");
+    $arm->setId(1);
+    $arm->setArmsType(Arms::laser);
+    $arm->setDmgLong(5);
+    $arm->setDmgMedium(7);
+    $arm->setDmgShort(9);
+    $arm->setLongRang(80);
+    $arm->setMediumRange(50);
+    $arm->setShortRange(20);
+    $arm->setNeedSleep(0);
+    $arm->setReloadDuration(0);
+    $arm->setReload(0);
+    return $arm;
+}
+
+function create_arm1()
+{
+    $arm = new Arms();
+    $arm->setName("Missil");
+    $arm->setId(2);
+    $arm->setArmsType(Arms::missil);
+    $arm->setDmgLong(5);
+    $arm->setDmgMedium(7);
+    $arm->setDmgShort(9);
+    $arm->setLongRang(80);
+    $arm->setMediumRange(50);
+    $arm->setShortRange(20);
+    $arm->setNeedSleep(0);
+    $arm->setReloadDuration(0);
+    $arm->setReload(0);
+    return $arm;
+}
+
+function create_arm2()
+{
+    $arm = new Arms();
+    $arm->setName("Laser 2");
+    $arm->setId(3);
+    $arm->setArmsType(Arms::laser);
+    $arm->setDmgLong(5);
+    $arm->setDmgMedium(7);
+    $arm->setDmgShort(9);
+    $arm->setLongRang(80);
+    $arm->setMediumRange(50);
+    $arm->setShortRange(20);
+    $arm->setNeedSleep(0);
+    $arm->setReloadDuration(0);
+    $arm->setReload(0);
+    return $arm;
+}
+
 $map = new Map(150, 100);
+$map2 = new Map(150, 100);
 $tpl = new Tpl();
+
+$laser = create_arm0();
+$laser2 = create_arm2();
+$missil = create_arm1();
 
 session_start();
 
@@ -24,6 +84,16 @@ if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
 {
     $_SESSION["Vessel_P1"] = array(new Ship(1), new Ship(2));
     $_SESSION["Vessel_P2"] = array(new Ship(3), new Ship(4));
+    if (isset($_SESSION["Vessel_P1"]))
+    {
+        for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
+            $_SESSION["Vessel_P1"][$i]->addArms($laser);
+    }
+    if (isset($_SESSION["Vessel_P2"]))
+    {
+        for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
+            $_SESSION["Vessel_P2"][$i]->addArms($missil);
+    }
     $_SESSION["Vessel_P1_get"] = 0;
     $_SESSION["Vessel_P2_get"] = 0;
     $_SESSION['PlayerTurn'] = 1;
@@ -71,7 +141,17 @@ else
 include ("modules/" . $file . ".php");
 
 
-$data = $map->getMap();
+if (isset($_SESSION["Vessel_P1"]))
+{
+    for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
+        $map2->place_objet($_SESSION["Vessel_P1"][$i]);
+}
+if (isset($_SESSION["Vessel_P2"]))
+{
+    for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
+        $map2->place_objet($_SESSION["Vessel_P2"][$i]);
+}
+$data = $map2->getMap();
 
 $real_map = "<table>";
 for ($i = 0; $i < 150; $i++)

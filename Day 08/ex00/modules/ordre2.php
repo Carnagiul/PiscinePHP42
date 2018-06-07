@@ -6,6 +6,9 @@
  * Time: 5:41 PM
  */
 
+if (isset($_POST["action"]) && $_POST["action"] == "move" && isset($_POST["x"]) && isset($_POST["y"]))
+    include ("modules/move.php");
+
 $motor = 0;
 $shield = 0;
 $shoot = 0;
@@ -42,8 +45,20 @@ else
     $tpl->addData("max_y_move", $ship->getPosY() + $ship->getManoeuvre());
     echo $tpl->construire();
     $tpl->setFileName('shoot');
-    $tpl->addData("arms", "-----");
+    $arms = $ship->getArms();
+    $line = "";
+    $tpl->setFileName('shoot_option');
+    foreach ($arms as $arm)
+    {
+        if ($arm instanceof Arms)
+        {
+            $tpl->addData("arm_name", $arm->getName());
+            $tpl->addData("arm_id", $arm->getId());
+            $line .= $tpl->construire();
+        }
+    }
+    $tpl->setFileName('shoot');
+    $tpl->addData("arms", $line);
     echo $tpl->construire();
-    if (isset($_POST["action"]) && $_POST["action"] == "move" && isset($_POST["X"]) && isset($_POST["Y"]))
-        include ("modules/move.php");
 }
+

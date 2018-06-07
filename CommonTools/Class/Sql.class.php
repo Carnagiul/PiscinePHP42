@@ -1,9 +1,9 @@
 <?php
 
 define ('BDD_HOST', 'localhost');
-define ('BDD_NOM', 'test');
-define ('BDD_USER', 'root');
-define ('BDD_PASS', '');
+define ('BDD_NOM', 'rush00');
+define ('BDD_USER', 'rush00');
+define ('BDD_PASS', 'rush00');
 
 class Sql 
 {

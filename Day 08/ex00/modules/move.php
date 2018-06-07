@@ -38,25 +38,23 @@ function	collide($ship, $x, $y)
 	return (false);
 }
 
-if ($_SESSION["PlayerTurn"] == 1)
-    $ship = $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]];
-if ($_SESSION["PlayerTurn"] == 2)
-    $ship = $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]];
 
+if ($ship instanceof Ship)
+    $speed = $ship->getManoeuvre();
+else
+    $speed = 0;
 
-$speed = 100;
-
-$diff_x = abs($ship->getPosX() - $_GET["x"]);
-$diff_y = abs($ship->getPosY() - $_GET["y"]);
+$diff_x = abs($ship->getPosX() - $_POST["x"]);
+$diff_y = abs($ship->getPosY() - $_POST["y"]);
 
 if ($diff_x + $diff_y <= $speed)
 {
 	if (($diff_x < $diff_y || !$diff_y) && $diff_x)
 	{
-		$a = ($_GET["y"] - $ship->getPosY()) / ($_GET["x"] - $ship->getPosX());
+		$a = ($_POST["y"] - $ship->getPosY()) / ($_POST["x"] - $ship->getPosX());
 		$b = $ship->getPosY() - $a * $ship->getPosX();
-		$move = ($_GET["x"] - $ship->getPosX()) / $diff_x;
-		for ($x = $ship->getPosX(); $x != $_GET["x"] + $move; $x += $move)
+		$move = ($_POST["x"] - $ship->getPosX()) / $diff_x;
+		for ($x = $ship->getPosX(); $x != $_POST["x"] + $move; $x += $move)
 		{
 			$y = $a * $x + $b;
 			if (collide($ship, $x, $y) == false)
@@ -70,10 +68,10 @@ if ($diff_x + $diff_y <= $speed)
 	}
 	else if (!$diff_x && $diff_y)
 	{
-		$a = ($_GET["x"] - $ship->getPosX()) / ($_GET["y"] - $ship->getPosY());
+		$a = ($_POST["x"] - $ship->getPosX()) / ($_POST["y"] - $ship->getPosY());
 		$b = $ship->getPosX() - $a * $ship->getPosY();
-		$move = ($_GET["y"] - $ship->getPosY()) / $diff_y;
-		for ($y = $ship->getPosY(); $y != $_GET["y"] + $move; $y += $move)
+		$move = ($_POST["y"] - $ship->getPosY()) / $diff_y;
+		for ($y = $ship->getPosY(); $y != $_POST["y"] + $move; $y += $move)
 		{
 			$x = $a * $y + $b;
 			if (collide($ship, $x, $y) == false)

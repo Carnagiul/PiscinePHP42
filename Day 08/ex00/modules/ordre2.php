@@ -36,11 +36,14 @@ else
     $tpl->setFileName('move');
     $tpl->addData("min_x_move", $ship->getPosX() - $ship->getManoeuvre());
     $tpl->addData("max_x_move", $ship->getPosX() + $ship->getManoeuvre());
+    $tpl->addData("pos_x_move", $ship->getPosX());
+    $tpl->addData("pos_y_move", $ship->getPosY());
     $tpl->addData("min_y_move", $ship->getPosY() - $ship->getManoeuvre());
     $tpl->addData("max_y_move", $ship->getPosY() + $ship->getManoeuvre());
     echo $tpl->construire();
     $tpl->setFileName('shoot');
     $tpl->addData("arms", "-----");
     echo $tpl->construire();
+    if (isset($_POST["action"]) && $_POST["action"] == "move" && isset($_POST["X"]) && isset($_POST["Y"]))
+        include ("modules/move.php");
 }
-

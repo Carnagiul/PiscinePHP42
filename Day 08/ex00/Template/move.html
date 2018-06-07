@@ -1,6 +1,6 @@
 <form method="post" action="index.php?mod=ordre2">
-    X : <input type="number" min="{{min_x_move}}" max="{{max_y_move}}" name="X">
-    Y : <input type="number" min="{{min_y_move}}" max="{{max_y_move}}" name="Y">
+    X : <input type="number" value="{{pos_x_move}}" min="{{min_x_move}}" max="{{max_y_move}}" name="X">
+    Y : <input type="number" value="{{pos_y_move}}" min="{{min_y_move}}" max="{{max_y_move}}" name="Y">
     <input type="text" name="action" value="move" hidden/>
     <input type="submit" name="submit" value="Go"> <br />
 </form>

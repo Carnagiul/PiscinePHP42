@@ -31,15 +31,17 @@ class Map
     {
         if (($ship->getOrientation()->getConst() == Orientation::NORD) || ($ship->getOrientation()->getConst() == Orientation::SUD))
         {
-            for ($x = $ship->getPosX() - ($ship->getWidth() / 2); $x < $ship->getPosX() + ($ship->getWidth() / 2); $x++)
-                for ($y = $ship->getPosY() - ($ship->getHeight() / 2); $y < $ship->getPosY() + ($ship->getHeight() / 2); $y++)
+            for ($x = $ship->getPosX() - intval($ship->getWidth() / 2); $x <= $ship->getPosX() + intval($ship->getWidth() / 2); $x++)
+                for ($y = $ship->getPosY() - intval($ship->getHeight() / 2); $y <= $ship->getPosY() + intval($ship->getHeight() / 2); $y++)
+                {
                     $this->map[$x][$y] = $ship->getId();
+                }
         }
         if (($ship->getOrientation()->getConst() == Orientation::EST) || ($ship->getOrientation()->getConst() == Orientation::OUEST))
         {
             for ($x = $ship->getPosX() - ($ship->getHeight() / 2); $x < $ship->getPosX() + ($ship->getHeight() / 2); $x++)
                 for ($y = $ship->getPosY() - ($ship->getWidth() / 2); $y < $ship->getPosY() + ($ship->getWidth() / 2); $y++)
-                    $this->map[$x][$y] = $ship->getId();
+                    $this->map[intval($x)][intval($y)] = $ship->getId();
         }
     }
 

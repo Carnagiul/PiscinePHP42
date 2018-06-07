@@ -1,5 +1,5 @@
 <?php
-$ship = NULL;
+
 if ($_SESSION["PlayerTurn"] == 2)
 {
     if ($ship instanceof Ship)

@@ -22,7 +22,6 @@ if (isset($_GET['reset']) && $_GET['reset'] == "ouijereset")
 
 if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
 {
-    echo "<pre>GRRRRR</pre>";
     $_SESSION["Vessel_P1"] = array(new Ship(1), new Ship(2));
     $_SESSION["Vessel_P2"] = array(new Ship(3), new Ship(4));
     $_SESSION["Vessel_P1_get"] = 0;
@@ -57,8 +56,6 @@ if ($_SESSION["PlayerTurn"] == 1)
 if ($_SESSION["PlayerTurn"] == 2)
     $ship = $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]];
 
-print_r("test" . PHP_EOL);
-
 if (isset($_GET['mod']))
     $mod = $_GET['mod'];
 else
@@ -73,7 +70,6 @@ else
 
 include ("modules/" . $file . ".php");
 
-print_r("test2" . PHP_EOL);
 
 $data = $map->getMap();
 

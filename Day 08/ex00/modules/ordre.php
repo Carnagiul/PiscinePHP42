@@ -6,15 +6,14 @@
  * Time: 3:59 PM
  */
 
-echo "test3" . PHP_EOL;
-if ($ship != NULL)
+if ($ship != NULL && $ship instanceof Ship)
 {
-    $tpl->tpl_setpage('ordre');
-    echo "test 4" . PHP_EOL;
-    $tpl->tpl_add_data("moved", ($ship->getHasMove() != 0) ? "hidden" : "");
-    echo "test 5" . PHP_EOL;
-    $tpl->tpl_add_data("PP_MAX", $ship->getPuissanceDispo());
-    echo "test 6" . PHP_EOL;
-    echo $tpl->tpl_construire();
-    echo "test 7" . PHP_EOL;
+    echo "test 0 ". PHP_EOL;
+    $tpl->setFileName('ordre');
+    echo "test 1 ". PHP_EOL;
+    $tpl->addData("moved", ($ship->getHasMove() != 0) ? "hidden" : "");
+    echo "test 2 ". PHP_EOL;
+    $tpl->addData("PP_Total", $ship->getPuissanceDispo());
+    echo "test 3 ". PHP_EOL;
+    echo $tpl->construire();
 }

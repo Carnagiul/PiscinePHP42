@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Tpl.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Tpl.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/ordre.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/ordre.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/index.php" afterPath="$PROJECT_DIR$/Day 08/ex00/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/ordre.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/ordre.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +22,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <marker date="1528388398000" expanded="true" signature="1782:1784" ph="..." />
+                <marker date="1528391448000" expanded="true" signature="1789:1791" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ship.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +34,8 @@
       <file leaf-file-name="Entity.traits.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
-              <caret line="201" column="20" lean-forward="false" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
+            <state relative-caret-position="630">
+              <caret line="226" column="38" lean-forward="false" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -59,6 +51,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ordre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <marker date="1528391516000" expanded="true" signature="240:244" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="blank.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/blank.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +73,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ordre.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre.php">
+      <file leaf-file-name="ordre2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/shoot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/move.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -83,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/ordre.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="52" />
+              <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -112,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Rush 00/template/menu/menu_admin.html" />
-        <option value="$PROJECT_DIR$/Rush 00/template/admin/edit_merch.html" />
         <option value="$PROJECT_DIR$/Rush 00/modules/admin_merch_edit.php" />
         <option value="$PROJECT_DIR$/Rush 00/rush00.sql" />
         <option value="$PROJECT_DIR$/Rush 00/NoClass/SqlRoot.php" />
@@ -150,19 +182,21 @@
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Turn.class.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Template/test.html" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/Template/ordre.html" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/modules/move.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/repair.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/rotate.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/index.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Template/blank.html" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Tpl.class.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Template/ordre.html" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/index.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/ordre.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Template/shoot.html" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Template/move.html" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/modules/move.php" />
       </list>
     </option>
   </component>
@@ -321,12 +355,12 @@
       <workItem from="1528310301839" duration="4069000" />
       <workItem from="1528361794748" duration="2368000" />
       <workItem from="1528372078300" duration="7081000" />
-      <workItem from="1528383818455" duration="3182000" />
+      <workItem from="1528383818455" duration="5945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144336000" />
+    <option name="totallyTimeSpent" value="147099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1329" extended-state="6" />
@@ -385,34 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CommonTools/Class/User.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527487966000" expanded="true" signature="763:839" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="913:999" ph="DELETE FROM " />
-            <marker date="1527487966000" expanded="true" signature="1265:1341" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="2004:2080" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="2609:2699" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="2836:2908" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="3045:3117" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="3953:4249" ph="INSERT INTO `${$this-&gt;bdd_table_name}`... " />
-            <marker date="1527487966000" expanded="true" signature="4372:4448" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="4997:5069" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="5128:5200" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-            <marker date="1527487966000" expanded="true" signature="5732:5808" ph="SELECT * FRO... ${$this-&gt;bdd_table_name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rush 00/modules/invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rush 00/template/log/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -561,6 +567,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="116" column="32" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/rotate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -724,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/repair.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -748,18 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="201" column="20" lean-forward="false" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -772,36 +755,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/blank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <marker date="1528388398000" expanded="true" signature="1782:1784" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/ordre.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="52" />
+          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="226" column="38" lean-forward="false" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <marker date="1528391448000" expanded="true" signature="1789:1791" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <marker date="1528391516000" expanded="true" signature="240:244" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/move.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/shoot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

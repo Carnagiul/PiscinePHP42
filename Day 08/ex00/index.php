@@ -18,7 +18,7 @@ $tpl = new Tpl();
 session_start();
 
 if (isset($_GET['reset']) && $_GET['reset'] == "ouijereset")
-    $_SESSION["Turn"];
+    unset($_SESSION["Turn"]);
 
 if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
 {

@@ -28,7 +28,7 @@ class Ship
             $this->setPosY(4);
             $this->setMinManoeuvre(10);
             $this->setManoeuvre(10);
-            $this->setPuissanceDispo(6);
+            $this->setPower(6);
         }
         if ($id == 2)
         {
@@ -46,7 +46,7 @@ class Ship
             $this->setPosY(10);
             $this->setMinManoeuvre(6);
             $this->setManoeuvre(6);
-            $this->setPuissanceDispo(6);
+            $this->setPower(5);
 
         }
         if ($id == 3)
@@ -65,7 +65,7 @@ class Ship
             $this->setPosY(90);
             $this->setMinManoeuvre(10);
             $this->setManoeuvre(10);
-            $this->setPuissanceDispo(6);
+            $this->setPower(7);
 
         }
         if ($id == 4)
@@ -84,8 +84,7 @@ class Ship
             $this->setPosY(85);
             $this->setMinManoeuvre(6);
             $this->setManoeuvre(6);
-            $this->setPuissanceDispo(6);
-
+            $this->setPower(8);
         }
     }
 }

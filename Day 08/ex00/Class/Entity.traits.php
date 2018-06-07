@@ -23,7 +23,8 @@ trait Entity
     private $min_manoeuvre;
     private $manoeuvre;
     private $has_move = 0;
-    private $puissance_dispo;
+    private $power;
+    private $bonus_shoot;
 
     public function getWidth(): int
     {
@@ -197,18 +198,34 @@ trait Entity
     }
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getPuissanceDispo(): int
+    public function getPower()
     {
-        return $this->puissance_dispo;
+        return $this->power;
     }
 
     /**
-     * @param mixed $puissance_dispo
+     * @param int $power
      */
-    public function setPuissanceDispo(int $puissance_dispo)
+    public function setPower(int $power)
     {
-        $this->puissance_dispo = $puissance_dispo;
+        $this->power = $power;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBonusShoot(): int
+    {
+        return $this->bonus_shoot;
+    }
+
+    /**
+     * @param mixed $bonus_shoot
+     */
+    public function setBonusShoot(int $bonus_shoot)
+    {
+        $this->bonus_shoot = $bonus_shoot;
     }
 }

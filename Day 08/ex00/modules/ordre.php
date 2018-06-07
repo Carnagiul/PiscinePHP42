@@ -6,4 +6,10 @@
  * Time: 3:59 PM
  */
 
-tpl_setpage('ordre');
+if ($ship != NULL && $ship instanceof Ship)
+{
+    $tpl->setFileName('ordre');
+    $tpl->addData("moved", ($ship->getHasMove() != 0) ? "hidden" : "");
+    $tpl->addData("PPTotal", ($ship->getPower() != 0) ? strval($ship->getPower()) : "0");
+    echo $tpl->construire();
+}

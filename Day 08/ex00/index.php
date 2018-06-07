@@ -18,11 +18,10 @@ $tpl = new Tpl();
 session_start();
 
 if (isset($_GET['reset']) && $_GET['reset'] == "ouijereset")
-    $_SESSION["Turn"];
+    unset($_SESSION["Turn"]);
 
 if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
 {
-    echo "<pre>GRRRRR</pre>";
     $_SESSION["Vessel_P1"] = array(new Ship(1), new Ship(2));
     $_SESSION["Vessel_P2"] = array(new Ship(3), new Ship(4));
     $_SESSION["Vessel_P1_get"] = 0;
@@ -30,28 +29,6 @@ if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
     $_SESSION['PlayerTurn'] = 1;
     $_SESSION['Turn'] = 1;
 }
-
-if (isset($_GET['mod']))
-{
-    if ($_GET['mod'] == 'move')
-       include ('modules/move.php');
-    if ($_GET['mod'] == 'rotate')
-        include ('modules/rotate.php');
-    if ($_GET['mod'] == 'shoot')
-        include ('modules/shoot.php');
-    if ($_GET['mod'] == 'repair')
-        include ('modules/repair.php');
-    if ($_GET['mod'] == 'skip')
-        include ('modules/skip.php');
-}
-
-$tpl->setFileName('test');
-$tpl->addData("turn", $_SESSION["Turn"]);
-$tpl->addData("player", $_SESSION["PlayerTurn"]);
-$tpl->addData("vessel", ($_SESSION["PlayerTurn"] == 1) ? $_SESSION["Vessel_P1_get"] : $_SESSION["Vessel_P2_get"]);
-
-
-echo "<h1>" . $tpl->construire() . "</h1>";
 
 if (isset($_SESSION["Vessel_P1"]))
 {
@@ -63,6 +40,36 @@ if (isset($_SESSION["Vessel_P2"]))
     for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
         $map->place_objet($_SESSION["Vessel_P2"][$i]);
 }
+
+$tpl->setFileName('test');
+$tpl->addData("turn", $_SESSION["Turn"]);
+$tpl->addData("player", $_SESSION["PlayerTurn"]);
+$tpl->addData("vessel", ($_SESSION["PlayerTurn"] == 1) ? $_SESSION["Vessel_P1_get"] : $_SESSION["Vessel_P2_get"]);
+
+
+echo "<h1>" . $tpl->construire() . "</h1>";
+
+$ship = NULL;
+
+if ($_SESSION["PlayerTurn"] == 1)
+    $ship = $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]];
+if ($_SESSION["PlayerTurn"] == 2)
+    $ship = $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]];
+
+if (isset($_GET['mod']))
+    $mod = $_GET['mod'];
+else
+    $mod = $_GET['mod'];
+
+$file = "";
+
+if (file_exists('modules/' . $mod . '.php'))
+    $file = $mod;
+else
+    $file = "home";
+
+include ("modules/" . $file . ".php");
+
 
 $data = $map->getMap();
 

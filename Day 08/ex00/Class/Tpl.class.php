@@ -17,19 +17,19 @@ class Tpl
 		return ;
 	}
 
-	public function setFileName($filename)
+	public function setFileName(String $filename)
 	{
 		if (file_exists('Template/' . $filename . '.html'))
 			$this->setFile($filename);
 	}
 
-	public function addData($field, $value)
+	public function addData(String $field, String $value)
 	{
 		if (isset($field))
 			$this->data[$field] = $value;
 	}
 
-	public function getData($field)
+	public function getData(String $field): String
 	{
 		if (isset($field))
 		{
@@ -41,17 +41,17 @@ class Tpl
 		return (NULL);
 	}
 
-	private function setFile($file)
+	private function setFile(String $file)
 	{
 		$this->filename = $file;
 	}
 
-	public function getFile()
+	public function getFile(): String
 	{
 		return ($this->filename);
 	}
 
-	public function construire()
+	public function construire(): String
 	{
 		if ($this->getFile() != NULL)
 			$content = file_get_contents('Template/' . $this->getFile() . '.html');
@@ -67,12 +67,12 @@ class Tpl
 		$this->verbose = ($this->verbose) ? false : true;
 	}
 
-	public function getVerbrose()
+	public function getVerbrose(): bool
 	{
 		return ($this->verbose);
 	}
 
-    public function doc()
+    public function doc(): String
     {
     	return (file_get_contents('docs/Tpl.doc.txt'));
     }

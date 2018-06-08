@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Arms.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Arms.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Game.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Game.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Orientation.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Orientation.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/index.php" afterPath="$PROJECT_DIR$/Day 08/ex00/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +27,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
                 <marker date="1528487475000" expanded="true" signature="1004:1023" ph="DELETE FROM " />
@@ -421,12 +414,12 @@
       <workItem from="1528372078300" duration="7081000" />
       <workItem from="1528383818455" duration="7781000" />
       <workItem from="1528401304210" duration="3248000" />
-      <workItem from="1528458409153" duration="22071000" />
+      <workItem from="1528458409153" duration="22212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174254000" />
+    <option name="totallyTimeSpent" value="174395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1392" height="1329" extended-state="0" />
@@ -875,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
             <marker date="1528487475000" expanded="true" signature="1004:1023" ph="DELETE FROM " />

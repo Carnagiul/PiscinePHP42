@@ -19,6 +19,28 @@ class Ship
         $this->init_from_sql($id);
     }
 
+    public function update_shoot_chance(int $chance)
+    {
+        global $sql;
+
+        $sql->Update("UPDATE `fight` SET `vessel_chance` = '".$chance."' WHERE `fight`.`id` = '".$this->getVesselId()."';");
+
+    }
+
+    public function updateHealth(int $health)
+    {
+        global $sql;
+
+        $sql->Update("UPDATE `fight` SET `vessel_health` = '".$health."' WHERE `fight`.`id` = '".$this->getVesselId()."';");
+    }
+
+    public function updateShield(int $health)
+    {
+        global $sql;
+
+        $sql->Update("UPDATE `fight` SET `vessel_shield` = '".$health."' WHERE `fight`.`id` = '".$this->getVesselId()."';");
+    }
+
     public function updateOrder()
     {
         global $sql;
@@ -46,7 +68,7 @@ class Ship
     {
         global $sql;
 
-        $sql->Update("INSERT INTO `fight` (`id`, `vessel_id`, `vessel_health`, `vessel_shield`, `vessel_turn`, `vessel_posx`, `vessel_posy`, `vessel_power`, `vessel_shoot`, `vessel_owner`, `vessel_played`, `vessel_move`, `game_id`) VALUES (NULL, '" . $this->getId() . "', '" . $this->getMaxHealth() . "', '" . $this->getMaxSheild() . "', '0', '$x', '$y', '1', '1', '$player', '1', '" . $this->getMinManoeuvre() . "', '$game_id');");
+        $sql->Update("INSERT INTO `fight` (`id`, `vessel_id`, `vessel_health`, `vessel_shield`, `vessel_turn`, `vessel_posx`, `vessel_posy`, `vessel_power`, `vessel_shoot`, `vessel_owner`, `vessel_played`, `vessel_move`, `vessel_chance`, `game_id`) VALUES (NULL, '" . $this->getId() . "', '" . $this->getMaxHealth() . "', '" . $this->getMaxSheild() . "', '0', '$x', '$y', '1', '1', '$player', '1', '" . $this->getMinManoeuvre() . "', '0', '$game_id');");
     }
 
     public function updateMove(int $move)
@@ -76,6 +98,7 @@ class Ship
         $this->setCanShoot($data['vessel_shoot']);
         $this->setCanOrder($data['vessel_power']);
         $this->setManoeuvre($data['vessel_move']);
+        $this->setBonusShoot($data['vessel_chance']);
         $this->setVesselId($id);
     }
 

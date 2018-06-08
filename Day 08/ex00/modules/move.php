@@ -21,7 +21,7 @@ function	collide($ship, $x, $y)
                     ($y + $j - intval($ship->getHeight() / 2)) >= 100)
                     return (true);
 				$c = $map->getMap()[($x + $i - intval($ship->getWidth() / 2))][($y + $j - intval($ship->getHeight() / 2))];
-				if ($c != 0 && $c != $ship->getId())
+				if ($c != 0 && $c != (($ship->getVesselId() % 4) + 1))
 					return (true);
 			}
 	}
@@ -37,7 +37,7 @@ function	collide($ship, $x, $y)
                     ($y + $j - intval($ship->getHeight() / 2)) >= 100)
                     return (true);
 				$c = $map->getMap()[($x + $i - intval($ship->getHeight() / 2))][($y + $j - intval($ship->getWidth() / 2))];
-				if ($c != 0 && $c != $ship->getId())
+				if ($c != 0 && $c != (($ship->getVesselId() % 4) + 1))
 					return (true);
 			}
 	}
@@ -57,6 +57,7 @@ if ($diff_x + $diff_y <= $speed)
 {
 	if (($diff_x < $diff_y || !$diff_y) && $diff_x)
 	{
+
 		$a = ($_POST["y"] - $ship->getPosY()) / ($_POST["x"] - $ship->getPosX());
 		$b = $ship->getPosY() - $a * $ship->getPosX();
 		$move = ($_POST["x"] - $ship->getPosX()) / $diff_x;
@@ -94,5 +95,4 @@ if ($diff_x + $diff_y <= $speed)
 	$ship->updateTurnId($game->getTurn() + 1);
 	$ship->updateMove($ship->getManoeuvre());
     $ship->updatePos($ship->getPosX(), $ship->getPosY());
-
 }

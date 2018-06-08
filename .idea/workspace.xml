@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3802b5b9-50f5-4c74-b470-5bde63ab9120" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/blank.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/blank.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/move.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/move.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/ordre.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/ordre.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/shoot.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/shoot.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/shoot_option.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/shoot_option.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/test.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Arms.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Arms.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Class/Tpl.class.php" afterPath="$PROJECT_DIR$/Day 08/ex00/Class/Tpl.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/Template/default/move.html" afterPath="$PROJECT_DIR$/Day 08/ex00/Template/default/move.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/index.php" afterPath="$PROJECT_DIR$/Day 08/ex00/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/move.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/move.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/ordre.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/ordre.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" afterPath="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,138 +32,19 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1528484941000" expanded="true" signature="872:891" ph="DELETE FROM " />
-                <marker date="1528484941000" expanded="true" signature="913:931" ph="DELETE FROM " />
-                <marker date="1528484941000" expanded="true" signature="1153:1361" ph="INSERT INTO `game`... " />
-                <marker date="1528484941000" expanded="true" signature="1694:1836" ph="SELECT * FRO... fight" />
-                <marker date="1528484941000" expanded="true" signature="1964:2106" ph="SELECT * FRO... fight" />
-                <marker date="1528484941000" expanded="true" signature="2475:2493" ph="SELECT * FRO... fight" />
-                <marker date="1528484941000" expanded="true" signature="2700:2701" ph="..." />
-                <marker date="1528484941000" expanded="true" signature="3109:3177" ph="..." />
-                <marker date="1528484941000" expanded="true" signature="3231:3237" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Game.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1664">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <marker date="1528482355000" expanded="true" signature="370:407" ph="SELECT * FRO... game" />
-                <marker date="1528482355000" expanded="true" signature="761:800" ph="SELECT * FRO... fight" />
-                <marker date="1528482355000" expanded="true" signature="761:823" ph="SELECT * FRO... fight" />
-                <marker date="1528482355000" expanded="true" signature="761:845" ph="SELECT * FRO... fight" />
-                <marker date="1528482355000" expanded="true" signature="761:847" ph="SELECT * FRO... fight" />
-                <marker date="1528482355000" expanded="true" signature="918:952" ph="UPDATE `figh... " />
-                <marker date="1528482355000" expanded="true" signature="918:972" ph="UPDATE `figh... " />
-                <marker date="1528482355000" expanded="true" signature="918:991" ph="UPDATE `figh... " />
-                <marker date="1528482355000" expanded="true" signature="1078:1152" ph="UPDATE `game... " />
-                <marker date="1528482355000" expanded="true" signature="1078:1171" ph="UPDATE `game... " />
-                <marker date="1528482355000" expanded="true" signature="1198:1287" ph="UPDATE `game... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skip.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/skip.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="164" lean-forward="false" selection-start-line="9" selection-start-column="164" selection-end-line="9" selection-end-column="164" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoot.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/shoot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ship.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-              <folding>
-                <marker date="1528481710000" expanded="true" signature="383:420" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="383:467" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="383:493" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="597:660" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="597:685" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="780:842" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="780:871" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="898:990" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="1017:1109" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="1247:1472" ph="INSERT INTO `fight`... " />
-                <marker date="1528481710000" expanded="true" signature="1247:1498" ph="INSERT INTO `fight`... " />
-                <marker date="1528481710000" expanded="true" signature="1247:1607" ph="INSERT INTO `fight`... " />
-                <marker date="1528481710000" expanded="true" signature="1247:1653" ph="INSERT INTO `fight`... " />
-                <marker date="1528481710000" expanded="true" signature="1757:1851" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="1959:2019" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="1959:2021" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="1959:2050" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="2077:2168" ph="UPDATE `figh... " />
-                <marker date="1528481710000" expanded="true" signature="2281:2314" ph="SELECT * FRO... fight" />
-                <marker date="1528481710000" expanded="true" signature="2281:2315" ph="SELECT * FRO... fight" />
-                <marker date="1528481710000" expanded="true" signature="2819:2854" ph="SELECT * FRO... vessel" />
-                <marker date="1528481710000" expanded="true" signature="2819:2866" ph="SELECT * FRO... vessel" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ordre2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ordre.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding>
-                <marker date="1528464920000" expanded="true" signature="240:244" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="34" column="139" lean-forward="false" selection-start-line="34" selection-start-column="139" selection-end-line="34" selection-end-column="139" />
-              <folding>
-                <marker date="1528484221000" expanded="true" signature="2188:2236" ph="SELECT * FRO... fight" />
+                <marker date="1528484995000" expanded="true" signature="873:892" ph="DELETE FROM " />
+                <marker date="1528484995000" expanded="true" signature="914:932" ph="DELETE FROM " />
+                <marker date="1528484995000" expanded="true" signature="1154:1362" ph="INSERT INTO `game`... " />
+                <marker date="1528484995000" expanded="true" signature="1695:1837" ph="SELECT * FRO... fight" />
+                <marker date="1528484995000" expanded="true" signature="1965:2107" ph="SELECT * FRO... fight" />
+                <marker date="1528484995000" expanded="true" signature="2476:2494" ph="SELECT * FRO... fight" />
+                <marker date="1528484995000" expanded="true" signature="2701:2702" ph="..." />
+                <marker date="1528484995000" expanded="true" signature="3110:3178" ph="..." />
+                <marker date="1528484995000" expanded="true" signature="3232:3238" ph=" " />
               </folding>
             </state>
           </provider>
@@ -183,8 +53,96 @@
       <file leaf-file-name="move.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+            <state relative-caret-position="134">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ship.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="70" column="439" lean-forward="false" selection-start-line="70" selection-start-column="439" selection-end-line="70" selection-end-column="439" />
+              <folding>
+                <marker date="1528485517000" expanded="true" signature="402:500" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="609:707" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="815:913" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1009:1046" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1009:1093" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1009:1119" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1223:1286" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1223:1311" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1406:1468" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1406:1497" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1524:1616" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1643:1735" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="1873:2115" ph="INSERT INTO `fight`... " />
+                <marker date="1528485517000" expanded="true" signature="1873:2141" ph="INSERT INTO `fight`... " />
+                <marker date="1528485517000" expanded="true" signature="1873:2250" ph="INSERT INTO `fight`... " />
+                <marker date="1528485517000" expanded="true" signature="1873:2301" ph="INSERT INTO `fight`... " />
+                <marker date="1528485517000" expanded="true" signature="2405:2499" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="2607:2667" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="2607:2669" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="2607:2698" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="2725:2816" ph="UPDATE `figh... " />
+                <marker date="1528485517000" expanded="true" signature="2929:2962" ph="SELECT * FRO... fight" />
+                <marker date="1528485517000" expanded="true" signature="2929:2963" ph="SELECT * FRO... fight" />
+                <marker date="1528485517000" expanded="true" signature="3521:3556" ph="SELECT * FRO... vessel" />
+                <marker date="1528485517000" expanded="true" signature="3521:3568" ph="SELECT * FRO... vessel" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skip.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/skip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1528485450000" expanded="true" signature="198:340" ph="SELECT * FRO... fight" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.traits.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2595">
+              <caret line="178" column="7" lean-forward="false" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoot.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/shoot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="72" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ordre2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/default/move.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="85" lean-forward="false" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -213,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day 06/ex01/Vertex.Class.php" />
         <option value="$PROJECT_DIR$/Day 06/ex00/Color.class.php" />
         <option value="$PROJECT_DIR$/Day 06/ex02/Vector.class.php" />
         <option value="$PROJECT_DIR$/Day 06/ex02/Vector.doc.html" />
@@ -256,14 +213,15 @@
         <option value="$PROJECT_DIR$/Day 08/ex00/Template/default/header.html" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Template/default/shoot.html" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Game.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/modules/move.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Game.class.php" />
-        <option value="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/modules/shoot.php" />
         <option value="$PROJECT_DIR$/Day 08/ex00/index.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/modules/skip.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/modules/move.php" />
+        <option value="$PROJECT_DIR$/Day 08/ex00/Template/default/move.html" />
       </list>
     </option>
   </component>
@@ -343,6 +301,21 @@
               <item name="ex00" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 08" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex00" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PiscinePHP42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiscinePHP42" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day 08" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex00" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -418,12 +391,12 @@
       <workItem from="1528372078300" duration="7081000" />
       <workItem from="1528383818455" duration="7781000" />
       <workItem from="1528401304210" duration="3248000" />
-      <workItem from="1528458409153" duration="19555000" />
+      <workItem from="1528458409153" duration="20336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171738000" />
+    <option name="totallyTimeSpent" value="172519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1392" height="1329" extended-state="0" />
@@ -640,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="173" column="20" lean-forward="false" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/rotate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -668,14 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/default/move.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -785,30 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/skip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="164" lean-forward="false" selection-start-line="9" selection-start-column="164" selection-end-line="9" selection-end-column="164" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Map.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -819,60 +752,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/shoot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="337">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="72" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Entity.traits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="178" column="7" lean-forward="false" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/skip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <marker date="1528481710000" expanded="true" signature="383:420" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="383:467" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="383:493" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="597:660" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="597:685" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="780:842" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="780:871" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="898:990" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="1017:1109" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="1247:1472" ph="INSERT INTO `fight`... " />
-            <marker date="1528481710000" expanded="true" signature="1247:1498" ph="INSERT INTO `fight`... " />
-            <marker date="1528481710000" expanded="true" signature="1247:1607" ph="INSERT INTO `fight`... " />
-            <marker date="1528481710000" expanded="true" signature="1247:1653" ph="INSERT INTO `fight`... " />
-            <marker date="1528481710000" expanded="true" signature="1757:1851" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="1959:2019" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="1959:2021" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="1959:2050" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="2077:2168" ph="UPDATE `figh... " />
-            <marker date="1528481710000" expanded="true" signature="2281:2314" ph="SELECT * FRO... fight" />
-            <marker date="1528481710000" expanded="true" signature="2281:2315" ph="SELECT * FRO... fight" />
-            <marker date="1528481710000" expanded="true" signature="2819:2854" ph="SELECT * FRO... vessel" />
-            <marker date="1528481710000" expanded="true" signature="2819:2866" ph="SELECT * FRO... vessel" />
+            <marker date="1528485450000" expanded="true" signature="198:340" ph="SELECT * FRO... fight" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/shoot.php">
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Class/Ship.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        <state relative-caret-position="281">
+          <caret line="70" column="439" lean-forward="false" selection-start-line="70" selection-start-column="439" selection-end-line="70" selection-end-column="439" />
+          <folding>
+            <marker date="1528485517000" expanded="true" signature="402:500" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="609:707" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="815:913" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1009:1046" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1009:1093" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1009:1119" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1223:1286" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1223:1311" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1406:1468" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1406:1497" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1524:1616" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1643:1735" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="1873:2115" ph="INSERT INTO `fight`... " />
+            <marker date="1528485517000" expanded="true" signature="1873:2141" ph="INSERT INTO `fight`... " />
+            <marker date="1528485517000" expanded="true" signature="1873:2250" ph="INSERT INTO `fight`... " />
+            <marker date="1528485517000" expanded="true" signature="1873:2301" ph="INSERT INTO `fight`... " />
+            <marker date="1528485517000" expanded="true" signature="2405:2499" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="2607:2667" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="2607:2669" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="2607:2698" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="2725:2816" ph="UPDATE `figh... " />
+            <marker date="1528485517000" expanded="true" signature="2929:2962" ph="SELECT * FRO... fight" />
+            <marker date="1528485517000" expanded="true" signature="2929:2963" ph="SELECT * FRO... fight" />
+            <marker date="1528485517000" expanded="true" signature="3521:3556" ph="SELECT * FRO... vessel" />
+            <marker date="1528485517000" expanded="true" signature="3521:3568" ph="SELECT * FRO... vessel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/move.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/modules/ordre2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 08/ex00/Template/default/move.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="85" lean-forward="false" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 08/ex00/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1528484941000" expanded="true" signature="872:891" ph="DELETE FROM " />
-            <marker date="1528484941000" expanded="true" signature="913:931" ph="DELETE FROM " />
-            <marker date="1528484941000" expanded="true" signature="1153:1361" ph="INSERT INTO `game`... " />
-            <marker date="1528484941000" expanded="true" signature="1694:1836" ph="SELECT * FRO... fight" />
-            <marker date="1528484941000" expanded="true" signature="1964:2106" ph="SELECT * FRO... fight" />
-            <marker date="1528484941000" expanded="true" signature="2475:2493" ph="SELECT * FRO... fight" />
-            <marker date="1528484941000" expanded="true" signature="2700:2701" ph="..." />
-            <marker date="1528484941000" expanded="true" signature="3109:3177" ph="..." />
-            <marker date="1528484941000" expanded="true" signature="3231:3237" ph=" " />
+            <marker date="1528484995000" expanded="true" signature="873:892" ph="DELETE FROM " />
+            <marker date="1528484995000" expanded="true" signature="914:932" ph="DELETE FROM " />
+            <marker date="1528484995000" expanded="true" signature="1154:1362" ph="INSERT INTO `game`... " />
+            <marker date="1528484995000" expanded="true" signature="1695:1837" ph="SELECT * FRO... fight" />
+            <marker date="1528484995000" expanded="true" signature="1965:2107" ph="SELECT * FRO... fight" />
+            <marker date="1528484995000" expanded="true" signature="2476:2494" ph="SELECT * FRO... fight" />
+            <marker date="1528484995000" expanded="true" signature="2701:2702" ph="..." />
+            <marker date="1528484995000" expanded="true" signature="3110:3178" ph="..." />
+            <marker date="1528484995000" expanded="true" signature="3232:3238" ph=" " />
           </folding>
         </state>
       </provider>

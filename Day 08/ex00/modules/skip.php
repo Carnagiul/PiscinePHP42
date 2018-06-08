@@ -1,5 +1,5 @@
 <?php
-
+$ship->update_shoot_chance(0);
 $ship->updateMove($ship->getMinManoeuvre());
 $ship->updateTurn();
 $game->endMyTurn();

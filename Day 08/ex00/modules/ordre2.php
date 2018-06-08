@@ -47,6 +47,10 @@ else {
         $ship->setBonusShoot($shoot);
         $ship->setCanOrder(0);
         $ship->updateOrder();
+        $ship->updateMove($ship->getManoeuvre());
+        $ship->updateHealth($ship->getActualHealth());
+        $ship->updateShield($ship->getActualShield());
+        $ship->update_shoot_chance($shoot);
     }
     $tpl->setFileName('move');
     $tpl->addData("min_x_move", $ship->getPosX() - $ship->getManoeuvre());

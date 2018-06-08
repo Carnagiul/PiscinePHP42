@@ -15,7 +15,7 @@ require_once ('Class/Ship.class.php');
 require_once ('Class/Map.class.php');
 require_once ('Class/Tpl.class.php');
 
-$debug = true;
+$debug = false;
 
 $sql = new Sql();
 $sql->connect();

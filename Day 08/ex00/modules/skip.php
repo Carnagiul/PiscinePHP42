@@ -1,30 +1,22 @@
 <?php
 
-if ($_SESSION["PlayerTurn"] == 2)
-{
-    if ($ship instanceof Ship)
-        $ship->setManoeuvre($ship->getMinManoeuvre());
-    $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]] = $ship;
-    $_SESSION["Vessel_P2_get"] = $_SESSION["Vessel_P2_get"] + 1;
-    $_SESSION["PlayerTurn"] = $_SESSION["PlayerTurn"] + 1;
-    if ($_SESSION["Vessel_P2_get"] >= count($_SESSION["Vessel_P2"]))
-    {
-        $_SESSION["Vessel_P2_get"] = 0;
-        $_SESSION["Turn"]++;
-    }
+$ship->updateMove($ship->getMinManoeuvre());
+$ship->updateTurn();
+$game->endMyTurn();
 
-}
-if ($_SESSION["PlayerTurn"] == 1)
+$ship_data = NULL;
+while (!($ship_data))
 {
-    if ($ship instanceof Ship)
-        $ship->setManoeuvre($ship->getMinManoeuvre());
-    $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]] = $ship;
-    $_SESSION["Vessel_P1_get"] = $_SESSION["Vessel_P1_get"] + 1;
-    $_SESSION["PlayerTurn"] = $_SESSION["PlayerTurn"] + 1;
-    if ($_SESSION["Vessel_P1_get"] >= count($_SESSION["Vessel_P1"]))
-        $_SESSION["Vessel_P1_get"] = 0;
+    $ship_data = $sql->select("SELECT * FROM `fight` WHERE `game_id`='" . $game->getId() . "' AND `vessel_owner`='" . $game->getPlayer() . "' AND `vessel_played`='1' LIMIT 1");
+    if (!($ship_data))
+        $game->endMyTurn();
+    $count_row++;
+    if ($count_row >= $game->getMaxPlayer())
+        die("Fin de la partie, Try again soon");
 }
 
+if ($debug)
+    echo "<pre>Ship get on db</pre><br />";
 
-if ($_SESSION["PlayerTurn"] >= 3 || $_SESSION["PlayerTurn"] <= 0)
-    $_SESSION["PlayerTurn"] = 1;
+$ship = new Ship($ship_data['vessel_id']);
+$ship->load_from_sql($ship_data['id']);

@@ -21,6 +21,7 @@ class Arms
     private $arms_type;
     private $need_sleep;
     private $shoot_type;
+    private $radius;
 
     const   laser = 1;
     const   missil = 2;
@@ -32,9 +33,31 @@ class Arms
     const   south = 3;
     const   west = 4;
 
+    public function __construct(int $id)
+    {
+        $this->init_from_sql($id);
+    }
+
     public function init_from_sql(int $id)
     {
-        //TODO sql init
+        global $sql;
+
+        $data = $sql->select("SELECT * FROM `arms` WHERE `id`='" . $id . "'");
+        if (isset($data))
+        {
+            $this->setName($data['name']);
+            $this->setId($id);
+            $this->setShortRange($data['short_range']);
+            $this->setMediumRange($data['medium_range']);
+            $this->setLongRang($data['large_range']);
+            $this->setDmgShort($data['short_dmg']);
+            $this->setDmgMedium($data['medium_dmg']);
+            $this->setDmgLong($data['long_dmg']);
+            $this->setReloadDuration($data['reload_duration']);
+            $this->setArmsType($data['type']);
+            $this->setNeedSleep($data['sleeper']);
+            $this->setRadius($data['radius']);
+        }
     }
 
     public function getNeedSleep(): bool
@@ -233,6 +256,22 @@ class Arms
     {
         if ($shoot_type >= self::north && $shoot_type <= self::west)
             $this->shoot_type = $shoot_type;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getRadius(): int
+    {
+        return $this->radius;
+    }
+
+    /**
+     * @param mixed $radius
+     */
+    public function setRadius(int $radius)
+    {
+        $this->radius = $radius;
     }
 
 }

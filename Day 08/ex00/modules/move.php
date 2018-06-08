@@ -14,9 +14,12 @@ function	collide($ship, $x, $y)
 		for ($i = 0; $i < $ship->getWidth(); $i++)
 			for ($j = 0; $j < $ship->getHeight(); $j++)
 			{
-				if (($x + $i - intval($ship->getWidth() / 2)) < 0 ||
-					($y + $j - intval($ship->getHeight() / 2)) < 0)
-					return (true);
+                if (($x + $i - intval($ship->getWidth() / 2)) < 0 ||
+                    ($y + $j - intval($ship->getHeight() / 2)) < 0)
+                    return (true);
+                if (($x + $i - intval($ship->getWidth() / 2)) >= 100 ||
+                    ($y + $j - intval($ship->getHeight() / 2)) >= 100)
+                    return (true);
 				$c = $map->getMap()[($x + $i - intval($ship->getWidth() / 2))][($y + $j - intval($ship->getHeight() / 2))];
 				if ($c != 0 && $c != $ship->getId())
 					return (true);
@@ -30,6 +33,9 @@ function	collide($ship, $x, $y)
 				if (($x + $i - intval($ship->getHeight() / 2)) < 0 ||
 					($y + $j - intval($ship->getWidth() / 2)) < 0)
 					return (true);
+                if (($x + $i - intval($ship->getWidth() / 2)) >= 100 ||
+                    ($y + $j - intval($ship->getHeight() / 2)) >= 100)
+                    return (true);
 				$c = $map->getMap()[($x + $i - intval($ship->getHeight() / 2))][($y + $j - intval($ship->getWidth() / 2))];
 				if ($c != 0 && $c != $ship->getId())
 					return (true);
@@ -85,10 +91,8 @@ if ($diff_x + $diff_y <= $speed)
 				break ;
 		}
 	}
-
-	if ($_SESSION["PlayerTurn"] == 1)
-	    $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]] = $ship;
-	if ($_SESSION["PlayerTurn"] == 2)
-	    $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]] = $ship;
+	$ship->updateTurnId($game->getTurn() + 1);
+	$ship->updateMove($ship->getManoeuvre());
+    $ship->updatePos($ship->getPosX(), $ship->getPosY());
 
 }

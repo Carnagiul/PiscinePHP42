@@ -19,7 +19,7 @@ class Tpl
 
 	public function setFileName(String $filename)
 	{
-		if (file_exists('Template/' . $filename . '.html'))
+		if (file_exists('Template/default/' . $filename . '.html'))
 			$this->setFile($filename);
 	}
 
@@ -54,9 +54,9 @@ class Tpl
 	public function construire(): String
 	{
 		if ($this->getFile() != NULL)
-			$content = file_get_contents('Template/' . $this->getFile() . '.html');
+			$content = file_get_contents('Template/default/' . $this->getFile() . '.html');
 		else
-			$content = file_get_contents('Template/blank.html');
+			$content = file_get_contents('Template/default/blank.html');
 		foreach ($this->data as $key => $value)
 			$content = str_replace("{{{$key}}}", $value, $content);
 		return ($content);

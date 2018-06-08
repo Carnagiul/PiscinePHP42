@@ -8,6 +8,8 @@
 
 if (isset($_POST["action"]) && $_POST["action"] == "move" && isset($_POST["x"]) && isset($_POST["y"]))
     include ("modules/move.php");
+if (isset($_POST["action"]) && $_POST["action"] == "shoot" && isset($_POST["x"]) && isset($_POST["y"]))
+    include ("modules/shoot.php");
 
 $motor = 0;
 $shield = 0;
@@ -25,15 +27,13 @@ if ($motor + $shield + $shoot + $repair > $ship->getPower())
 {
     include ("modules/ordre.php");
 }
-else
-{
-    if ($ship instanceof Ship)
-    {
+else {
+    if ($ship instanceof Ship && $ship->getCanOrder() == 1) {
         $k = 0;
         $k2 = 0;
         for ($k = 0; $k < $motor; $k++)
             $k2 += rand(0, 6);
-        $ship->setManoeuvre($ship->getManoeuvre() + $k2);
+        $ship->setManoeuvre($ship->getMinManoeuvre() + $k2);
         $k2 = 0;
         for ($k = 0; $k < $shield; $k++)
             $k2 += rand(0, 6);
@@ -45,6 +45,8 @@ else
         if ($ship->getActualHealth() > $ship->getMaxHealth())
             $ship->setActualHealth($ship->getMaxHealth());
         $ship->setBonusShoot($shoot);
+        $ship->setCanOrder(0);
+        $ship->updateOrder();
     }
     $tpl->setFileName('move');
     $tpl->addData("min_x_move", $ship->getPosX() - $ship->getManoeuvre());
@@ -53,7 +55,8 @@ else
     $tpl->addData("pos_y_move", $ship->getPosY());
     $tpl->addData("min_y_move", $ship->getPosY() - $ship->getManoeuvre());
     $tpl->addData("max_y_move", $ship->getPosY() + $ship->getManoeuvre());
-    echo $tpl->construire();
+    $page2 = "";
+    $page2 .= $tpl->construire();
     $tpl->setFileName('shoot');
     $arms = $ship->getArms();
     $line = "";
@@ -69,6 +72,8 @@ else
     }
     $tpl->setFileName('shoot');
     $tpl->addData("arms", $line);
-    echo $tpl->construire();
+    $page2 .= $tpl->construire();
+    $tpl->addData("other_page", $page2);
 }
+
 

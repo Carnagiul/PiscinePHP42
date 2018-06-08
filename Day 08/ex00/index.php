@@ -6,6 +6,8 @@
  * Time: 11:56 AM
  */
 
+require_once ('Class/Sql.class.php');
+require_once ('Class/Game.class.php');
 require_once ('Class/Orientation.class.php');
 require_once ('Class/Arms.class.php');
 require_once ('Class/Entity.traits.php');
@@ -13,118 +15,85 @@ require_once ('Class/Ship.class.php');
 require_once ('Class/Map.class.php');
 require_once ('Class/Tpl.class.php');
 
-function create_arm0()
-{
-    $arm = new Arms();
-    $arm->setName("Laser");
-    $arm->setId(1);
-    $arm->setArmsType(Arms::laser);
-    $arm->setDmgLong(5);
-    $arm->setDmgMedium(7);
-    $arm->setDmgShort(9);
-    $arm->setLongRang(80);
-    $arm->setMediumRange(50);
-    $arm->setShortRange(20);
-    $arm->setNeedSleep(0);
-    $arm->setReloadDuration(0);
-    $arm->setReload(0);
-    return $arm;
-}
+$debug = true;
 
-function create_arm1()
-{
-    $arm = new Arms();
-    $arm->setName("Missil");
-    $arm->setId(2);
-    $arm->setArmsType(Arms::missil);
-    $arm->setDmgLong(5);
-    $arm->setDmgMedium(7);
-    $arm->setDmgShort(9);
-    $arm->setLongRang(80);
-    $arm->setMediumRange(50);
-    $arm->setShortRange(20);
-    $arm->setNeedSleep(0);
-    $arm->setReloadDuration(0);
-    $arm->setReload(0);
-    return $arm;
-}
-
-function create_arm2()
-{
-    $arm = new Arms();
-    $arm->setName("Laser 2");
-    $arm->setId(3);
-    $arm->setArmsType(Arms::laser);
-    $arm->setDmgLong(5);
-    $arm->setDmgMedium(7);
-    $arm->setDmgShort(9);
-    $arm->setLongRang(80);
-    $arm->setMediumRange(50);
-    $arm->setShortRange(20);
-    $arm->setNeedSleep(0);
-    $arm->setReloadDuration(0);
-    $arm->setReload(0);
-    return $arm;
-}
+$sql = new Sql();
+$sql->connect();
 
 $map = new Map(150, 100);
 $map2 = new Map(150, 100);
 $tpl = new Tpl();
 
-$laser = create_arm0();
-$laser2 = create_arm2();
-$missil = create_arm1();
+if ($debug)
+    echo "<pre>Page initilized</pre><br />";
+
+$tpl->addData("other_page", "");
 
 session_start();
+
+if ($debug)
+    echo "<pre>Session start</pre><br />";
 
 if (isset($_GET['reset']) && $_GET['reset'] == "ouijereset")
     unset($_SESSION["Turn"]);
 
 if ($_SESSION["Turn"] == 0 || !(isset($_SESSION["Turn"])))
 {
-    $_SESSION["Vessel_P1"] = array(new Ship(1), new Ship(2));
-    $_SESSION["Vessel_P2"] = array(new Ship(3), new Ship(4));
-    if (isset($_SESSION["Vessel_P1"]))
-    {
-        for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
-            $_SESSION["Vessel_P1"][$i]->addArms($laser);
-    }
-    if (isset($_SESSION["Vessel_P2"]))
-    {
-        for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
-            $_SESSION["Vessel_P2"][$i]->addArms($missil);
-    }
-    $_SESSION["Vessel_P1_get"] = 0;
-    $_SESSION["Vessel_P2_get"] = 0;
-    $_SESSION['PlayerTurn'] = 1;
-    $_SESSION['Turn'] = 1;
+    $sql->Update("DELETE FROM `fight`");
+    $sql->Update("DELETE FROM `game`");
+    $new_ship = new Ship(1);
+
+    $new_ship->spawn_shipAt(2, 2, 1, 1);
+    $new_ship->spawn_shipAt(25, 25, 2, 1);
+    $new_ship->spawn_shipAt(50, 50, 3, 1);
+    $new_ship->spawn_shipAt(70, 70, 4, 1);
+    $sql->Update("INSERT INTO `game` (`id`, `user1_id`, `user2_id`, `user3_id`, `user4_id`, `vessel_user1`, `vessel_user2`, `vessel_user3`, `vessel_user4`, `turn`, `player`) VALUES
+(1, 1, 2, 3, 4, '1', '2', '3', '4', '1', '1');");
+
+    $_SESSION["Turn"] = 1;
 }
 
-if (isset($_SESSION["Vessel_P1"]))
-{
-    for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
-        $map->place_objet($_SESSION["Vessel_P1"][$i]);
-}
-if (isset($_SESSION["Vessel_P2"]))
-{
-    for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
-        $map->place_objet($_SESSION["Vessel_P2"][$i]);
-}
+if ($debug)
+    echo "<pre>Game start</pre><br />";
 
-$tpl->setFileName('test');
-$tpl->addData("turn", $_SESSION["Turn"]);
-$tpl->addData("player", $_SESSION["PlayerTurn"]);
-$tpl->addData("vessel", ($_SESSION["PlayerTurn"] == 1) ? $_SESSION["Vessel_P1_get"] : $_SESSION["Vessel_P2_get"]);
+$game = new Game();
+$game->setMaxPlayer(4);
+$game->load_from_db(1);
 
-
-echo "<h1>" . $tpl->construire() . "</h1>";
+$map->placeShips($game->getId());
 
 $ship = NULL;
 
-if ($_SESSION["PlayerTurn"] == 1)
-    $ship = $_SESSION["Vessel_P1"][$_SESSION["Vessel_P1_get"]];
-if ($_SESSION["PlayerTurn"] == 2)
-    $ship = $_SESSION["Vessel_P2"][$_SESSION["Vessel_P2_get"]];
+$ship_data = NULL;
+$count_row = 0;
+
+
+if ($debug)
+    echo "<pre>Ship placed on map</pre><br />";
+
+$ship_data = $sql->select("SELECT * FROM `fight` WHERE `game_id`='" . $game->getId() . "' AND `vessel_owner`='" . $game->getPlayer() . "' AND `vessel_played`='1' LIMIT 1");
+while (!($ship_data))
+{
+    if (!($ship_data))
+        $game->endMyTurn();
+    $count_row++;
+    $ship_data = $sql->select("SELECT * FROM `fight` WHERE `game_id`='" . $game->getId() . "' AND `vessel_owner`='" . $game->getPlayer() . "' AND `vessel_played`='1' LIMIT 1");
+    if ($count_row >= $game->getMaxPlayer())
+        die("Fin de la partie, Try again soon");
+}
+
+if ($debug)
+    echo "<pre>Ship get on db</pre><br />";
+
+$ship = new Ship($ship_data['vessel_id']);
+$ship->load_from_sql($ship_data['id']);
+
+if ($debug)
+    echo "<pre>Ship loaded on db</pre><br />";
+
+
+if ($debug)
+    echo "<pre>Ship set and prepare page</pre><br />";
 
 if (isset($_GET['mod']))
     $mod = $_GET['mod'];
@@ -133,35 +102,44 @@ else
 
 $file = "";
 
+
 if (file_exists('modules/' . $mod . '.php'))
     $file = $mod;
 else
     $file = "home";
 
+
 include ("modules/" . $file . ".php");
 
 
-if (isset($_SESSION["Vessel_P1"]))
-{
-    for ($i = 0; isset($_SESSION["Vessel_P1"][$i]); $i++)
-        $map2->place_objet($_SESSION["Vessel_P1"][$i]);
-}
-if (isset($_SESSION["Vessel_P2"]))
-{
-    for ($i = 0; isset($_SESSION["Vessel_P2"][$i]); $i++)
-        $map2->place_objet($_SESSION["Vessel_P2"][$i]);
-}
+if ($debug)
+    echo "<pre>page Load</pre><br />";
+
+
+$tpl->setFileName('test');
+$tpl->addData("turn", $game->getTurn());
+$tpl->addData("player", $game->getPlayer());
+$tpl->addData("vessel", $ship->getVesselId());
+$tpl->addData("title", $tpl->construire());
+
+$map2->placeShips($game->getId());
+
 $data = $map2->getMap();
 
-$real_map = "<table>";
+$real_map = "<table border='1'>";
 for ($i = 0; $i < 150; $i++)
 {
     $real_map .= "<tr>";
     for ($j = 0; $j < 100; $j++)
-        $real_map .= "<td class='" . $i . "_" . $j . "'>" . $data[$i][$j] . "</td>";
+        $real_map .= "<td class='" . $i . "_" . $j . " object_" . $data[$i][$j] . "'>&nbsp;</td>";
     $real_map .= "</tr>";
 }
-echo $real_map;
+
+$tpl->setFileName('header');
+$tpl->addData('page', $real_map);
+echo $tpl->construire();
 
 
 
+if ($debug)
+    echo "<pre>Page printed</pre><br />";

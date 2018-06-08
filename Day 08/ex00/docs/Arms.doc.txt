@@ -1,0 +1,75 @@
+<---- Start Arms doc ---->
+    /**
+     * @Those function Set arms data from db
+     */
+    public function init_from_sql(int $id)
+
+    /**
+     * @Those function get Set if the arms require no movement
+     */
+    public function getNeedSleep()
+    public function setNeedSleep(bool $need_sleep)
+
+    /**
+     * @Those function get Set the Arms Type
+     */
+    public function getArmsType()
+    public function setArmsType(int $arms_type)
+
+    /**
+     * @Those function get Set the Arms reload (boolean)
+     */
+    public function getReload()
+    public function setReload(int $reload)
+
+    /**
+     * These function get set the time duration for reload Arms
+     */
+    public function getReloadDuration()
+    public function setReloadDuration(int $reload_duration)
+
+
+/* This function set and Get the Damage of the Arm (Define his Power) */
+
+    public function getDmgLong()
+    public function setDmgLong(int $dmg_long)
+
+    public function getDmgMedium()
+    public function setDmgMedium(int $dmg_medium)
+
+    public function getDmgShort()
+    public function setDmgShort(int $dmg_short)
+    /* End of this Get Set  */
+
+/* This function set and Get the Range of the Arm (Define his Power) */
+
+    public function getMediumRange()
+    public function setMediumRange(int $medium_range)
+
+    public function getLongRang()
+    public function setLongRang(int $long_rang)
+
+    public function getShortRange()
+    public function setShortRange(int $short_range)
+
+
+/* End of this Get Set  */
+
+    public function getName(): string This function return the Name of the Arms
+    public function setName(string $name) This function set the name of the Arms
+
+    public function getId() This function return to you the Id of The Arms
+    public function setId(int $id) This function set Id of the Arms
+
+    public function getShootType() This function return to you you're arm type
+    public function setShootType(int $shoot_type) This function define Your arm type
+
+    public function getRadius() This function return to you the Radius of the Arms
+    public function setRadius(int $radius) This function set radius of the Arms
+
+    public static function doc() Return to you the documentation of Class
+    {
+        return (file_get_contents("docs/Arms.doc.txt"));
+    }
+
+<---- End Arms doc ---->

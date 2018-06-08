@@ -15,6 +15,14 @@ require_once ('Class/Ship.class.php');
 require_once ('Class/Map.class.php');
 require_once ('Class/Tpl.class.php');
 
+echo Ship::doc();
+echo Sql::doc();
+echo Tpl::doc();
+echo Orientation::doc();
+echo Arms::doc();
+echo Map::doc();
+echo Game::doc();
+
 $debug = false;
 
 $sql = new Sql();

@@ -200,4 +200,9 @@ class Ship
     {
         $this->vessel_id = $vessel_id;
     }
+
+    public static function doc()
+    {
+        return (file_get_contents("docs/Ship.doc.txt"));
+    }
 }

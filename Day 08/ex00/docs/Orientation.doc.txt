@@ -1,0 +1,13 @@
+
+   << Start Orientation Doc >>
+    public function __construct($const) set the Const
+
+    /**
+     * @Those function get set the Orientation of The Object
+     */
+    public function getConst()
+    public function setConst(int $const)
+
+    public static function doc()
+
+   << End Orientation Doc >>

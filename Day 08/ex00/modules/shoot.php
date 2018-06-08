@@ -36,7 +36,7 @@ function plotLine($x0, $y0, $x1, $y1)
     global $map2;
     global $map;
     global $ship;
-
+    global $debug;
 
     $xDist = abs($x1 - $x0);
     $yDist = -abs($y1 - $y0);
@@ -53,7 +53,6 @@ function plotLine($x0, $y0, $x1, $y1)
     $plotError = $xDist + $yDist;
 
     while($x0 != $x1 || $y0 != $y1) {
-        echo "Trying to find someone<br />";
         if(2 * $plotError - $yDist > $xDist - 2 * $plotError) {
             $plotError += $yDist;
             $x0 += $xStep;
@@ -61,7 +60,8 @@ function plotLine($x0, $y0, $x1, $y1)
             $plotError += $xDist;
             $y0 += $yStep;
         }
-        echo "<pre>" . $map->getValueAt($x0, $y0) . " :: " . $ship->getVesselId() . "</pre>";
+        if ($debug)
+            echo "<pre>" . $map->getValueAt($x0, $y0) . " :: " . $ship->getVesselId() . "</pre>";
         if (shoot_collide($ship, $x0, $y0, 0) == false)
             $map2->setValueAt($x0, $y0, "Preview");
         else

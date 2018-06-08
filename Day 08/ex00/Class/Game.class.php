@@ -171,4 +171,9 @@ class Game
     {
         $this->id = $id;
     }
+
+    public static function doc()
+    {
+        return (file_get_contents("docs/Game.doc.txt"));
+    }
 }

@@ -274,4 +274,9 @@ class Arms
         $this->radius = $radius;
     }
 
+    public static function doc()
+    {
+        return (file_get_contents("docs/Arms.doc.txt"));
+    }
+
 }

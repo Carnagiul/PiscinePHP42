@@ -1,0 +1,34 @@
+<!-- Class Tpl.doc.txt -->
+
+	This function construct have one argument $verbrose
+	If $verbrose is true, at each call in this class, you will show specific data of this class
+	function __construct($verbrose)
+
+	This function destruct destroy the class and all data stored
+	function __destruct()
+
+	This function setFileName check if the template file ($filename) exist and store the name file
+	function setFileName($filename)
+
+	This function addData add data $value in field $field on the class
+	function addData($field, $value)
+
+	This function getData return to you the data stored in field $field
+	function getData($field)
+
+	this function getFile return to you the name of the template file
+	function getFile()
+
+	this function construire will create the template file and replace all specific field store by value
+	function construire()
+
+	This function display to you the Doc
+    function doc()
+
+	This function return the value of Verbrose
+    function getVerbrose()
+
+    This function change Verbrose value between true of false
+    function toggle_verbrose()
+
+<!-- Class Tpl.doc.txt -->

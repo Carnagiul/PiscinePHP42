@@ -37,4 +37,9 @@ class Orientation
         else
             $this->const = 0;
     }
+
+    public static function doc()
+    {
+        return (file_get_contents("docs/Orientation.doc.txt"));
+    }
 }

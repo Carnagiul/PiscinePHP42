@@ -1,0 +1,47 @@
+
+   << Start Game Doc >>
+
+    public function load_from_db(int $id) This function load game content from DB
+
+    public function endMyTurn() This function end Turn
+
+    /**
+     * @return Those function get Set Turn Value
+     */
+    public function getTurn()
+    public function setTurn($turn)
+
+    /**
+     * @return Those function get Set Player IDs on Game
+     */
+    public function getUser1()
+    public function setUser1($user_1)
+    public function getUser2()
+    public function setUser2($user_2)
+    public function getUser3()
+    public function setUser3($user_3)
+    public function getUser4()
+    public function setUser4($user_4)
+
+    /**
+     * @return Those function define wich player is playing
+     */
+    public function getPlayer()
+    public function setPlayer($player)
+
+    /**
+     * @return Those function define Get / Set how many player play in the Game
+     */
+    public function getMaxPlayer()
+    public function setMaxPlayer($max_player)
+
+    /**
+     * @return This function get / set the Game ID
+     */
+    public function getId()
+    public function setId($id)
+
+    public static function doc()
+
+
+   << End Game Doc >>

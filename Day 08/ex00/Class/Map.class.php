@@ -74,4 +74,9 @@ class Map
             $this->place_objet($ship);
         }
     }
+
+    public static function doc()
+    {
+        return (file_get_contents("docs/Map.doc.txt"));
+    }
 }

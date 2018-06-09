@@ -1,0 +1,140 @@
+
+
+   <<Start Ship Doc >>
+
+
+    /*These function update The Game Vessel*/
+    public function update_shoot_chance(int $chance)
+    public function updateHealth(int $health)
+    public function updateShield(int $health)
+    public function updateOrder()
+    public function updateTurnId(int $id)
+    public function updateTurn()
+    public function spawn_shipAt(int $x, int $y, int $player, int $game_id)
+    public function updateMove(int $move)
+    public function updatePos(int $x, int $y)
+
+
+    public function load_from_sql(int $id) ths function init vessel with game Value
+    public function init_from_sql(int $id) This function init vessel from global value
+
+
+    /**
+     * @These function get set or add Arms on vessel
+     */
+    public function addArms(Arms $arms)
+    public function getArms()
+    public function setArms($arms)
+
+    /**
+     * @These function get set if the vessel can ordre his vessel
+     */
+    public function getCanOrder()
+    public function setCanOrder(int $canOrder)
+
+    /**
+     * @These function get Set if the vessel can Shoot
+     */
+    public function getCanShoot()
+    public function setCanShoot($canShoot)
+
+    /**
+     * @These function get Set the Vessel Id
+     */
+    public function getVesselId()
+    public function setVesselId($vessel_id)
+
+
+        /**
+         * @These function get/set height and widtgh of vessel
+         */
+        public function getWidth(): int
+        public function setWidth(int $width)
+        public function getHeight(): int
+        public function setHeight(int $height)
+
+        /**
+         * @These function get/set positon of vessel
+         */
+        public function getPosX(): int
+        public function setPosX(int $pos_x)
+        public function getPosY(): int
+        public function setPosY(int $pos_y)
+
+        /**
+         * @These function get/set name of vessel
+         */
+        public function getName(): string
+        public function setName(string $name)
+
+        /**
+         * @These function get/set Id of Vessel
+         */
+        public function getId(): int
+        public function setId(int $id)
+
+        /**
+         * @These function get/set the Max Health of the vessel
+         */
+        public function getMaxHealth(): int
+        public function setMaxHealth(int $max_health)
+        /**
+         * @These function get/set if the vessel shield on start turn
+         */
+        public function getMaxSheild():int
+        public function setMaxSheild(int $max_sheild)
+
+        /**
+         * @These function get/set health of the vessel
+         */
+        public function getActualHealth(): int
+        public function setActualHealth(int $actual_health)
+
+        /**
+         * @These function get/set how many shield have the vessel this turn
+         */
+        public function getActualShield(): int
+        public function setActualShield(int $actual_shield)
+
+        /**
+         * @This function get set orientation of vessel
+         */
+        public function getOrientation(): Orientation
+        public function setOrientation(Orientation $orientation)
+        /**
+         * @These function get / Set img of Vessel
+         */
+        public function getImg(): string
+        public function setImg(string $img)
+
+        /**
+         * @These function define how many movement have the vessel on new turn
+         */
+        public function getMinManoeuvre()
+        public function setMinManoeuvre(int $min_manoeuvre)
+
+        /**
+         * @These function get/set how many movement are avaible for the vessel at this turn
+         */
+        public function getManoeuvre()
+        public function setManoeuvre(int $manoeuvre)
+
+        /**
+         * @These function get/set if the vessel has move during turn
+         */
+        public function getHasMove()
+        public function setHasMove(int $has_move)
+
+        /**
+         * @These function get / set The power of the vessel
+         */
+        public function getPower()
+        public function setPower(int $power)
+
+        /**
+         * @These function get / Set if the vessel have bonus on shoot
+         */
+        public function getBonusShoot()
+        public function setBonusShoot(int $bonus_shoot)
+
+   << End Ship Doc >>

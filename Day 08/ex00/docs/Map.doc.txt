@@ -1,0 +1,24 @@
+
+
+   << Start Map Doc >>
+
+    public function __construct(int $x, int $y) construct Map
+
+    public function generate_obstacle(int $xmin, int $xmax, int $ymin, int $ymax) This function generate obstacle at current pos
+
+    public function place_objet(Ship $ship) This function place object Ship on map
+
+    public function getMap() This function get Map
+
+    public function setMap($map) This function set Map
+
+    public function getValueAt(int $x, int $y) This function get Data value on map at current pos
+
+    public function setValueAt(int $x, int $y, $value) This function set Data value on map at current pos
+
+    public function placeShips($getId) This function place All ship in the $getId Game
+
+    public static function doc()
+
+
+   << End Map Doc >>

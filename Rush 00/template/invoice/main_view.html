@@ -1,0 +1,24 @@
+<table id="cart">
+    <thead>
+        <th colspan="3">Votre Commande</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Produit</td>
+            <td>Quantite</td>
+            <td>Prix</td>
+        </tr>
+        {{invoice_content}}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>{{total_qte}}</td>
+            <td>{{total_price}}</td>
+        </tr>
+    </tfoot>
+</table>
+<form method="post" action="index.php?mod=invoice" >
+    <input type="text" name="action" value="Command" hidden/>
+    <input type="submit" name="" value="Command" />
+</form>

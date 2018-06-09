@@ -1,0 +1,44 @@
+<------- Class Vector -->
+
+    Require Color.class.php
+    Require Vertex.class.php
+
+    function __construct($data) $data is an Array ("dest" => vertex, (Optional)"orig" => Vertex
+
+    function __destruct() Destruct the class
+
+    public static function doc() Return the Documentation
+
+    public function magnitude() get the magnitude of Vector
+
+    public function normalize() NOrmalize Vector
+
+    public function add(Vector $vectorv) Create new vector with $vectorv (+) $this
+
+    public function sub(Vector $vectorv) Create new vector with $vectorv (-) $this
+
+    public function opposite() Create new vector opposed at $this
+
+    public function scalarProduct($k)   Create new vector with $this * $k
+
+    public function dotProduct(Vector $vector)  return float of product between $this and $vector
+
+    public function cos(Vector $vector) return float of cos between $this and $vector
+
+    public function crossProduct(Vector $vector)   Create new vector cross Product of $this AND $vector
+
+    public function __toString() Create a String contains data of Class
+
+    public function getFrom() Return Vertex dest
+
+    public function getTo() Return Vertex orig
+
+    public function getX() Return X
+
+    public function getY() Return Y
+
+    public function getZ() Return Z
+
+    public function getW() Return W
+
+<------ Class Vector End --->

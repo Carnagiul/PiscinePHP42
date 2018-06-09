@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Day of the 42</title>
+		<link rel="stylesheet" href="doft.css">
+	</head>
+	<body>
+
+		<div class="nav_header shadow_box rounded">
+			<img class="left-side" src="resources/day_of_the_42.png" title="Day of The 42" alt="Day of the 42" />
+			<a title="Recommencer au début" alt="Recommencer au début" href="scumm.html" style="float: right;">
+				<img src="resources/reload.png" style="width: 16px; height: 16px;" title="Restart" alt="Restart"/>
+			</a>
+			<br />
+			<img src="resources/loupe.png"  title="La Loupe" alt="La Loupe" style="margin-left: 85%;	margin-top: -5%;"/>
+
+			<a title="Disconnect" alt="Disconnect" href="http://google.com" style="float: right;">
+				<img src="resources/close.gif" style="width: 16px; height: 16px; bottom: auto;" title="Déconnecter" alt="Déconnecter"/>
+			</a>
+		</div>
+		<div class="wrapper">
+			<div class="menu_left shadow_box rounded">
+				<img src="resources/arrow.png" alt="Avancer" title="Avancer" onclick="Avancer()"/>
+					<br />
+				<img src="resources/main.png" alt="Prendre" title="Prendre" onclick="Effectuer()"/>
+					<br />
+				<img src="resources/oeil.png" alt="Regarder" title="Regarder" onclick="Regarder()"/>
+					<br />
+				<img src="resources/outil.png" alt="Utiliser" title="Utiliser" onclick="Utiliser()" />
+					<br />
+				<img src="resources/chat-icon.png" alt="Parler" title="Parler" onclick="Parler()"/>
+			</div>
+			<div class="main_page shadow_box rounded">
+				<img src="resources/cluster.jpg"  width="1024" height="576"  title="Le cluster" alt="Le Cluster" usemap="#linkie" />
+				<map name="linkie">
+					<area alt="Se Connecter" title="Se Connecter" href="connection.html" shape="rect" coords="808,323,1000,473" />
+					<area alt="Se Connecter" title="Se Connecter" href="connection.html" shape="poly" coords="475,509,458,398,337,333,342,506,341,553,440,550" />
+				</map>
+			</div>
+			<div class="menu_right shadow_box rounded">
+				<img src="resources/book.png" alt="Le Livre" title="Le Livre" onclick="Etudier()"/>
+				<br />
+				<img src="resources/towel.png" alt="Essuie Tout" title="Essuie Tout" onclick="Chiffon()"/>
+				<br />
+				<img src="resources/brick.jpg" alt="Le Mur" title="Le Mur" onclick="Mur()"/>
+			</div>
+			<br />
+			<div class="greenbox shadow_box rounded">
+				<p style="font-size: 1.2em;">
+					Vous vous <b style="font-size: 1.5em;">asseyez</b> alors au niveau d'<span class="text-shadow">ordinateurs</span> Que faites vous?<br />
+					<i style="font-size: 1.3em;">- Bonjour, vous êtes nouveau ici?</i>
+				</p>
+				<form method="post" action="#">
+					<input type="text" name="reponse" style="width: 50%"/>
+					<input type="submit" value="Repondre" />
+				</form>
+			</div>
+		</div>
+	</body>
+	<script>
+        function Avancer()
+        {
+            document.location.href="caffet.html";
+        }
+        function Effectuer()
+        {
+            document.location.href="connection.html";
+        }
+        function Regarder()
+        {
+            document.location.href="ciel.html";
+        }
+        function Utiliser()
+        {
+            document.location.href="connection.html";
+        }
+        function Parler()
+        {
+            document.location.href="greg.html";
+        }
+        function Etudier()
+        {
+            document.location.href="greg.html";
+        }
+        function Mur()
+        {
+            document.location.href="mur.html";
+        }
+        function Chiffon()
+        {
+            document.location.href="nettoyerCluster.html";
+        }
+	</script>
+	<footer>
+	</footer>
+</html>

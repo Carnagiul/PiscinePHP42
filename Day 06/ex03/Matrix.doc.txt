@@ -1,0 +1,44 @@
+<-------- Class Matrix ------>
+
+    function __construct($data) Construct object Matric (Array ("preset" => ID) (DATA)
+
+    function __destruct() Destruct Object Matric
+
+    public static function doc() Return Doc of Matric
+
+    public function __toString() Return String of Matrix
+
+    public function mult(Matrix $matrix)  Multiply Matrix by new Matrix
+
+    public function transformVertex(Vertex $vertex)  Transform matrix with Vertext and return new Vertex
+
+    public function getPreset()  Get Preset dist for matrix
+
+    public function getScale()  get Scale dist for matrix
+    public function setScale($scale)  Set Scale dist for matrix
+
+    public function getAngle()   Get Angle dist for matrix
+    public function setAngle($angle)  Set Angle dist for matrix
+
+    public function getVtc()  Get Vtc dist for matrix
+    public function setVtc($vtc)  Set Vtc dist for matrix
+
+    public function getFov()  Get Fov dist for matrix
+    public function setFov($fov)  Set Fov dist for matrix
+
+    public function getRatio()  Get Ratio dist for matrix
+    public function setRatio($ratio)  Set Ratio dist for matrix
+
+    public function getNear()  Get Near dist for matrix
+    public function setNear($near)  Set Near dist for matrix
+
+    public function getFar() Get far dist for matrix
+    public function setFar($far) Set far dist for matrix
+
+
+    public function getMatrix() Return Array of Matrix
+    public function setMatrix($matrix) Set Array of Matrix
+
+
+
+<------ End Class MAtrix  --->

@@ -1,0 +1,25 @@
+
+        <nav>
+            <ul>
+                <li class="menu"><a>Menu</a>
+                    <ul class="submenu">
+                        <li><a href="index.php" title="Accueil" alt="Acceuil">Acceuil</a></li>
+                        <li><a href="index.php?mod=connection" title="Connection" alt="Connection">Se connecter</a></li>
+                        <li><a href="index.php?mod=register" title="Inscription" alt="Inscription">S'inscrire</a></li>
+                        <li><a href="index.php?mod=modify" title="Modifier son mdp" alt="Modifier son mdp">Modifier son mdp</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a>Produits</a>
+                    <ul class="submenu">
+                        <li><a href="index.php?mod=merchandise" title="Produits" alt="Produits">Produits</a></li>
+                        {{menu_merch}}
+                    </ul>
+                </li>
+                <li class="menu right"><a>Panier</a>
+                    <ul class="submenu">
+                        <li><a href="index.php?mod=invoice" title="Consulter" alt="Consulter">Consulter</a></li>
+                        <li><a href="index.php?mod=reset" title="Reset" alt="Payer">Reset</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>

@@ -1,0 +1,12 @@
+<form method="post" action="index.php?mod=admin_create_merch">
+    Nom : <input type="text" placeholder="Entrer un nom" name="name" /><br />
+    Description : <br />
+    <textarea name="descr" placeholder="Entrer votre description">
+
+    </textarea><br />
+    Prix : <input type="number" name="price" /><br />
+    Qte : <input type="number" name="amount" /><br />
+    Image : <input type="text" name="image" /><br />
+    Group : <select name="group" >{{list_group}}</select>
+    <input type="submit" value="submit" />
+</form>

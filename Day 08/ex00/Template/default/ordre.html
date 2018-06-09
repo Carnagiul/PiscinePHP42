@@ -1,0 +1,9 @@
+Votre vaisseau possede {{PPTotal}} PP Total<br />
+<form method="post" action="index.php?mod=ordre2" >
+Motor : <input type="number" min="0" max="{{PPTotal}}" name="motor"/><br />
+Shield : <input type="number" min="0" max="{{PPTotal}}" name="shield"/><br />
+Shoot : <input type="number" min="0" max="{{PPTotal}}" name="shoot"/><br />
+Repair : <input type="number" min="0" max="{{PPTotal}}" name="repair" {{moved}}/><br />
+<input type="submit" value="Definir les options" name="submit"/>
+<input type="submit" value="Passez son tour" name="skip"/>
+</form>

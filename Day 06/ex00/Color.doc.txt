@@ -1,0 +1,28 @@
+<------ Class Color ---->
+    function __construct($data) $data is an Array ("rgb" => 0xFA6060); OR Array('red' => 0xFA, 'green' => 0x60, 'blue' => 0x60);
+
+    function __destruct() Destruct the class Color
+
+    public static function doc() Display The documentation of the class
+
+    public function add(Color $color) The function require an Color, Add the color value, and return a new Color
+
+    public function sub(Color $color) The function require an Color, Sub the color value, and return a new Color
+
+    public function mult($color)  The function require an Int, Mult the color value, and return a new Color
+
+    public function __toString() The function return the Color class into an Str
+
+    public function getBlue() This function return to you the Blue Color
+
+    public function setBlue($blue) This function set you the Blue Color
+
+    public function getGreen() This function return to you the Green Color
+
+    public function setGreen($green)  This function set to you the Green Color
+
+    public function getRed() This function return to you the Red Color
+
+    public function setRed($red)  This function set to you the Red Color
+
+<------> Enc Class Color --->

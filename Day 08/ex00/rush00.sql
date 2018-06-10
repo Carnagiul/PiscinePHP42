@@ -65,6 +65,8 @@ INSERT INTO `arms` (`id`, `name`, `short_range`, `medium_range`, `large_range`, 
 -- Table structure for table `fight`
 --
 
+
+
 CREATE TABLE `fight` (
   `id` int(11) NOT NULL,
   `vessel_id` int(4) NOT NULL,
@@ -178,6 +180,18 @@ CREATE TABLE `users` (
   `last_co` bigint(20) NOT NULL,
   `admin` int(1) NOT NULL DEFAULT '0',
   `lang` varchar(3) NOT NULL DEFAULT 'FR'
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `fight_arms`
+--
+
+CREATE TABLE `fight_arms` (
+  `id` int(11) NOT NULL,
+  `vessel_id` int(4) NOT NULL,
+  `arms_id` int(4) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

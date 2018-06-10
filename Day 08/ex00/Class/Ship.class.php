@@ -100,6 +100,12 @@ class Ship
         $this->setManoeuvre($data['vessel_move']);
         $this->setBonusShoot($data['vessel_chance']);
         $this->setVesselId($id);
+        $data2 = $sql->select_arrray("SELECT * FROM `fight_arms` WHERE `vessel_id`=$id");
+        if ($data2[0] == NULL)
+            foreach ($this->getArms() as $arm)
+                $arm->insertdb($id);
+        foreach ($this->getArms() as $arm)
+            $arm->load_from_sql($id);
     }
 
     public function init_from_sql(int $id)

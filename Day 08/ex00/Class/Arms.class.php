@@ -22,6 +22,7 @@ class Arms
     private $need_sleep;
     private $shoot_type;
     private $radius;
+    private $arm_id;
 
     const   laser = 1;
     const   missil = 2;
@@ -36,6 +37,31 @@ class Arms
     public function __construct(int $id)
     {
         $this->init_from_sql($id);
+    }
+
+    public function insertdb(int $vessel_id)
+    {
+        global $sql;
+
+        $sql->Update("INSERT INTO `fight_arms` (`id`, `vessel_id`, `arms_id`, `reload`) VALUES (
+            NULL, '$id', '" . $this->getId() . "', '0'");
+    }
+
+    public function update_reload(int $turn)
+    {
+        global $sql;
+
+        $sql->Update("UPDATE `fight_arms` SET `reload`='" . $turn + $this->getReloadDuration() . "' WHERE `id`='" . $this->getId() . "'");
+    }
+
+    public function load_from_sql(int $vessel_id)
+    {
+        global $sql;
+
+        $sql->select("SELECT * FROM `fight_arms` WHERE `vessel_id`='".$vessel_id."' AND `arms_id`='" . $this->getId() . "'");
+
+        $this->setReload($data['reload']);
+        $this->setArmId($data['id']);
     }
 
     public function init_from_sql(int $id)
@@ -54,11 +80,25 @@ class Arms
             $this->setDmgMedium($data['medium_dmg']);
             $this->setDmgLong($data['long_dmg']);
             $this->setReloadDuration($data['reload_duration']);
+            $this->setReload(0);
             $this->setArmsType($data['type']);
             $this->setNeedSleep($data['sleeper']);
             $this->setRadius($data['radius']);
         }
     }
+
+    public function 
+
+    public function setArmId(int $id)
+    {
+        $this->arm_id = $id;
+    }
+
+    public function getArmId(): int
+    {
+        return ($this->arm_id);
+    }
+
 
     public function getNeedSleep(): bool
     {
